@@ -1,9 +1,29 @@
-import React from "react";
-import { Link } from "react-router-dom";
-
-const AboutThree = () => {
-  return (
-    <div className="about-area-1 space-top">
+import React, { useEffect, useState } from "react";
+import TrackVisibility from "react-on-screen";
+import CountUp from "react-countup";
+import FooterAreaTwo from "../components/FooterAreaTwo";
+import PortfolioTwo from "../components/PortfolioTwo";
+import Preloader from "../helper/Preloader";
+import HeaderOne from "../components/HeaderOne";
+import Breadcrumb from "../components/Breadcrumb";
+import AboutThree from "../components/AboutThree";
+const CarIronDww = () => {
+    let [active, setActive] = useState(true);
+        useEffect(() => {
+          setTimeout(function () {
+            setActive(false);
+          }, 2000);
+        }, []);
+    
+      return (
+        <>
+        {/* Preloader */}
+          {active === true && <Preloader />}
+    
+          {/* Header one */}
+          <HeaderOne/>
+          <Breadcrumb title={"Cast Iron Dww Pipe Fittings System"} />
+          <div className="about-area-1 space-top">
       <div className="about1-shape-img shape-mockup">
         <img
           className="about1-shape-img-1 spin"
@@ -28,32 +48,32 @@ const AboutThree = () => {
           <div className="col-xl-5">
             <div className="about-content-wrap">
               <div className="title-area me-xl-5 mb-30">
-                <span className="sub-title"></span>
-                <h2 className="sec-title">Instrumentation Tube Fitting</h2>
-                {/* <p className="sec-text">
-                  Et purus duis sollicitudin dignissim habitant. Egestas nulla
-                  quis venenatis cras sed eu massa eu faucibus. Urna fusce
-                </p> */}
+                <span className="sub-title">Products</span>
+                <h2 className="sec-title">Cast Iron Dww Pipe Fittings System</h2>
+                <p className="sec-text">
+                  A full line of service of extra-heavy cast iron soil pipe and fittings from 2" to 15", 
+                  and double-hub pipe from 2" to 6". Hub-less pipe and fittings, 1" to 15".
+                </p>
               </div>
-              <div className="row gy-4 justify-content-md-between justify-content-end align-items-center flex-row-reverse">
+              <div className="row gy-4 justify-content-md-between justify-content-start align-items-center">
                 <div className="col-md-auto">
                   <div className="checklist style2">
                     <ul>
                       <li>
                         <i className="fas fa-check-double" />
-                        <b>TUBE SIZE:</b> 1/16" OD TO 2" OD, 2MM OD TO 50 MM OD
+                        Service Weight Pipe & fittings
                       </li>
                       <li>
                         <i className="fas fa-check-double" />
-                        <b>MATERIAL GRADES:</b> SS 304, SS 316, BRASS, SPECIAL ALLOYS
+                        Extra Heavy Pipe & Fittings
                       </li>
                       <li>
                         <i className="fas fa-check-double" />
-                        <b>THREAD:</b> NPT, BSP, BSPT, UNF, ISO, SAE ETC.
+                        No-hub Pipe & Fittings Speciality Plugs
                       </li>
                       <li>
                         <i className="fas fa-check-double" />
-                        <b>PRESSURE RATING:</b> 6000S1 FOR STANLESS STEEL, 300/1000/3000PSI FOR BRASS
+                        No-hub Couplings, Compression Gaskets.
                       </li>
                     </ul>
                   </div>
@@ -91,7 +111,11 @@ const AboutThree = () => {
         </div>
       </div>
     </div>
+<PortfolioTwo />
+    <FooterAreaTwo />
+
+    </>
   );
 };
 
-export default AboutThree;
+export default CarIronDww;

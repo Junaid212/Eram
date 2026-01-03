@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import ProductCard from "./ProductCard";
+import { Link } from "react-router-dom";
 
 const styles = `
   .products-page {
@@ -483,14 +484,15 @@ export default function Product() {
 
           {/* Grid */}
           <div className="products-grid">
-            {products.map((product, index) => (
-              <ProductCard 
-                key={product.id} 
-                product={product} 
-                index={index}
-              />
-            ))}
-          </div>
+  {products.map((product, index) => (
+    <Link key={product.id} to={product.link} className="product-card-link">
+      <ProductCard 
+        product={product} 
+        index={index}
+      />
+    </Link>
+  ))}
+</div>
 
           {/* Bottom CTA */}
           {/* <motion.div

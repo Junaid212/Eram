@@ -31,6 +31,13 @@ import TechnicalPage from "./pages/TechnicalPage";
 import Flanges from "./pages/Flanges";
 import StainlessSteel from "./pages/StainlessSteel";
 import CarbonSteelPipe from "./pages/CarbonSteelPipe";
+import ButtWeldFittings from "./pages/ButtWeldFittings";
+import ForgedFittings from "./pages/ForgedFittings";
+import Valves from "./pages/Valves";
+import InstrumentationTubeFittings from "./pages/InstrumentationTubeFittings";
+import CarIronDww from "./pages/CarIronDww";
+import PVDFPipeFittings from "./pages/PVDFPipeFittings";
+import UpvcandCpvc from "./pages/UpvcandCpvc";
 
 function App() {
   return (
@@ -72,6 +79,13 @@ function App() {
         <Route exact path="/flanges" element={<Flanges />} />
         <Route exact path="/stainless-steel-pipes" element={<StainlessSteel />} />
         <Route exact path="/carbon-steel-pipes" element={<CarbonSteelPipe />} />
+        <Route exact path="/butt-weld-fittings" element={<ButtWeldFittings />} />
+        <Route exact path="/forged-fittings" element={<ForgedFittings />} />
+        <Route exact path="/valves" element={<Valves />} />
+        <Route exact path="/instrumentation-tube-fittings" element={<InstrumentationTubeFittings />} />
+        <Route exact path="/cast-iron-dww-pipe-fittings" element={<CarIronDww />} />
+        <Route exact path="/pvdf-pipe-fittings-and-valves" element={<PVDFPipeFittings />} />
+        <Route exact path="/upvc-and-cpvc" element={<UpvcandCpvc />} />
       </Routes>
     </BrowserRouter>
   );
