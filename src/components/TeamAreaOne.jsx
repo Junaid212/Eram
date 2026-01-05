@@ -38,7 +38,7 @@ const TeamAreaOne = () => {
                 </p>
               </div>
               <div className="team-card_img">
-                <img src="assets/img/team/team-1-1.png" alt="Fixturbo" />
+                <img src="assets/img/team/team-1-1.png" alt="Eram" />
               </div>
               <div className="team-social_wrap">
                 <div className="social-btn style2">
@@ -73,7 +73,7 @@ const TeamAreaOne = () => {
                 </p>
               </div>
               <div className="team-card_img">
-                <img src="assets/img/team/team-1-2.png" alt="Fixturbo" />
+                <img src="assets/img/team/team-1-2.png" alt="Eram" />
               </div>
               <div className="team-social_wrap">
                 <div className="social-btn style2">
@@ -108,7 +108,7 @@ const TeamAreaOne = () => {
                 </p>
               </div>
               <div className="team-card_img">
-                <img src="assets/img/team/team-1-3.png" alt="Fixturbo" />
+                <img src="assets/img/team/team-1-3.png" alt="Eram" />
               </div>
               <div className="team-social_wrap">
                 <div className="social-btn style2">

@@ -9,12 +9,12 @@ const BlogAreaThree = () => {
           <img
             className="about1-shape-img-1 spin"
             src="assets/img/normal/about_shape1-2.svg"
-            alt="Fixturbo"
+            alt="Eram"
           />
           <img
             className="about1-shape-img-2 spin2"
             src="assets/img/normal/about_shape1-1.svg"
-            alt="Fixturbo"
+            alt="Eram"
           />
         </div>
         <div className="container">
@@ -63,7 +63,7 @@ const BlogAreaThree = () => {
                     <div className="blog-img">
                       <img
                         src="assets/img/blog/blog_s1_3.png"
-                        alt="Fixturbo"
+                        alt="Eram"
                       />
                       <div className="blog-date">
                         <Link to="/blog">
@@ -101,7 +101,7 @@ const BlogAreaThree = () => {
                     <div className="blog-img">
                       <img
                         src="assets/img/blog/blog_s1_1.png"
-                        alt="Fixturbo"
+                        alt="Eram"
                       />
                       <div className="blog-date">
                         <Link to="/blog">
@@ -139,7 +139,7 @@ const BlogAreaThree = () => {
                     <div className="blog-img">
                       <img
                         src="assets/img/blog/blog_s1_3.png"
-                        alt="Fixturbo"
+                        alt="Eram"
                       />
                       <div className="blog-date">
                         <Link to="/blog">
@@ -177,7 +177,7 @@ const BlogAreaThree = () => {
                     <div className="blog-img">
                       <img
                         src="assets/img/blog/blog_s1_1.png"
-                        alt="Fixturbo"
+                        alt="Eram"
                       />
                       <div className="blog-date">
                         <Link to="/blog">

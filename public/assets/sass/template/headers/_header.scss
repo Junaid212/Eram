@@ -31,7 +31,7 @@
   a {
     display: block;
     position: relative;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 18px;
     color: $body-color;
     font-family: $title-font;
@@ -156,6 +156,7 @@
           font-weight: 500;
         }
       }
+      border-bottom: 1px solid red;
       ul.sub-menu {
         left: 100%;
         right: auto;
@@ -249,6 +250,7 @@
           opacity: 1;
           transform: scaleY(1);
           z-index: 9;
+          
         }
       }
     }
@@ -277,6 +279,7 @@
     a {
       font-size: 16px;
       line-height: 30px;
+      font-weight: 300;
       span {
         font-size: 12px;
         padding: 0px 5px;

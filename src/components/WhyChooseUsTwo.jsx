@@ -8,12 +8,12 @@ const WhyChooseUsTwo = () => {
         <img
           className="about1-shape-img-1 spin"
           src="assets/img/normal/about_shape1-2.svg"
-          alt="Fixturbo"
+          alt="Eram"
         />
         <img
           className="about1-shape-img-2 spin2"
           src="assets/img/normal/about_shape1-1.svg"
-          alt="Fixturbo"
+          alt="Eram"
         />
       </div>
       <div className="container">
@@ -23,12 +23,12 @@ const WhyChooseUsTwo = () => {
               <img
                 className="img-1"
                 src="assets/img/normal/wcu-1.png"
-                alt="Fixturbo"
+                alt="Eram"
               />
               <img
                 className="img-2"
                 src="assets/img/normal/wcu-2.png"
-                alt="Fixturbo"
+                alt="Eram"
               />
             </div>
           </div>

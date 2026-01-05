@@ -112,7 +112,7 @@ const Products=()=> {
 
         /* Header section */
         .amenities-header {
-          text-align: center;
+          text-align: left;
           margin-bottom: 4rem;
         }
 
@@ -130,14 +130,14 @@ const Products=()=> {
         }
 
         .amenities-title-highlight {
-          color: #FFB8C2;
+          color: #FFFFFF;
         }
 
         .amenities-description {
           font-size: 1.25rem;
           color: #d1d5db;
           max-width: 48rem;
-          margin: 0 auto;
+          // margin: 0 auto;
         }
 
         /* Amenities grid */
@@ -184,6 +184,7 @@ const Products=()=> {
           transform: translateY(-5px);
           box-shadow: 0 20px 40px rgba(#999999, 0.3);
           border-color: #999999;
+          background-color: white;
         }
 
         .amenity-card-content {
@@ -220,6 +221,10 @@ const Products=()=> {
           color: #fff;
           margin: 0;
           line-height: 1.2;
+        }
+
+         .amenity-card .amenity-name:hover {
+          color: #000000;
         }
 
         /* Adjust grid for better single row layout */

@@ -22,7 +22,7 @@ const ServiceAreaOne = () => {
             <div className="service-card">
               <div className="service-card_content">
                 <div className="service-card_icon">
-                  <img src="assets/img/icon/service-icon_1-1.svg" alt="Fixturbo" />
+                  <img src="assets/img/icon/service-icon_1-1.svg" alt="Eram" />
                 </div>
                 <h4 className="service-card_title h5">
                   <Link to="/service-details">Auto Fixers</Link>
@@ -36,7 +36,7 @@ const ServiceAreaOne = () => {
                 </Link>
               </div>
               <div className="service-card_img">
-                <img src="assets/img/service/service-1-1.png" alt="Fixturbo" />
+                <img src="assets/img/service/service-1-1.png" alt="Eram" />
               </div>
             </div>
           </div>
@@ -44,7 +44,7 @@ const ServiceAreaOne = () => {
             <div className="service-card">
               <div className="service-card_content">
                 <div className="service-card_icon">
-                  <img src="assets/img/icon/service-icon_1-2.svg" alt="Fixturbo" />
+                  <img src="assets/img/icon/service-icon_1-2.svg" alt="Eram" />
                 </div>
                 <h4 className="service-card_title h5">
                   <Link to="/service-details">Mechanic Masters</Link>
@@ -58,7 +58,7 @@ const ServiceAreaOne = () => {
                 </Link>
               </div>
               <div className="service-card_img">
-                <img src="assets/img/service/service-1-2.png" alt="Fixturbo" />
+                <img src="assets/img/service/service-1-2.png" alt="Eram" />
               </div>
             </div>
           </div>
@@ -66,7 +66,7 @@ const ServiceAreaOne = () => {
             <div className="service-card">
               <div className="service-card_content">
                 <div className="service-card_icon">
-                  <img src="assets/img/icon/service-icon_1-3.svg" alt="Fixturbo" />
+                  <img src="assets/img/icon/service-icon_1-3.svg" alt="Eram" />
                 </div>
                 <h4 className="service-card_title h5">
                   <Link to="/service-details">Drive-In Garage</Link>
@@ -80,7 +80,7 @@ const ServiceAreaOne = () => {
                 </Link>
               </div>
               <div className="service-card_img">
-                <img src="assets/img/service/service-1-3.png" alt="Fixturbo" />
+                <img src="assets/img/service/service-1-3.png" alt="Eram" />
               </div>
             </div>
           </div>

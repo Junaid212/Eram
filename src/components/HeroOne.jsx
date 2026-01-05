@@ -16,7 +16,7 @@ const HeroOne = () => {
               <h1 className="hero-title text-white">
                 Gear Up{" "}
                 <span>
-                  <img src="assets/img/hero/hero_shape_1.png" alt="Fixturbo" />
+                  <img src="assets/img/hero/hero_shape_1.png" alt="Eram" />
                   For Great
                 </span>{" "}
                 Quality Service
@@ -36,7 +36,7 @@ const HeroOne = () => {
           </div>
           <div className="col-xl-6">
             <div className="hero-thumb text-center">
-              <img src="assets/img/hero/hero_thumb_1_1.png" alt="Fixturbo" />
+              <img src="assets/img/hero/hero_thumb_1_1.png" alt="Eram" />
             </div>
           </div>
         </div>

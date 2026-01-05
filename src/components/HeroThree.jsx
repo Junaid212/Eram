@@ -35,9 +35,9 @@ const HeroThree = () => {
                         <span>
                           <img
                             src="assets/img/hero/hero_shape_3.png"
-                            alt="Fixturbo"
+                            alt="Eram"
                           />
-                          Welcome Fixturbo
+                          Welcome Eram
                         </span>{" "}
                       </div>
                       <h1
@@ -66,7 +66,7 @@ const HeroThree = () => {
                         </Link>
                         <div className="call-media-wrap">
                           <div className="icon">
-                            <img src="assets/img/icon/phone-1.svg" alt="Fixturbo" />
+                            <img src="assets/img/icon/phone-1.svg" alt="Eram" />
                           </div>
                           <div className="media-body">
                             <h6 className="title text-white">
@@ -119,9 +119,9 @@ const HeroThree = () => {
                         <span>
                           <img
                             src="assets/img/hero/hero_shape_3.png"
-                            alt="Fixturbo"
+                            alt="Eram"
                           />
-                          Welcome Fixturbo
+                          Welcome Eram
                         </span>{" "}
                       </div>
                       <h1
@@ -150,7 +150,7 @@ const HeroThree = () => {
                         </Link>
                         <div className="call-media-wrap">
                           <div className="icon">
-                            <img src="assets/img/icon/phone-1.svg" alt="Fixturbo" />
+                            <img src="assets/img/icon/phone-1.svg" alt="Eram" />
                           </div>
                           <div className="media-body">
                             <h6 className="title text-white">

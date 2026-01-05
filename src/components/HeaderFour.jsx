@@ -98,7 +98,7 @@ const HeaderFour = () => {
               <div className="col-auto">
                 <div className="header-logo">
                   <Link to="/">
-                    <img src="assets/img/logo.svg" alt="Fixturbo" />
+                    <img src="assets/img/logo.svg" alt="Eram" />
                   </Link>
                 </div>
               </div>
@@ -368,7 +368,7 @@ const HeaderFour = () => {
           <div className="mobile-menu-area">
             <div className="mobile-logo">
               <Link to="/">
-                <img src="assets/img/logo.svg" alt="Fixturbo" />
+                <img src="assets/img/logo.svg" alt="Eram" />
               </Link>
               <button className="menu-toggle" onClick={mobileMenu}>
                 <i className="fa fa-times" />

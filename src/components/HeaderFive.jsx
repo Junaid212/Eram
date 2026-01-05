@@ -54,7 +54,7 @@ const HeaderFive = () => {
             {/* <div className="col-auto d-none d-lg-block">
               <div className="header-logo">
                 <Link to="/">
-                  <img src="assets/img/logo.svg" alt="Fixturbo" />
+                  <img src="assets/img/logo.svg" alt="Eram" />
                 </Link>
               </div>
             </div> */}
@@ -155,7 +155,7 @@ const HeaderFive = () => {
               <div className="col-auto  d-block">
                 <div className="header-logo">
                   <Link to="/">
-                    <img src="assets/img/icon/14.png" alt="Fixturbo" style={{height:'80px'}}/>
+                    <img src="assets/img/icon/14.png" alt="Eram" style={{height:'80px'}}/>
                   </Link>
                 </div>
               </div>
@@ -178,16 +178,16 @@ const HeaderFive = () => {
               {/* <div className="col-auto header-sticky-logo">
                 <div className="header-logo">
                   <Link to="/">
-                    <img src="assets/img/logo.svg" alt="Fixturbo" />
+                    <img src="assets/img/logo.svg" alt="Eram" />
                   </Link>
                 </div>
               </div> */}
               <div className="col-auto">
                 <nav className="main-menu d-none d-lg-inline-block">
                   <ul>
-                    <li className="menu-item-has-children">
-                      <Link to="#">Home</Link>
-                      <ul className="sub-menu">
+                    <li className="">
+                      <Link to="/">Home</Link>
+                      {/* <ul className="sub-menu">
                         <li>
                           <NavLink
                             to="/"
@@ -248,7 +248,7 @@ const HeaderFive = () => {
                             Home 06
                           </NavLink>
                         </li>
-                      </ul>
+                      </ul> */}
                     </li>
                     <li>
                       <NavLink
@@ -350,7 +350,7 @@ const HeaderFive = () => {
                         </li>
                       </ul> */}
                     </li>
-                    <li className="menu-item-has-children">
+                    {/* <li className="menu-item-has-children">
                       <Link to="#">Blog</Link>
                       <ul className="sub-menu">
                         <li>
@@ -374,8 +374,8 @@ const HeaderFive = () => {
                           </NavLink>
                         </li>
                       </ul>
-                    </li>
-                    <li className="menu-item-has-children">
+                    </li> */}
+                    {/* <li className="menu-item-has-children">
                       <Link to="#">Pages</Link>
                       <ul className="sub-menu">
                         <li>
@@ -449,7 +449,7 @@ const HeaderFive = () => {
                           </NavLink>
                         </li>
                       </ul>
-                    </li>
+                    </li> */}
                     <li>
                       <NavLink
                         to="/contact"
@@ -512,7 +512,7 @@ const HeaderFive = () => {
           <div className="mobile-menu-area">
             <div className="mobile-logo">
               <Link to="/">
-                <img src="assets/img/logo.svg" alt="Fixturbo" />
+                <img src="assets/img/logo.svg" alt="Eram" />
               </Link>
               <button className="menu-toggle" onClick={mobileMenu}>
                 <i className="fa fa-times" />
@@ -520,9 +520,9 @@ const HeaderFive = () => {
             </div>
             <div className="mobile-menu">
               <ul id="offcanvas-navigation">
-                <li className="menu-item-has-children submenu-item-has-children">
-                  <Link to="#">Home</Link>
-                  <ul className="sub-menu submenu-class">
+                <li className="menu-item-has-children ">
+                  <Link to="/">Home</Link>
+                  {/* <ul className="sub-menu submenu-class">
                     <li>
                       <NavLink
                         to="/"
@@ -583,7 +583,7 @@ const HeaderFive = () => {
                         Home 06
                       </NavLink>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
                 <li>
                   <NavLink
@@ -593,7 +593,7 @@ const HeaderFive = () => {
                     About
                   </NavLink>
                 </li>
-                <li className="menu-item-has-children submenu-item-has-children">
+                {/* <li className="menu-item-has-children submenu-item-has-children">
                   <Link to="#">Pages</Link>
                   <ul className="sub-menu submenu-class">
                     <li>
@@ -667,9 +667,9 @@ const HeaderFive = () => {
                       </NavLink>
                     </li>
                   </ul>
-                </li>
+                </li> */}
                 <li className="menu-item-has-children submenu-item-has-children">
-                  <Link to="#">Project</Link>
+                  <Link to="products">Product</Link>
                   <ul className="sub-menu submenu-class">
                     <li>
                       <NavLink
@@ -718,57 +718,47 @@ const HeaderFive = () => {
                     </li>
                     <li>
                       <NavLink
-                        to="/service-details"
+                        to="/material-supply"
                         className={(navData) =>
                           navData.isActive ? "active" : ""
                         }
                       >
-                        Service Details
+                        Project Material Supply Management
                       </NavLink>
                     </li>
                     <li>
                       <NavLink
-                        to="/service-details"
+                        to="/warehousing"
                         className={(navData) =>
                           navData.isActive ? "active" : ""
                         }
                       >
-                        Service Details
+                        Warehousing, Marshalling, & Logistics
                       </NavLink>
                     </li>
                     <li>
                       <NavLink
-                        to="/service-details"
+                        to="/maintenance"
                         className={(navData) =>
                           navData.isActive ? "active" : ""
                         }
                       >
-                        Service Details
+                        Maintenance, Repair, & Overhaul
                       </NavLink>
                     </li>
                     <li>
                       <NavLink
-                        to="/service-details"
+                        to="/technical-support"
                         className={(navData) =>
                           navData.isActive ? "active" : ""
                         }
                       >
-                        Service Details
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink
-                        to="/service-details"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
-                      >
-                        Service Details
+                        Technical Spport and Value Added Services
                       </NavLink>
                     </li>
                   </ul>
                 </li>
-                <li className="menu-item-has-children submenu-item-has-children">
+                {/* <li className="menu-item-has-children submenu-item-has-children">
                   <Link to="#">Shop</Link>
                   <ul className="sub-menu submenu-class">
                     <li>
@@ -822,8 +812,8 @@ const HeaderFive = () => {
                       </NavLink>
                     </li>
                   </ul>
-                </li>
-                <li className="menu-item-has-children submenu-item-has-children">
+                </li> */}
+                {/* <li className="menu-item-has-children submenu-item-has-children">
                   <Link to="#">Blog</Link>
                   <ul className="sub-menu submenu-class">
                     <li>
@@ -847,7 +837,7 @@ const HeaderFive = () => {
                       </NavLink>
                     </li>
                   </ul>
-                </li>
+                </li> */}
                 <li>
                   <NavLink
                     to="/contact"

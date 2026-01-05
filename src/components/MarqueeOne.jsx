@@ -12,7 +12,7 @@ const MarqueeOne = () => {
                 <Link to="#">
                   <img
                     src="assets/img/icon/marquee-icon-1-1.svg"
-                    alt="Fixturbo"
+                    alt="Eram"
                   />
                   <span>Express Car Fix</span>
                 </Link>
@@ -21,7 +21,7 @@ const MarqueeOne = () => {
                 <Link to="#">
                   <img
                     src="assets/img/icon/marquee-icon-1-2.svg"
-                    alt="Fixturbo"
+                    alt="Eram"
                   />
                   <span className="text-stroke">Car Care Clinic</span>
                 </Link>
@@ -30,7 +30,7 @@ const MarqueeOne = () => {
                 <Link to="#">
                   <img
                     src="assets/img/icon/marquee-icon-1-1.svg"
-                    alt="Fixturbo"
+                    alt="Eram"
                   />
                   <span>Express Car Fix</span>
                 </Link>
@@ -39,7 +39,7 @@ const MarqueeOne = () => {
                 <Link to="#">
                   <img
                     src="assets/img/icon/marquee-icon-1-2.svg"
-                    alt="Fixturbo"
+                    alt="Eram"
                   />
                   <span className="text-stroke">Car Care Clinic</span>
                 </Link>

@@ -8,12 +8,12 @@ const AboutThree = () => {
         <img
           className="about1-shape-img-1 spin"
           src="assets/img/normal/about_shape1-2.svg"
-          alt="Fixturbo"
+          alt="Eram"
         />
         <img
           className="about1-shape-img-2 spin2"
           src="assets/img/normal/about_shape1-1.svg"
-          alt="Fixturbo"
+          alt="Eram"
         />
       </div>
       <div className="container">
@@ -21,7 +21,7 @@ const AboutThree = () => {
           <div className="col-xl-7 text-xl-center">
             <div className="about-thumb3 mb-40 mb-xl-0">
               <div className="about-img-1">
-                <img src="assets/img/normal/wcu-3.png" alt="Fixturbo" />
+                <img src="assets/img/normal/wcu-3.png" alt="Eram" />
               </div>
             </div>
           </div>

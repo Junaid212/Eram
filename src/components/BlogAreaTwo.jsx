@@ -50,7 +50,7 @@ const BlogAreaTwo = () => {
   <div>
     <div className="blog-card style2">
       <div className="blog-img">
-        <img src="assets/img/blog/blog_s2_1.png" alt="Fixturbo" />
+        <img src="assets/img/blog/blog_s2_1.png" alt="Eram" />
         <div className="blog-date">
           <Link to="/blog">
             <span>01</span>
@@ -71,7 +71,7 @@ const BlogAreaTwo = () => {
   <div>
     <div className="blog-card style2">
       <div className="blog-img">
-        <img src="assets/img/blog/blog_s2_2.png" alt="Fixturbo" />
+        <img src="assets/img/blog/blog_s2_2.png" alt="Eram" />
         <div className="blog-date">
           <Link to="/blog">
             <span>02</span>
@@ -92,7 +92,7 @@ const BlogAreaTwo = () => {
   <div>
     <div className="blog-card style2">
       <div className="blog-img">
-        <img src="assets/img/blog/blog_s2_3.png" alt="Fixturbo" />
+        <img src="assets/img/blog/blog_s2_3.png" alt="Eram" />
         <div className="blog-date">
           <Link to="/blog">
             <span>03</span>
@@ -113,7 +113,7 @@ const BlogAreaTwo = () => {
   <div>
     <div className="blog-card style2">
       <div className="blog-img">
-        <img src="assets/img/blog/blog_s2_1.png" alt="Fixturbo" />
+        <img src="assets/img/blog/blog_s2_1.png" alt="Eram" />
         <div className="blog-date">
           <Link to="/blog">
             <span>04</span>
@@ -134,7 +134,7 @@ const BlogAreaTwo = () => {
   <div>
     <div className="blog-card style2">
       <div className="blog-img">
-        <img src="assets/img/blog/blog_s2_2.png" alt="Fixturbo" />
+        <img src="assets/img/blog/blog_s2_2.png" alt="Eram" />
         <div className="blog-date">
           <Link to="/blog">
             <span>05</span>
@@ -155,7 +155,7 @@ const BlogAreaTwo = () => {
   <div>
     <div className="blog-card style2">
       <div className="blog-img">
-        <img src="assets/img/blog/blog_s2_3.png" alt="Fixturbo" />
+        <img src="assets/img/blog/blog_s2_3.png" alt="Eram" />
         <div className="blog-date">
           <Link to="/blog">
             <span>06</span>

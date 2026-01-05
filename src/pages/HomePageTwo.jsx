@@ -1,26 +1,22 @@
 import React, { useEffect, useState } from "react";
-import HeaderFive from "../components/HeaderFive";
-import HeroFour from "../components/HeroFour";
-import ServiceAreaTwo from "../components/ServiceAreaTwo";
-import AboutTwo from "../components/AboutTwo";
-import CounterTwo from "../components/CounterTwo";
-import PortfolioTwo from "../components/PortfolioTwo";
-import WhyChooseUsOne from "../components/WhyChooseUsOne";
-import ProcessAreaTwo from "../components/ProcessAreaTwo";
-import CTAAreaTwo from "../components/CTAAreaTwo";
-import PricingPlanTwo from "../components/PricingPlanTwo";
-import AppointmentAreaTwo from "../components/AppointmentAreaTwo";
-import TeamAreaTwo from "../components/TeamAreaTwo";
-import ClientAreaTwo from "../components/ClientAreaTwo";
-import FaqAreaTwo from "../components/FaqAreaTwo";
-import BlogAreaTwo from "../components/BlogAreaTwo";
-import FooterAreaTwo from "../components/FooterAreaTwo";
-import Preloader from "../helper/Preloader";
-import Banner from "../components/Banner";
-import Products from "../components/Products";
-import ServiceAreaThree from "../components/ServiceAreaThree";
-import Purpose from "../components/Purpose";
+import HeaderOne from "../components/HeaderOne";
+import HeroOne from "../components/HeroOne";
+import CounterOne from "../components/CounterOne";
+import AboutOne from "../components/AboutOne";
+import ServiceAreaOne from "../components/ServiceAreaOne";
+import MarqueeOne from "../components/MarqueeOne";
+import PortfolioOne from "../components/PortfolioOne";
+import ClientAreaOne from "../components/ClientAreaOne";
+import PricingPlanOne from "../components/PricingPlanOne";
+import TeamAreaOne from "../components/TeamAreaOne";
 import CTAAreaOne from "../components/CTAAreaOne";
+import TestimonialOne from "../components/TestimonialOne";
+import ProcessAreaOne from "../components/ProcessAreaOne";
+import FaqAreaOne from "../components/FaqAreaOne";
+import BlogAreaOne from "../components/BlogAreaOne";
+import FooterAreaOne from "../components/FooterAreaOne";
+import SubscribeOne from "../components/SubscribeOne";
+import Preloader from "../helper/Preloader";
 
 const HomePageTwo = () => {
   let [active, setActive] = useState(true);
@@ -34,60 +30,56 @@ const HomePageTwo = () => {
       {/* Preloader */}
       {active === true && <Preloader />}
 
-      {/* Header Two */}
-      <HeaderFive />
+      {/* Header one */}
+      <HeaderOne />
 
-      {/* Hero Two */}
-      {/* <HeroTwo /> */}
-<Banner />
-<ServiceAreaThree />
+      {/* Hero One */}
+      <HeroOne />
 
-      {/* Service Area Two */}
-      <ServiceAreaTwo />
-      <Products/>
-{/* <CounterTwo /> */}
+      {/* Counter One */}
+      <CounterOne />
 
-      {/* About Two */}
-      {/* <div className="about-area-2 bg-smoke">
-        <AboutTwo />
-      </div> */}
+      {/* About One */}
+      <AboutOne />
 
-      {/* Counter Two */}
-      {/* <CounterTwo /> */}
+      {/* Service Area One */}
+      <ServiceAreaOne />
 
-      {/* Portfolio Two */}
-      {/* <PortfolioTwo /> */}
+      {/* Marquee One */}
+      <MarqueeOne />
 
-      {/* Why Choose Us One */}
-      {/* <WhyChooseUsOne /> */}
+      {/* Portfolio One */}
+      <PortfolioOne />
 
-      {/* Process Area Two */}
-      {/* <ProcessAreaTwo /> */}
+      {/* Client Area One */}
+      <ClientAreaOne />
 
-      {/* CTA Area Two */}
-      {/* <CTAAreaTwo /> */}
+      {/* Pricing Plan One */}
+      <PricingPlanOne />
 
-      {/* Pricing Plan Two */}
-      {/* <PricingPlanTwo /> */}
+      {/* Team Area One */}
+      <TeamAreaOne />
 
-      {/* Appointment Area Two */}
-      {/* <AppointmentAreaTwo /> */}
+      {/* CTA Area One */}
+      <CTAAreaOne />
 
-      {/* Team Area Two */}
-      {/* <TeamAreaTwo /> */}
+      {/* Testimonial One */}
+      <TestimonialOne />
 
-      {/* Client Area Two */}
-      <Purpose/>
-      <ClientAreaTwo />
+      {/* Process Area One */}
+      <ProcessAreaOne />
 
-      {/* Faq Area Two */}
-      {/* <FaqAreaTwo /> */}
+      {/* Faq Area One */}
+      <FaqAreaOne />
 
-      {/* Blog Area Two */}
-      {/* <BlogAreaTwo /> */}
-<CTAAreaOne />
-      {/* Footer Area Two */}
-      <FooterAreaTwo />
+      {/* Blog Area One */}
+      <BlogAreaOne />
+
+      {/* Subscribe One */}
+      <SubscribeOne />
+
+      {/* Footer Area One */}
+      <FooterAreaOne />
     </>
   );
 };

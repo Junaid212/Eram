@@ -19,7 +19,7 @@ const HeroTwo = () => {
               <h1 className="hero-title text-white">
                 Crafting{" "}
                 <span>
-                  <img src="assets/img/hero/hero_shape_2.png" alt="Fixturbo" />
+                  <img src="assets/img/hero/hero_shape_2.png" alt="Eram" />
                   Automotive
                 </span>{" "}
                 Excellence One Repair At Time
@@ -34,7 +34,7 @@ const HeroTwo = () => {
                 </Link>
                 <div className="call-media-wrap">
                   <div className="icon">
-                    <img src="assets/img/icon/phone-1.svg" alt="Fixturbo" />
+                    <img src="assets/img/icon/phone-1.svg" alt="Eram" />
                   </div>
                   <div className="media-body">
                     <h6 className="title text-white">Requesting A Call:</h6>

@@ -220,189 +220,189 @@ const products = [
     name: "Butt-Weld Fittings", 
     category: "Fittings", 
     image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
-    link: "/products/butt-weld-fittings"
+    link: "/butt-weld-fittings"
   },
   { 
     id: 5, 
     name: "Forged Fittings", 
     category: "Fittings", 
     image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
-    link: "/products/forged-fittings"
+    link: "/forged-fittings"
   },
   { 
     id: 6, 
     name: "Valves", 
     category: "Valves", 
     image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
-    link: "/products/valves"
+    link: "/valves"
   },
   { 
     id: 7, 
     name: "Instrumentation Tube Fitting", 
     category: "Instrumentation", 
     image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
-    link: "/products/instrumentation-tube-fitting"
+    link: "/instrumentation-tube-fittings"
   },
   { 
     id: 8, 
     name: "Cast Iron DWW Pipe Fittings System", 
     category: "Piping", 
     image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
-    link: "/products/cast-iron-dww-pipe-fittings-system"
+    link: "/cast-iron-dww-pipe-fittings"
   },
   { 
     id: 9, 
     name: "Fasteners", 
     category: "Hardware", 
     image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
-    link: "/products/fasteners"
+    link: "/fasteners"
   },
   { 
     id: 10, 
     name: "PVDF Pipe Fittings & Valves", 
     category: "Plastic Piping", 
     image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
-    link: "/products/pvdf-pipe-fittings-valves"
+    link: "/pvdf-pipe-fittings-and-valves"
   },
   { 
     id: 11, 
     name: "UPVC & CPVC", 
     category: "Plastic Piping", 
     image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
-    link: "/products/upvc-cpvc"
+    link: "/upvc-and-cpvc"
   },
   { 
     id: 12, 
     name: "Mud Pump And Spare Parts Assembly", 
     category: "Oilfield Equipment", 
     image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
-    link: "/products/mud-pump-and-spare-parts-assembly"
+    link: "/mud-pump-and-spare-parts-assembly"
   },
   { 
     id: 13, 
     name: "Crank Shaft Assembly For Mud Pump", 
     category: "Mud Pump Parts", 
     image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
-    link: "/products/crank-shaft-assembly-for-mud-pump"
+    link: "/crank-shaft-assembly-for-mud-pump"
   },
   { 
     id: 14, 
     name: "Pinion Shaft Assembly For Mud Pump", 
     category: "Mud Pump Parts", 
     image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
-    link: "/products/pinion-shaft-assembly-for-mud-pump"
+    link: "/pinion-shaft-assembly-for-mud-pump"
   },
   { 
     id: 15, 
     name: "Transmission Spare Parts", 
     category: "Mechanical Parts", 
     image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
-    link: "/products/transmission-spare-parts"
+    link: "/transmission-spare-parts"
   },
   { 
     id: 16, 
     name: "Hydraulic Cylinder Assembly For Mud Pump", 
     category: "Hydraulics", 
     image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
-    link: "/products/hydraulic-cylinder-assembly-for-mud-pump"
+    link: "/hydraulic-cylinder-assembly-for-mud-pump"
   },
   { 
     id: 17, 
     name: "Oil Field Clutch", 
     category: "Oilfield Equipment", 
     image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
-    link: "/products/oil-field-clutch"
+    link: "/oil-field-clutch"
   },
   { 
     id: 18, 
     name: "PS Series Hydraulic Disc Brake", 
     category: "Braking Systems", 
     image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
-    link: "/products/ps-series-hydraulic-disc-brake"
+    link: "/ps-series-hydraulic-disc-brake"
   },
   { 
     id: 19, 
     name: "Drilling Rig And Spare Parts", 
     category: "Oilfield Equipment", 
     image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
-    link: "/products/drilling-rig-and-spare-parts"
+    link: "/drilling-rig-and-spare-parts"
   },
   { 
     id: 20, 
     name: "BOP Hoisting Equipment", 
     category: "Oilfield Equipment", 
     image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
-    link: "/products/bop-hoisting-equipment"
+    link: "/bop-hoisting-equipment"
   },
   { 
     id: 21, 
     name: "Downhole Tool", 
     category: "Oilfield Tools", 
     image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
-    link: "/products/downhole-tool"
+    link: "/downhole-tool"
   },
   { 
     id: 22, 
     name: "Oil Tube And Casing Pipe", 
     category: "Oilfield Piping", 
     image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
-    link: "/products/oil-tube-and-casing-pipe"
+    link: "/oil-tube-and-casing-pipe"
   },
   { 
     id: 23, 
     name: "Pressure Transmitters & Transducers Portfolio", 
     category: "Instrumentation", 
     image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
-    link: "/products/pressure-transmitters-transducers-portfolio"
+    link: "/pressure-transmitters-transducers-portfolio"
   },
   { 
     id: 24, 
     name: "Mud Pump Fluid End Parts", 
     category: "Mud Pump Parts", 
     image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
-    link: "/products/mud-pump-fluid-end-parts"
+    link: "/mud-pump-fluid-end-parts"
   },
   { 
     id: 25, 
     name: "Mud Pump Crosshead Assembly", 
     category: "Mud Pump Parts", 
     image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
-    link: "/products/mud-pump-crosshead-assembly"
+    link: "/mud-pump-crosshead-assembly"
   },
   { 
     id: 26, 
     name: "Pulsation Dampener Assembly For Mud Pump", 
     category: "Mud Pump Parts", 
     image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
-    link: "/products/pulsation-dampener-assembly-for-mud-pump"
+    link: "/pulsation-dampener-assembly-for-mud-pump"
   },
   { 
     id: 27, 
     name: "Relief Valve For Mud Pump", 
     category: "Valves", 
     image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
-    link: "/products/relief-valve-for-mud-pump"
+    link: "/relief-valve-for-mud-pump"
   },
   { 
     id: 28, 
     name: "Spray Lubrication System For Mud Pump", 
     category: "Lubrication Systems", 
     image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
-    link: "/products/spray-lubrication-system-for-mud-pump"
+    link: "/spray-lubrication-system-for-mud-pump"
   },
   { 
     id: 29, 
     name: "Discharge Strainer And Auxiliary Piping For Mud Pump", 
     category: "Mud Pump Parts", 
     image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
-    link: "/products/discharge-strainer-and-auxiliary-piping-for-mud-pump"
+    link: "/discharge-strainer-and-auxiliary-piping-for-mud-pump"
   },
   { 
     id: 30, 
     name: "Mud Pump Fluid End Parts", 
     category: "Mud Pump Parts", 
     image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
-    link: "/products/mud-pump-fluid-end-parts-2"
+    link: "/mud-pump-fluid-end-parts-2"
   }
 ];
 

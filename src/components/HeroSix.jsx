@@ -9,7 +9,7 @@ const HeroSix = () => {
           <div className="row flex-row-reverse align-items-center">
             <div className="col-md-6">
               <div className="hero-thumb text-center">
-                <img src="assets/img/update-img/hero6-1.png" alt="Fixturbo" />
+                <img src="assets/img/update-img/hero6-1.png" alt="Eram" />
               </div>
             </div>
             <div className="col-md-6">
@@ -36,7 +36,7 @@ const HeroSix = () => {
               style={{ backgroundColor: "#F2F2EF" }}
             >
               <div className="intro-card-img">
-                <img src="assets/img/update-img/hero6-2.png" alt="Fixturbo" />
+                <img src="assets/img/update-img/hero6-2.png" alt="Eram" />
               </div>
               <div className="intro-card-details">
                 <h6 className="intro-card-subtitle">save up to $5.00</h6>
@@ -56,7 +56,7 @@ const HeroSix = () => {
               style={{ backgroundColor: "rgba(221, 76, 100, 0.3)" }}
             >
               <div className="intro-card-img">
-                <img src="assets/img/update-img/hero6-3.png" alt="Fixturbo" />
+                <img src="assets/img/update-img/hero6-3.png" alt="Eram" />
               </div>
               <div className="intro-card-details">
                 <h6 className="intro-card-subtitle">save up to $5.00</h6>
@@ -73,7 +73,7 @@ const HeroSix = () => {
           <div className="col-lg-4 col-md-6">
             <div className="hero-intro-card bg-theme">
               <div className="intro-card-img">
-                <img src="assets/img/update-img/hero6-4.png" alt="Fixturbo" />
+                <img src="assets/img/update-img/hero6-4.png" alt="Eram" />
               </div>
               <div className="intro-card-details">
                 <h6 className="intro-card-subtitle text-white">

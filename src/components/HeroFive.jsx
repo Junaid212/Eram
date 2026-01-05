@@ -49,7 +49,7 @@ const HeroFive = () => {
                     <div className="hero-thumb text-lg-center">
                       <img
                         src="assets/img/testimonial/testimonial-1-2.png"
-                        alt="Fixturbo"
+                        alt="Eram"
                       />
                     </div>
                   </div>
@@ -90,7 +90,7 @@ const HeroFive = () => {
                     <div className="hero-thumb text-lg-center">
                       <img
                         src="assets/img/testimonial/testimonial-1-1.png"
-                        alt="Fixturbo"
+                        alt="Eram"
                       />
                     </div>
                   </div>

@@ -9,7 +9,7 @@ const BlogDetails = () => {
           <div className="col-xxl-8 col-lg-7">
             <div className="blog-details-card">
               <div className="blog-thumb">
-                <img src="assets/img/blog/blog_details1_1.png" alt="Fixturbo" />
+                <img src="assets/img/blog/blog_details1_1.png" alt="Eram" />
                 <div className="blog-meta">
                   <Link to="/blog-details">
                     <i className="far fa-comments" />
@@ -63,7 +63,7 @@ const BlogDetails = () => {
                     <div className="blog-thumb mb-sm-0 mb-30">
                       <img
                         src="assets/img/blog/blog_details1_2.png"
-                        alt="Fixturbo"
+                        alt="Eram"
                       />
                     </div>
                   </div>
@@ -260,7 +260,7 @@ const BlogDetails = () => {
                       <Link to="/blog-details">
                         <img
                           src="assets/img/blog/recent-post1.png"
-                          alt="Fixturbo"
+                          alt="Eram"
                         />
                       </Link>
                     </div>
@@ -280,7 +280,7 @@ const BlogDetails = () => {
                       <Link to="/blog-details">
                         <img
                           src="assets/img/blog/recent-post2.png"
-                          alt="Fixturbo"
+                          alt="Eram"
                         />
                       </Link>
                     </div>
@@ -300,7 +300,7 @@ const BlogDetails = () => {
                       <Link to="/blog-details">
                         <img
                           src="assets/img/blog/recent-post3.png"
-                          alt="Fixturbo"
+                          alt="Eram"
                         />
                       </Link>
                     </div>

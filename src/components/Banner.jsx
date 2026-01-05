@@ -9,7 +9,7 @@ const Banner = ()=> {
 <div class="wrap">
   <div class="wrapv">
     <div class="vertical">
-      <img src="assets/img/icon/13.png" alt="Fixturbo"/>
+      <img src="assets/img/icon/13.png" alt="Eram"/>
     </div>
   </div>
           <div className="portfolio-area-1 overflow-hidden" id="portfolio-area-1">
@@ -58,12 +58,12 @@ const Banner = ()=> {
                         <div>
                           <div className="portfolio-card style2">
                             <div className="portfolio-card-thumb">
-                              <img src="assets/img/icon/16.png" alt="Fixturbo" id="img"/>
+                              <img src="assets/img/icon/16.png" alt="Eram" id="img"/>
                             </div>
                             <div className="portfolio-card-details">
                               <div className="media-left">
                                 <h4 className="portfolio-card-details_title">
-                                  Quality Materials,<br/>
+                                  Quality Materials,
 Unmatched
 Performance
                                 </h4>
@@ -76,12 +76,12 @@ Performance
                         <div>
                           <div className="portfolio-card style2">
                             <div className="portfolio-card-thumb">
-                              <img src="assets/img/icon/16.png" alt="Fixturbo" id="img"/>
+                              <img src="assets/img/bg/20.webp" alt="Eram" id="img"/>
                             </div>
                             <div className="portfolio-card-details">
                               <div className="media-left">
                                 <h4 className="portfolio-card-details_title">
-                                  Flanges that Fit,<br/> Flanges that Last -<br/> Choose Quality First
+                                  Flanges that Fit, Flanges that Last - Choose Quality First
                                 </h4>
                               </div>
                             </div>
@@ -92,7 +92,7 @@ Performance
                         <div>
                           <div className="portfolio-card style2">
                             <div className="portfolio-card-thumb">
-                              <img src="assets/img/icon/16.png" alt="Fixturbo" id="img"/>
+                              <img src="assets/img/bg/21.webp" alt="Eram" id="img"/>
                             </div>
                             <div className="portfolio-card-details">
                               <div className="media-left">
@@ -108,13 +108,12 @@ Performance
                         <div>
                           <div className="portfolio-card style2">
                             <div className="portfolio-card-thumb">
-                              <img src="assets/img/icon/16.png" alt="Fixturbo" id="img"/>
+                              <img src="assets/img/bg/22.webp" alt="Eram" id="img"/>
                             </div>
                             <div className="portfolio-card-details">
                               <div className="media-left">
                                 <h4 className="portfolio-card-details_title">
-                                  Secure Connections,
-Trusted Fasteners – Your Safety First
+                                  Secure Connections, Trusted Fasteners – Your Safety First
                                 </h4>
                                 {/* <span className="portfolio-card-details_subtitle">
                                   VoIP Services
@@ -128,7 +127,7 @@ Trusted Fasteners – Your Safety First
                         <div>
                           <div className="portfolio-card style2">
                             <div className="portfolio-card-thumb">
-                              <img src="assets/img/icon/16.png" alt="Fixturbo" id="img"/>
+                              <img src="assets/img/bg/23.webp" alt="Eram" id="img"/>
                             </div>
                             <div className="portfolio-card-details">
                               <div className="media-left">
@@ -147,7 +146,7 @@ Trusted Fasteners – Your Safety First
                         <div>
                           <div className="portfolio-card style2">
                             <div className="portfolio-card-thumb">
-                              <img src="assets/img/icon/16.png" alt="Fixturbo" id="img"/>
+                              <img src="assets/img/bg/24.webp" alt="Eram" id="img"/>
                             </div>
                             <div className="portfolio-card-details">
                               <div className="media-left">
@@ -166,7 +165,7 @@ Trusted Fasteners – Your Safety First
                         <div>
                           <div className="portfolio-card style2">
                             <div className="portfolio-card-thumb">
-                              <img src="assets/img/icon/16.png" alt="Fixturbo" id="img"/>
+                              <img src="assets/img/bg/25.webp" alt="Eram" id="img"/>
                             </div>
                             <div className="portfolio-card-details">
                               <div className="media-left">
@@ -185,14 +184,12 @@ Trusted Fasteners – Your Safety First
                         <div>
                           <div className="portfolio-card style2">
                             <div className="portfolio-card-thumb">
-                              <img src="assets/img/icon/16.png" alt="Fixturbo" id="img"/>
+                              <img src="assets/img/bg/26.webp" alt="Eram" id="img"/>
                             </div>
                             <div className="portfolio-card-details">
                               <div className="media-left">
                                 <h4 className="portfolio-card-details_title">
-                                  Maintaining Efficiency
-Sustaining Success
-Choose Us
+                                  Maintaining Efficiency Sustaining Success Choose Us
                                 </h4>
                                 {/* <span className="portfolio-card-details_subtitle">
                                   VoIP Services
@@ -285,22 +282,21 @@ color: white;
 
 
     @media (max-width: 768px) {
-        #portfolio-area-1{
-        margin-left: 80px;
-        }
-        .portfolio-card .portfolio-card-thumb #img{
-    height: 300px !important;
-    width: 500px !important;
-  }
+     .wrap{
+     width: full;
+    //  height: 400px;
+     margin-left: -220px;
+     }
     .vertical {
   padding-top: 2vw;
   padding-right: 20vw;
   font-size: 20vw;
-  height: 200px;
-  width: 680px;
+  height: 230px;
+  width: 760px;
 }
 #title-area{
     margin-top: 30px !important;
+}
 }
 
 `}</style>

@@ -14,7 +14,7 @@ const PricingPlanTwo = () => {
                 <img
                   className="title-bg-shape shape-center"
                   src="assets/img/bg/title-bg-shape.png"
-                  alt="Fixturbo"
+                  alt="Eram"
                 />
               </h2>
             </div>
@@ -25,7 +25,7 @@ const PricingPlanTwo = () => {
             <div className="pricing-card style2">
               <div className="pricing-card-icon-wrap">
                 <div className="pricing-card_icon">
-                  <img src="assets/img/icon/picing-icon_2-1.svg" alt="Fixturbo" />
+                  <img src="assets/img/icon/picing-icon_2-1.svg" alt="Eram" />
                 </div>
                 <h4 className="pricing-card_title"></h4>
               </div>
@@ -62,7 +62,7 @@ const PricingPlanTwo = () => {
             <div className="pricing-card style2 pricing-card-active">
               <div className="pricing-card-icon-wrap">
                 <div className="pricing-card_icon">
-                  <img src="assets/img/icon/picing-icon_2-2.svg" alt="Fixturbo" />
+                  <img src="assets/img/icon/picing-icon_2-2.svg" alt="Eram" />
                 </div>
                 <h4 className="pricing-card_title"></h4>
               </div>
@@ -99,7 +99,7 @@ const PricingPlanTwo = () => {
             <div className="pricing-card style2">
               <div className="pricing-card-icon-wrap">
                 <div className="pricing-card_icon">
-                  <img src="assets/img/icon/picing-icon_2-3.svg" alt="Fixturbo" />
+                  <img src="assets/img/icon/picing-icon_2-3.svg" alt="Eram" />
                 </div>
                 <h4 className="pricing-card_title">Platinum Plan</h4>
               </div>

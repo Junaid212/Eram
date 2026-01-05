@@ -60,7 +60,7 @@ const Material = () => {
                       <div className="page-img">
                         <img
                           src="assets/img/portfolio/portfolio_details1-2.png"
-                          alt="Fixturbo"
+                          alt="Eram"
                         />
                       </div>
                     </div>
@@ -68,7 +68,7 @@ const Material = () => {
                       <div className="page-img">
                         <img
                           src="assets/img/portfolio/portfolio_details1-3.png"
-                          alt="Fixturbo"
+                          alt="Eram"
                         />
                       </div>
                     </div>

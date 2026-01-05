@@ -33,12 +33,12 @@ const PortfolioOne = () => {
         <img
           className="about1-shape-img-1 spin"
           src="assets/img/normal/about_shape1-2.svg"
-          alt="Fixturbo"
+          alt="Eram"
         />
         <img
           className="about1-shape-img-2 spin2"
           src="assets/img/normal/about_shape1-1.svg"
-          alt="Fixturbo"
+          alt="Eram"
         />
       </div>
       <div className="container">
@@ -88,7 +88,7 @@ const PortfolioOne = () => {
           <div className="col-lg-4 filter-item  pro1 pro3">
             <div className="portfolio-card image-container">
               <div className="portfolio-card-thumb">
-                <img src="assets/img/portfolio/1-3.png" alt="Fixturbo" />
+                <img src="assets/img/portfolio/1-3.png" alt="Eram" />
               </div>
               <div className="portfolio-card-details">
                 <div className="media-left">
@@ -108,7 +108,7 @@ const PortfolioOne = () => {
           <div className="col-lg-4 filter-item  pro2 pro4">
             <div className="portfolio-card image-container">
               <div className="portfolio-card-thumb">
-                <img src="assets/img/portfolio/1-3.png" alt="Fixturbo" />
+                <img src="assets/img/portfolio/1-3.png" alt="Eram" />
               </div>
               <div className="portfolio-card-details">
                 <div className="media-left">
@@ -129,7 +129,7 @@ const PortfolioOne = () => {
           <div className="col-lg-4 filter-item pro3 pro1">
             <div className="portfolio-card image-container">
               <div className="portfolio-card-thumb">
-                <img src="assets/img/portfolio/1-4.png" alt="Fixturbo" />
+                <img src="assets/img/portfolio/1-4.png" alt="Eram" />
               </div>
               <div className="portfolio-card-details">
                 <div className="media-left">
@@ -149,7 +149,7 @@ const PortfolioOne = () => {
           <div className="col-lg-4 filter-item pro4 pro2">
             <div className="portfolio-card image-container">
               <div className="portfolio-card-thumb">
-                <img src="assets/img/portfolio/1-4.png" alt="Fixturbo" />
+                <img src="assets/img/portfolio/1-4.png" alt="Eram" />
               </div>
               <div className="portfolio-card-details">
                 <div className="media-left">
@@ -169,7 +169,7 @@ const PortfolioOne = () => {
           <div className="col-lg-4 filter-item pro4 pro1">
             <div className="portfolio-card image-container">
               <div className="portfolio-card-thumb">
-                <img src="assets/img/portfolio/1-4.png" alt="Fixturbo" />
+                <img src="assets/img/portfolio/1-4.png" alt="Eram" />
               </div>
               <div className="portfolio-card-details">
                 <div className="media-left">
@@ -189,7 +189,7 @@ const PortfolioOne = () => {
           <div className="col-lg-4 filter-item pro4 pro2 pro3">
             <div className="portfolio-card image-container">
               <div className="portfolio-card-thumb">
-                <img src="assets/img/portfolio/1-4.png" alt="Fixturbo" />
+                <img src="assets/img/portfolio/1-4.png" alt="Eram" />
               </div>
               <div className="portfolio-card-details">
                 <div className="media-left">

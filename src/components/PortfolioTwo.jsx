@@ -10,11 +10,11 @@ const PortfolioTwo = () => {
   { id: 4, image: "assets/img/portfolio/2-2.png", title: "Butt-weld fittings", link: "/butt-weld-fittings" },
   { id: 5, image: "assets/img/portfolio/2-2.png", title: "Forged fittings", link: "/forged-fittings" },
   { id: 6, image: "assets/img/portfolio/2-2.png", title: "Valves", link: "/valves" },
-  { id: 7, image: "assets/img/portfolio/2-2.png", title: "Instrumentation Tube Fitting", link: "/instrumentation-tube-fitting" },
-  { id: 8, image: "assets/img/portfolio/2-2.png", title: "Cast Iron Dww Pipe Fittings System", link: "/cast-iron-dww-pipe-fittings-system" },
+  { id: 7, image: "assets/img/portfolio/2-2.png", title: "Instrumentation Tube Fitting", link: "/instrumentation-tube-fittings" },
+  { id: 8, image: "assets/img/portfolio/2-2.png", title: "Cast Iron Dww Pipe Fittings System", link: "/cast-iron-dww-pipe-fittings" },
   { id: 9, image: "assets/img/portfolio/2-2.png", title: "Fasteners", link: "/fasteners" },
-  { id: 10, image: "assets/img/portfolio/2-2.png", title: "PVDF Pipe Fittings & Valves", link: "/pvdf-pipe-fittings-valves" },
-  { id: 11, image: "assets/img/portfolio/2-2.png", title: "UPVC & CPVC", link: "/upvc-cpvc" },
+  { id: 10, image: "assets/img/portfolio/2-2.png", title: "PVDF Pipe Fittings & Valves", link: "/pvdf-pipe-fittings-and-valves" },
+  { id: 11, image: "assets/img/portfolio/2-2.png", title: "UPVC & CPVC", link: "/upvc-andcpvc" },
   { id: 12, image: "assets/img/portfolio/2-2.png", title: "Scaffolding materials", link: "/scaffolding-materials" },
   { id: 13, image: "assets/img/portfolio/2-2.png", title: "Mud Pump and Spare Parts Assembly", link: "/mud-pump-and-spare-parts-assembly" },
   { id: 14, image: "assets/img/portfolio/2-2.png", title: "Crank Shaft Assembly for Mud Pump", link: "/crank-shaft-assembly-for-mud-pump" },
@@ -48,7 +48,7 @@ const PortfolioTwo = () => {
                 <img
                   className="title-bg-shape"
                   src="assets/img/bg/title-bg-shape.png"
-                  alt="Fixturbo"
+                  alt="Eram"
                 />
               </h2>
             </div>
@@ -107,7 +107,7 @@ const PortfolioTwo = () => {
               <div>
                 <div className="portfolio-card style2">
                   <div className="portfolio-card-thumb">
-                    <img src="assets/img/portfolio/2-1.png" alt="Fixturbo" />
+                    <img src="assets/img/portfolio/2-1.png" alt="Eram" />
                   </div>
                   <div className="portfolio-card-details">
                     <div className="media-left">
@@ -126,7 +126,7 @@ const PortfolioTwo = () => {
               <div>
                 <div className="portfolio-card style2">
                   <div className="portfolio-card-thumb">
-                    <img src="assets/img/portfolio/2-2.png" alt="Fixturbo" />
+                    <img src="assets/img/portfolio/2-2.png" alt="Eram" />
                   </div>
                   <div className="portfolio-card-details">
                     <div className="media-left">
@@ -145,7 +145,7 @@ const PortfolioTwo = () => {
               <div>
                 <div className="portfolio-card style2">
                   <div className="portfolio-card-thumb">
-                    <img src="assets/img/portfolio/2-3.png" alt="Fixturbo" />
+                    <img src="assets/img/portfolio/2-3.png" alt="Eram" />
                   </div>
                   <div className="portfolio-card-details">
                     <div className="media-left">
@@ -164,7 +164,7 @@ const PortfolioTwo = () => {
               <div>
                 <div className="portfolio-card style2">
                   <div className="portfolio-card-thumb">
-                    <img src="assets/img/portfolio/2-2.png" alt="Fixturbo" />
+                    <img src="assets/img/portfolio/2-2.png" alt="Eram" />
                   </div>
                   <div className="portfolio-card-details">
                     <div className="media-left">
@@ -183,7 +183,7 @@ const PortfolioTwo = () => {
               <div>
                 <div className="portfolio-card style2">
                   <div className="portfolio-card-thumb">
-                    <img src="assets/img/portfolio/2-3.png" alt="Fixturbo" />
+                    <img src="assets/img/portfolio/2-3.png" alt="Eram" />
                   </div>
                   <div className="portfolio-card-details">
                     <div className="media-left">
@@ -202,7 +202,7 @@ const PortfolioTwo = () => {
               <SwiperSlide key={item.id}>
                 <div className="portfolio-card style2">
                   <div className="portfolio-card-thumb">
-                    {<img src={item.image} alt="Fixturbo" />}
+                    {<img src={item.image} alt="Eram" />}
                   </div>
                   <div className="portfolio-card-details">
                     <div className="media-left">

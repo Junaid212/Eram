@@ -99,7 +99,7 @@ const HeaderThree = () => {
         <div className="menu-area">
           <div className="header-navbar-logo">
             <Link to="/">
-              <img src="assets/img/logo-white.svg" alt="Fixturbo" />
+              <img src="assets/img/logo-white.svg" alt="Eram" />
             </Link>
           </div>
           <div className="container">
@@ -107,7 +107,7 @@ const HeaderThree = () => {
               <div className="col-auto d-xl-none d-block">
                 <div className="header-logo">
                   <Link to="/">
-                    <img src="assets/img/logo-white.svg" alt="Fixturbo" />
+                    <img src="assets/img/logo-white.svg" alt="Eram" />
                   </Link>
                 </div>
               </div>
@@ -364,7 +364,7 @@ const HeaderThree = () => {
               <div className="col-auto ms-auto d-xl-block d-none">
                 <div className="header-button">
                   <div className="navbar-right-desc d-xxl-flex d-none">
-                    <img src="assets/img/icon/chat.svg" alt="Fixturbo" />
+                    <img src="assets/img/icon/chat.svg" alt="Eram" />
                     <div className="navbar-right-desc-details">
                       <h6 className="title">Need help?</h6>
                       <Link className="link" to="tel:+2590256215">
@@ -387,7 +387,7 @@ const HeaderThree = () => {
           <div className="mobile-menu-area">
             <div className="mobile-logo">
               <Link to="/">
-                <img src="assets/img/logo.svg" alt="Fixturbo" />
+                <img src="assets/img/logo.svg" alt="Eram" />
               </Link>
               <button className="menu-toggle" onClick={mobileMenu}>
                 <i className="fa fa-times" />

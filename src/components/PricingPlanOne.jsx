@@ -8,12 +8,12 @@ const PricingPlanOne = () => {
         <img
           className="about1-shape-img-1 spin"
           src="assets/img/normal/about_shape1-2.svg"
-          alt="Fixturbo"
+          alt="Eram"
         />
         <img
           className="about1-shape-img-2 spin2"
           src="assets/img/normal/about_shape1-1.svg"
-          alt="Fixturbo"
+          alt="Eram"
         />
       </div>
       <div className="container">
@@ -36,7 +36,7 @@ const PricingPlanOne = () => {
                   <span className="duration">/month</span>
                 </h3>
                 <div className="pricing-card_icon">
-                  <img src="assets/img/icon/picing-icon_1-1.svg" alt="Fixturbo" />
+                  <img src="assets/img/icon/picing-icon_1-1.svg" alt="Eram" />
                 </div>
               </div>
               <div className="pricing-card-details">
@@ -75,7 +75,7 @@ const PricingPlanOne = () => {
                   <span className="duration">/month</span>
                 </h3>
                 <div className="pricing-card_icon">
-                  <img src="assets/img/icon/picing-icon_1-2.svg" alt="Fixturbo" />
+                  <img src="assets/img/icon/picing-icon_1-2.svg" alt="Eram" />
                 </div>
               </div>
               <div className="pricing-card-details">
@@ -114,7 +114,7 @@ const PricingPlanOne = () => {
                   <span className="duration">/month</span>
                 </h3>
                 <div className="pricing-card_icon">
-                  <img src="assets/img/icon/picing-icon_1-3.svg" alt="Fixturbo" />
+                  <img src="assets/img/icon/picing-icon_1-3.svg" alt="Eram" />
                 </div>
               </div>
               <div className="pricing-card-details">
@@ -153,7 +153,7 @@ const PricingPlanOne = () => {
                   <span className="duration">/month</span>
                 </h3>
                 <div className="pricing-card_icon">
-                  <img src="assets/img/icon/picing-icon_1-4.svg" alt="Fixturbo" />
+                  <img src="assets/img/icon/picing-icon_1-4.svg" alt="Eram" />
                 </div>
               </div>
               <div className="pricing-card-details">

@@ -16,9 +16,9 @@ export default function Purpose({
     'assets/img/icon/20.png'   // Direct path from public folder
   ],
   imgList = [
-    'assets/img/icon/18.png',
-    'assets/img/icon/18.png',
-    'assets/img/icon/18.png'
+    'assets/img/intro/33.webp',
+    'assets/img/intro/34.webp',
+    'assets/img/intro/35.webp'
   ]
 }) {
   const [isOpen, setIsOpen] = useState(false);

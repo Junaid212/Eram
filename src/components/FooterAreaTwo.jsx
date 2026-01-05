@@ -11,7 +11,7 @@ const FooterAreaTwo = () => {
         <div className="footer-top-2">
           <div className="footer-logo">
             <Link to="/">
-              <img src="assets/img/logo-white.svg" alt="Fixturbo" />
+              <img src="assets/img/icon/14.png" alt="Eram" style={{height:"80px"}}/>
             </Link>
           </div>
           <h3 className="footer-top-title text-white">
@@ -37,7 +37,7 @@ const FooterAreaTwo = () => {
               <div className="widget footer-widget widget-about">
                 <h3 className="widget_title">About Us</h3>
                 <p className="footer-text mb-30">
-                  It is a long established fact that a reader will be distracted
+                  Eram is a purpose-driven, modern contracting company committed to professionalism, seamless processes, and value-driven spaces for every individual.
                 </p>
                 <div className="social-btn style3">
                   <Link to="https://www.instagram.com/" tabIndex={-1}>
@@ -57,20 +57,23 @@ const FooterAreaTwo = () => {
             </div>
             <div className="col-md-6 col-xl-auto">
               <div className="widget widget_nav_menu footer-widget">
-                <h3 className="widget_title">Company</h3>
+                <h3 className="widget_title">Quick Links</h3>
                 <div className="menu-all-pages-container">
                   <ul className="menu">
                     <li>
                       <Link to="/about">About</Link>
                     </li>
                     <li>
-                      <Link to="/team">Team</Link>
+                      <Link to="/services">Products</Link>
                     </li>
                     <li>
-                      <Link to="/contact">Faq</Link>
+                      <Link to="/contact">Career</Link>
                     </li>
                     <li>
-                      <Link to="/contact">Privacy Policy</Link>
+                      <Link to="/contact">Resources</Link>
+                    </li>
+                    <li>
+                      <Link to="/contact">Contact Us</Link>
                     </li>
                   </ul>
                 </div>
@@ -82,19 +85,22 @@ const FooterAreaTwo = () => {
                 <div className="menu-all-pages-container">
                   <ul className="menu">
                     <li>
-                      <Link to="/service">Mechanic Masters</Link>
+                      <Link to="/service">Fabrication</Link>
                     </li>
                     <li>
-                      <Link to="/service">Speedy Auto Repair</Link>
+                      <Link to="/service">Civil & Mechanical Contracts</Link>
                     </li>
                     <li>
-                      <Link to="/service">Mobile Car Repair</Link>
+                      <Link to="/service">Project Material Supply Management</Link>
                     </li>
                     <li>
-                      <Link to="/service">Pro Auto Fix</Link>
+                      <Link to="/service">Warehousing, Marshalling, & Logistics</Link>
                     </li>
                     <li>
-                      <Link to="/service">Precision Auto Works</Link>
+                      <Link to="/service">Maintenance, Repair, & Overhaul</Link>
+                    </li>
+                    <li>
+                      <Link to="/service">Technical Support & Value Added Services</Link>
                     </li>
                   </ul>
                 </div>
@@ -111,7 +117,7 @@ const FooterAreaTwo = () => {
                     <div className="contact-grid-details">
                       <p>Address</p>
                       <h6>
-                        66 Broklyant, New York
+                        Al Jubail, Saudi Arabia
                         <p />
                       </h6>
                     </div>
@@ -123,7 +129,7 @@ const FooterAreaTwo = () => {
                     <div className="contact-grid-details">
                       <p>Phone Number</p>
                       <h6>
-                        <Link to="tel:888123456765">012 345 678 9101</Link>
+                        <Link to="tel:+966 557639443">+966 557639443</Link>
                         <p />
                       </h6>
                     </div>
@@ -136,7 +142,7 @@ const FooterAreaTwo = () => {
                       <p>Email Address</p>
                       <h6>
                         <Link to="mailto:infoname@mail.com">
-                          abcd@gmail.com
+                          info@eramltd.com
                         </Link>
                         <p />
                       </h6>
@@ -153,16 +159,16 @@ const FooterAreaTwo = () => {
           <div className="row gy-3 justify-content-md-between justify-content-center">
             <div className="col-auto align-self-center">
               <p className="copyright-text text-center">
-                © <Link to="#">Fixturbo</Link> 2024 | All Rights Reserved
+                © <Link to="#">Eram</Link> 2024 | All Rights Reserved
               </p>
             </div>
-            <div className="col-auto">
+            {/* <div className="col-auto">
               <div className="footer-links">
                 <Link to="/contact">Tarms &amp; Condition</Link>
                 <Link to="/contact">Privacy Policy</Link>
                 <Link to="/contact">Contact Us</Link>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

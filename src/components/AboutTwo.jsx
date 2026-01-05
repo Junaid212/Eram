@@ -9,13 +9,13 @@ const AboutTwo = () => {
           <div className="col-xxl-7 col-xl-6">
             <div className="about-thumb2 mb-40 mb-xl-0">
               <div className="about-img-1">
-                <img src="assets/img/normal/about_2-1.png" alt="Fixturbo" />
+                <img src="assets/img/normal/about_2-1.png" alt="Eram" />
               </div>
               <div className="about-img-2">
-                <img src="assets/img/normal/about_2-2.png" alt="Fixturbo" />
+                <img src="assets/img/normal/about_2-2.png" alt="Eram" />
               </div>
               <div className="about-counter-wrap jump-reverse">
-                <img src="assets/img/icon/about_icon2-1.svg" alt="Fixturbo" />
+                <img src="assets/img/icon/about_icon2-1.svg" alt="Eram" />
                 <h3 className="about-counter">
                   <TrackVisibility once>
                     {({ isVisible }) =>
@@ -33,7 +33,7 @@ const AboutTwo = () => {
               <div className="about-year-wrap2 movingX">
                 <div className="about-year-grid-wrap">
                   <div className="icon">
-                    <img src="assets/img/icon/about_icon2-2.png" alt="Fixturbo" />
+                    <img src="assets/img/icon/about_icon2-2.png" alt="Eram" />
                   </div>
                   <h3 className="about-counter">
                     <span className="counter-number">10</span>+
@@ -52,7 +52,7 @@ const AboutTwo = () => {
                   <img
                     className="title-bg-shape shape-center"
                     src="assets/img/bg/title-bg-shape.png"
-                    alt="Fixturbo"
+                    alt="Eram"
                   />
                 </h2>
                 <p className="sec-text">
@@ -65,7 +65,7 @@ const AboutTwo = () => {
               </div>
               <div className="about-feature-wrap style-shadow">
                 <div className="icon">
-                  {/* <img src="assets/img/icon/about_icon2-3.svg" alt="Fixturbo" /> */}
+                  {/* <img src="assets/img/icon/about_icon2-3.svg" alt="Eram" /> */}
                 </div>
                 <div className="about-feature-wrap-details">
                   {/* <h5 className="about-feature-title">
@@ -78,7 +78,7 @@ const AboutTwo = () => {
               </div>
               {/* <div className="about-feature-wrap style-shadow">
                 <div className="icon">
-                  <img src="assets/img/icon/about_icon2-4.svg" alt="Fixturbo" />
+                  <img src="assets/img/icon/about_icon2-4.svg" alt="Eram" />
                 </div>
                 <div className="about-feature-wrap-details">
                   <h5 className="about-feature-title">Pro Drive Garage</h5>

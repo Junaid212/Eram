@@ -9,7 +9,7 @@ const TeamAreaTwoGrid = () => {
           <div className="col-lg-4 col-md-6">
             <div className="team-card style2">
               <div className="team-card_img">
-                <img src="assets/img/team/team-1-1.png" alt="Fixturbo" />
+                <img src="assets/img/team/team-1-1.png" alt="Eram" />
               </div>
               <div className="team-card_content">
                 <h4 className="team-card_title">
@@ -38,7 +38,7 @@ const TeamAreaTwoGrid = () => {
           <div className="col-lg-4 col-md-6">
             <div className="team-card style2">
               <div className="team-card_img">
-                <img src="assets/img/team/team-1-2.png" alt="Fixturbo" />
+                <img src="assets/img/team/team-1-2.png" alt="Eram" />
               </div>
               <div className="team-card_content">
                 <h4 className="team-card_title">
@@ -67,7 +67,7 @@ const TeamAreaTwoGrid = () => {
           <div className="col-lg-4 col-md-6">
             <div className="team-card style2">
               <div className="team-card_img">
-                <img src="assets/img/team/team-1-3.png" alt="Fixturbo" />
+                <img src="assets/img/team/team-1-3.png" alt="Eram" />
               </div>
               <div className="team-card_content">
                 <h4 className="team-card_title">
@@ -96,7 +96,7 @@ const TeamAreaTwoGrid = () => {
           <div className="col-lg-4 col-md-6">
             <div className="team-card style2">
               <div className="team-card_img">
-                <img src="assets/img/team/team-1-4.png" alt="Fixturbo" />
+                <img src="assets/img/team/team-1-4.png" alt="Eram" />
               </div>
               <div className="team-card_content">
                 <h4 className="team-card_title">
@@ -125,7 +125,7 @@ const TeamAreaTwoGrid = () => {
           <div className="col-lg-4 col-md-6">
             <div className="team-card style2">
               <div className="team-card_img">
-                <img src="assets/img/team/team-1-5.png" alt="Fixturbo" />
+                <img src="assets/img/team/team-1-5.png" alt="Eram" />
               </div>
               <div className="team-card_content">
                 <h4 className="team-card_title">
@@ -154,7 +154,7 @@ const TeamAreaTwoGrid = () => {
           <div className="col-lg-4 col-md-6">
             <div className="team-card style2">
               <div className="team-card_img">
-                <img src="assets/img/team/team-1-6.png" alt="Fixturbo" />
+                <img src="assets/img/team/team-1-6.png" alt="Eram" />
               </div>
               <div className="team-card_content">
                 <h4 className="team-card_title">
