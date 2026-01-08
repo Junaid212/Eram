@@ -9,8 +9,8 @@ const SubscribeOne = () => {
         style={{ backgroundImage: "url(assets/img/bg/footer-top-bg1-1.png)" }}
       >
         <div className="footer-logo">
-          <Link to="/">
-            <img src="assets/img/logo-white.svg" alt="Eram" />
+          <Link to="/electrical">
+            <img src="assets/img/icon/14.png" alt="Eram" style={{height:'70px'}}/>
           </Link>
         </div>
         <div className="call-media-wrap">
@@ -20,8 +20,8 @@ const SubscribeOne = () => {
           <div className="media-body">
             <h6 className="title text-white">Requesting A Call:</h6>
             <h4 className="link">
-              <a className="text-white" href="tel:6295550129">
-                (629) 555-0129
+              <a className="text-white" href="tel:+966592769880">
+                +966 59 276 9880
               </a>
             </h4>
           </div>

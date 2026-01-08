@@ -48,7 +48,7 @@ const HeaderThree = () => {
   };
   return (
     <header className="nav-header header-layout1">
-      <div className="header-top">
+      {/* <div className="header-top">
         <div className="container">
           <div className="row justify-content-center justify-content-lg-between align-items-center gy-2">
             <div className="col-auto d-none d-lg-block">
@@ -93,13 +93,13 @@ const HeaderThree = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className={`sticky-wrapper ${scroll && "sticky"}`}>
         {/* Main Menu Area */}
         <div className="menu-area">
           <div className="header-navbar-logo">
-            <Link to="/">
-              <img src="assets/img/logo-white.svg" alt="Eram" />
+            <Link to="/scaffolding">
+              <img src="assets/img/icon/14.png" alt="Eram" style={{  height: "70px" }} />
             </Link>
           </div>
           <div className="container">
@@ -114,9 +114,9 @@ const HeaderThree = () => {
               <div className="col-auto">
                 <nav className="main-menu d-none d-lg-inline-block">
                   <ul>
-                    <li className="menu-item-has-children">
-                      <Link to="#">Home</Link>
-                      <ul className="sub-menu">
+                    <li className="">
+                      <Link to="/scaffolding">Home</Link>
+                      {/* <ul className="sub-menu">
                         <li>
                           <NavLink
                             to="/"
@@ -177,7 +177,7 @@ const HeaderThree = () => {
                             Home 06
                           </NavLink>
                         </li>
-                      </ul>
+                      </ul> */}
                     </li>
                     <li>
                       <NavLink
@@ -190,7 +190,7 @@ const HeaderThree = () => {
                       </NavLink>
                     </li>
                     <li className="menu-item-has-children">
-                      <Link to="#">Services</Link>
+                      <Link to="#">Systems</Link>
                       <ul className="sub-menu">
                         <li>
                           <NavLink
@@ -215,7 +215,7 @@ const HeaderThree = () => {
                       </ul>
                     </li>
                     <li className="menu-item-has-children">
-                      <Link to="#">Projects</Link>
+                      <Link to="#">Services</Link>
                       <ul className="sub-menu">
                         <li>
                           <NavLink
@@ -240,7 +240,7 @@ const HeaderThree = () => {
                       </ul>
                     </li>
                     <li className="menu-item-has-children">
-                      <Link to="#">Blog</Link>
+                      <Link to="#">Resources</Link>
                       <ul className="sub-menu">
                         <li>
                           <NavLink
@@ -264,7 +264,7 @@ const HeaderThree = () => {
                         </li>
                       </ul>
                     </li>
-                    <li className="menu-item-has-children">
+                    {/* <li className="menu-item-has-children">
                       <Link to="#">Pages</Link>
                       <ul className="sub-menu">
                         <li>
@@ -338,7 +338,7 @@ const HeaderThree = () => {
                           </NavLink>
                         </li>
                       </ul>
-                    </li>
+                    </li> */}
                     <li>
                       <NavLink
                         to="/contact"

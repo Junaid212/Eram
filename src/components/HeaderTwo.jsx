@@ -58,34 +58,7 @@ const HeaderTwo = () => {
                 </Link>
               </div>
             </div>
-            {/* <div className="col-auto">
-              <div className="header-grid-info">
-                <ul>
-                  <li>
-                    <div className="icon">
-                      <i className="fas fa-clock" />
-                    </div>
-                    <div className="header-grid-info-details">
-                      <p>Sunday - Friday:</p>
-                      <h6>9 am - 8 pm</h6>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="icon">
-                      <i className="fas fa-map-marker-alt" />
-                    </div>
-                    <div className="header-grid-info-details">
-                      <p>6391 Elgin St. Celina, Delaware</p>
-                      <h6>Kentucky </h6>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div> */}
-          </div>
-        </div>
-      </div>
-      <div className={`sticky-wrapper ${scroll && "sticky"}`}>
+            <div className={`sticky-wrapper ${scroll && "sticky"}`}>
         {/* Main Menu Area */}
         <div className="menu-area">
           <div className="container">
@@ -671,6 +644,34 @@ const HeaderTwo = () => {
           </div>
         </div>
       </div>
+            {/* <div className="col-auto">
+              <div className="header-grid-info">
+                <ul>
+                  <li>
+                    <div className="icon">
+                      <i className="fas fa-clock" />
+                    </div>
+                    <div className="header-grid-info-details">
+                      <p>Sunday - Friday:</p>
+                      <h6>9 am - 8 pm</h6>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="icon">
+                      <i className="fas fa-map-marker-alt" />
+                    </div>
+                    <div className="header-grid-info-details">
+                      <p>6391 Elgin St. Celina, Delaware</p>
+                      <h6>Kentucky </h6>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div> */}
+          </div>
+        </div>
+      </div>
+      
     </header>
   );
 };

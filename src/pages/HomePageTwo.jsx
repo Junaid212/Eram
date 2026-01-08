@@ -1,22 +1,28 @@
 import React, { useEffect, useState } from "react";
-import HeaderOne from "../components/HeaderOne";
-import HeroOne from "../components/HeroOne";
-import CounterOne from "../components/CounterOne";
-import AboutOne from "../components/AboutOne";
-import ServiceAreaOne from "../components/ServiceAreaOne";
-import MarqueeOne from "../components/MarqueeOne";
-import PortfolioOne from "../components/PortfolioOne";
-import ClientAreaOne from "../components/ClientAreaOne";
-import PricingPlanOne from "../components/PricingPlanOne";
-import TeamAreaOne from "../components/TeamAreaOne";
-import CTAAreaOne from "../components/CTAAreaOne";
-import TestimonialOne from "../components/TestimonialOne";
-import ProcessAreaOne from "../components/ProcessAreaOne";
-import FaqAreaOne from "../components/FaqAreaOne";
-import BlogAreaOne from "../components/BlogAreaOne";
-import FooterAreaOne from "../components/FooterAreaOne";
-import SubscribeOne from "../components/SubscribeOne";
+import HeaderFive from "../components/HeaderFive";
+import HeroFour from "../components/HeroFour";
+import ServiceAreaTwo from "../components/ServiceAreaTwo";
+import AboutTwo from "../components/AboutTwo";
+import CounterTwo from "../components/CounterTwo";
+import PortfolioTwo from "../components/PortfolioTwo";
+import WhyChooseUsOne from "../components/WhyChooseUsOne";
+import ProcessAreaTwo from "../components/ProcessAreaTwo";
+import CTAAreaTwo from "../components/CTAAreaTwo";
+import PricingPlanTwo from "../components/PricingPlanTwo";
+import AppointmentAreaTwo from "../components/AppointmentAreaTwo";
+import TeamAreaTwo from "../components/TeamAreaTwo";
+import ClientAreaTwo from "../components/ClientAreaTwo";
+import FaqAreaTwo from "../components/FaqAreaTwo";
+import BlogAreaTwo from "../components/BlogAreaTwo";
+import FooterAreaTwo from "../components/FooterAreaTwo";
 import Preloader from "../helper/Preloader";
+import Banner from "../components/Banner";
+import Products from "../components/Products";
+import ServiceAreaThree from "../components/ServiceAreaThree";
+import Purpose from "../components/Purpose";
+import CTAAreaOne from "../components/CTAAreaOne";
+import Vision2030 from "../components/Vision2030";
+import FeatureAreaOne from "../components/FeatureAreaOne";
 
 const HomePageTwo = () => {
   let [active, setActive] = useState(true);
@@ -30,58 +36,64 @@ const HomePageTwo = () => {
       {/* Preloader */}
       {active === true && <Preloader />}
 
-      {/* Header one */}
-      <HeaderOne />
+      {/* Header Two */}
+      <HeaderFive />
 
-      {/* Hero One */}
-      <HeroOne />
+      {/* Hero Two */}
+      {/* <HeroTwo /> */}
+<Banner />
+<ServiceAreaThree />
 
-      {/* Counter One */}
-      <CounterOne />
+      {/* Service Area Two */}
+      <ServiceAreaTwo />
+      
+      <Products/>
+      <ProcessAreaTwo />
+      {/* <FeatureAreaOne /> */}
+{/* <CounterTwo /> */}
 
-      {/* About One */}
-      <AboutOne />
+      {/* About Two */}
+      {/* <div className="about-area-2 bg-smoke">
+        <AboutTwo />
+      </div> */}
 
-      {/* Service Area One */}
-      <ServiceAreaOne />
+      {/* Counter Two */}
+      {/* <CounterTwo /> */}
 
-      {/* Marquee One */}
-      <MarqueeOne />
+      {/* Portfolio Two */}
+      {/* <PortfolioTwo /> */}
 
-      {/* Portfolio One */}
-      <PortfolioOne />
+      {/* Why Choose Us One */}
+      {/* <WhyChooseUsOne /> */}
 
-      {/* Client Area One */}
-      <ClientAreaOne />
+      {/* Process Area Two */}
+      {/* <ProcessAreaTwo /> */}
 
-      {/* Pricing Plan One */}
-      <PricingPlanOne />
+      {/* CTA Area Two */}
+      {/* <CTAAreaTwo /> */}
 
-      {/* Team Area One */}
-      <TeamAreaOne />
+      {/* Pricing Plan Two */}
+      {/* <PricingPlanTwo /> */}
 
-      {/* CTA Area One */}
-      <CTAAreaOne />
+      {/* Appointment Area Two */}
+      {/* <AppointmentAreaTwo /> */}
 
-      {/* Testimonial One */}
-      <TestimonialOne />
+      {/* Team Area Two */}
+      {/* <TeamAreaTwo /> */}
 
-      {/* Process Area One */}
-      <ProcessAreaOne />
+      {/* Client Area Two */}
+      <Purpose/>
+      {/* <ClientAreaTwo /> */}
+      <Vision2030/>
+      {/* Faq Area Two */}
+      {/* <FaqAreaTwo /> */}
 
-      {/* Faq Area One */}
-      <FaqAreaOne />
-
-      {/* Blog Area One */}
-      <BlogAreaOne />
-
-      {/* Subscribe One */}
-      <SubscribeOne />
-
-      {/* Footer Area One */}
-      <FooterAreaOne />
+      {/* Blog Area Two */}
+      {/* <BlogAreaTwo /> */}
+<CTAAreaOne />
+      {/* Footer Area Two */}
+      <FooterAreaTwo />
     </>
   );
 };
-
 export default HomePageTwo;

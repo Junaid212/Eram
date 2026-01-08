@@ -146,7 +146,7 @@ export default function Policy() {
                   data-wow-delay="100ms"
                   data-wow-duration="2500ms"
                 >
-                  {/* <img src='/assets/images/shapes/contact-one-img-1.png' alt="Contact" /> */}
+                  <img src='/assets/img/service/43.webp' alt="Contact" />
                   <div className="contact-one__shape-2">
                     <img src='/assets/images/shapes/contact-one-shape-2.png' alt="Shape 2" />
                   </div>
@@ -177,7 +177,7 @@ export default function Policy() {
 .contact-one__left {
     position: relative;
     display: block;
-    margin: 110px 0 110px 0;
+    margin: 110px 0 80px 0;
     z-index: 1;
 }
 

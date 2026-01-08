@@ -11,6 +11,7 @@ import BlogAreaTwo from "../components/BlogAreaTwo";
 import SubscribeTwo from "../components/SubscribeTwo";
 import FooterAreaFour from "../components/FooterAreaFour";
 import Preloader from "../helper/Preloader";
+import HeaderFour from "../components/HeaderFour";
 
 const HomePageSix = () => {
   let [active, setActive] = useState(true);
@@ -25,7 +26,8 @@ const HomePageSix = () => {
       {active === true && <Preloader />}
 
       {/* Header Five */}
-      <HeaderFive />
+      {/* <HeaderFive /> */}
+      <HeaderFour />
 
       {/* Hero Six */}
       <HeroSix />

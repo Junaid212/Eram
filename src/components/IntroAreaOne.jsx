@@ -8,10 +8,10 @@ const IntroAreaOne = () => {
   return (
     <div
       className="intro-area-2 bg-overlay-2 space-bottom"
-      style={{ backgroundImage: "url(assets/img/intro/bg-2.png)" }}
+      style={{ backgroundImage: "url(assets/img/elect/92.webp)" }}
     >
       {/* fact area start */}
-      <div className="fact-area">
+      {/* <div className="fact-area">
         <div className="container">
           <div className="row gy-4 justify-content-center">
             <div className="col-lg-3 col-sm-6">
@@ -103,11 +103,13 @@ const IntroAreaOne = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* fact area end */}
       {/* intro area start */}
-      <div className="container space-top">
+      <div className="container space-top ">
         <div className="row global-carousel position-relative arrow-margin">
+          <span className="sub-title">Our Products</span>
+                <h2 className="sec-title" style={{color:'white'}}>Our Range of Awesome Products</h2>
           <Swiper
             loop={true}
             navigation={{
@@ -144,13 +146,13 @@ const IntroAreaOne = () => {
               <div>
                 <div className="single-intro-wrap">
                   <div className="thumb">
-                    <img src="assets/img/intro/4.png" alt="Eram" />
+                    <img src="assets/img/elect/59.webp" alt="Eram" />
                   </div>
                   <div className="details">
-                    <h3>Car Back Light</h3>
-                    <p>120 kinds of automobile lights</p>
+                    <h3>Temporary Camp Facility TCF</h3>
+                    {/* <p>120 kinds of automobile lights</p> */}
                     <Link className="btn" to="/shop">
-                      Shop Now <i className="ri-arrow-right-line" />
+                      See More <i className="ri-arrow-right-line" />
                     </Link>
                   </div>
                 </div>
@@ -160,13 +162,13 @@ const IntroAreaOne = () => {
               <div>
                 <div className="single-intro-wrap">
                   <div className="thumb">
-                    <img src="assets/img/intro/5.png" alt="Eram" />
+                    <img src="assets/img/elect/60.webp" alt="Eram" />
                   </div>
                   <div className="details">
-                    <h3>Car Steering Wheel</h3>
-                    <p>120 kinds of automobile lights</p>
+                    <h3>Customised Panelboard System</h3>
+                    {/* <p>120 kinds of automobile lights</p> */}
                     <Link className="btn" to="/shop">
-                      Shop Now <i className="ri-arrow-right-line" />
+                      See More <i className="ri-arrow-right-line" />
                     </Link>
                   </div>
                 </div>
@@ -176,13 +178,15 @@ const IntroAreaOne = () => {
               <div>
                 <div className="single-intro-wrap style-2">
                   <div className="thumb">
-                    <img src="assets/img/intro/6.png" alt="Eram" />
+                    <img src="assets/img/elect/61.webp" alt="Eram" />
                   </div>
                   <div className="details">
-                    <h3>Car Body &amp; Engine</h3>
-                    <p>120 kinds of automobile lights</p>
+                    <h3>Breakers -
+Contactors -
+Relays - Timers</h3>
+                    {/* <p>120 kinds of automobile lights</p> */}
                     <Link className="btn" to="/shop">
-                      Shop Now <i className="ri-arrow-right-line" />
+                      See More <i className="ri-arrow-right-line" />
                     </Link>
                   </div>
                 </div>
@@ -192,13 +196,13 @@ const IntroAreaOne = () => {
               <div>
                 <div className="single-intro-wrap">
                   <div className="thumb">
-                    <img src="assets/img/intro/4.png" alt="Eram" />
+                    <img src="assets/img/elect/62.webp" alt="Eram" />
                   </div>
                   <div className="details">
-                    <h3>Car Back Light</h3>
-                    <p>120 kinds of automobile lights</p>
+                    <h3>Cables</h3>
+                    {/* <p>120 kinds of automobile lights</p> */}
                     <Link className="btn" to="/shop">
-                      Shop Now <i className="ri-arrow-right-line" />
+                      See More <i className="ri-arrow-right-line" />
                     </Link>
                   </div>
                 </div>
@@ -208,13 +212,15 @@ const IntroAreaOne = () => {
               <div>
                 <div className="single-intro-wrap">
                   <div className="thumb">
-                    <img src="assets/img/intro/5.png" alt="Eram" />
+                    <img src="assets/img/elect/63.webp" alt="Eram" />
                   </div>
                   <div className="details">
-                    <h3>Car Steering Wheel</h3>
-                    <p>120 kinds of automobile lights</p>
+                    <h3>Cable Lugs -
+Cable Glands -
+Ferrules</h3>
+                    {/* <p>120 kinds of automobile lights</p> */}
                     <Link className="btn" to="/shop">
-                      Shop Now <i className="ri-arrow-right-line" />
+                      See More <i className="ri-arrow-right-line" />
                     </Link>
                   </div>
                 </div>
@@ -224,13 +230,114 @@ const IntroAreaOne = () => {
               <div>
                 <div className="single-intro-wrap style-2">
                   <div className="thumb">
-                    <img src="assets/img/intro/6.png" alt="Eram" />
+                    <img src="assets/img/elect/64.webp" alt="Eram" />
                   </div>
                   <div className="details">
-                    <h3>Car Body &amp; Engine</h3>
-                    <p>120 kinds of automobile lights</p>
+                    <h3>Cable Tray, Cable Cleats & Cable Ties</h3>
+                    {/* <p>120 kinds of automobile lights</p> */}
                     <Link className="btn" to="/shop">
-                      Shop Now <i className="ri-arrow-right-line" />
+                      See More <i className="ri-arrow-right-line" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div>
+                <div className="single-intro-wrap style-2">
+                  <div className="thumb">
+                    <img src="assets/img/elect/65.webp" alt="Eram" />
+                  </div>
+                  <div className="details">
+                    <h3>MTS - Safety
+Switch -
+Transformer</h3>
+                    {/* <p>120 kinds of automobile lights</p> */}
+                    <Link className="btn" to="/shop">
+                      See More <i className="ri-arrow-right-line" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div>
+                <div className="single-intro-wrap style-2">
+                  <div className="thumb">
+                    <img src="assets/img/elect/66.webp" alt="Eram" />
+                  </div>
+                  <div className="details">
+                    <h3>Industrial Plugs
+& Sockets</h3>
+                    {/* <p>120 kinds of automobile lights</p> */}
+                    <Link className="btn" to="/shop">
+                      See More <i className="ri-arrow-right-line" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div>
+                <div className="single-intro-wrap style-2">
+                  <div className="thumb">
+                    <img src="assets/img/elect/67.webp" alt="Eram" />
+                  </div>
+                  <div className="details">
+                    <h3>Grounding -Lightning</h3>
+                    {/* <p>120 kinds of automobile lights</p> */}
+                    <Link className="btn" to="/shop">
+                      See More <i className="ri-arrow-right-line" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div>
+                <div className="single-intro-wrap style-2">
+                  <div className="thumb">
+                    <img src="assets/img/elect/68.webp" alt="Eram" />
+                  </div>
+                  <div className="details">
+                    <h3>Lighting System</h3>
+                    {/* <p>120 kinds of automobile lights</p> */}
+                    <Link className="btn" to="/shop">
+                      See More <i className="ri-arrow-right-line" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div>
+                <div className="single-intro-wrap style-2">
+                  <div className="thumb">
+                    <img src="assets/img/elect/69.webp" alt="Eram" />
+                  </div>
+                  <div className="details">
+                    <h3>Wiring Devices</h3>
+                    {/* <p>120 kinds of automobile lights</p> */}
+                    <Link className="btn" to="/shop">
+                      See More <i className="ri-arrow-right-line" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div>
+                <div className="single-intro-wrap style-2">
+                  <div className="thumb">
+                    <img src="assets/img/elect/70.webp" alt="Eram" />
+                  </div>
+                  <div className="details">
+                    <h3>EMT - PVC
+Conduits &
+Accessories</h3>
+                    {/* <p>120 kinds of automobile lights</p> */}
+                    <Link className="btn" to="/shop">
+                      See More <i className="ri-arrow-right-line" />
                     </Link>
                   </div>
                 </div>

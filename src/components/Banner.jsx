@@ -9,7 +9,7 @@ const Banner = ()=> {
 <div class="wrap">
   <div class="wrapv">
     <div class="vertical">
-      <img src="assets/img/icon/13.png" alt="Eram"/>
+      <img src="assets/img/elect/eram.png" alt="Eram"/>
     </div>
   </div>
           <div className="portfolio-area-1 overflow-hidden" id="portfolio-area-1">
@@ -238,7 +238,7 @@ Performance
   right: 95%;
   color: #ffb8c2;
   padding-top: 1vw;
-  padding-right: 0vw;
+  padding-right: 9vw;
   font-size: 20vw;
   white-space: nowrap;
   text-transform: uppercase;
@@ -252,6 +252,9 @@ Performance
   height: 500px;
   width: 850px;
 }
+  .vertical img{
+    height: 320px !important;
+  }
 
 .wrap {
   width: 100vw;
@@ -288,8 +291,7 @@ color: white;
      margin-left: -220px;
      }
     .vertical {
-  padding-top: 2vw;
-  padding-right: 20vw;
+  padding-right: 31vw;
   font-size: 20vw;
   height: 230px;
   width: 760px;
@@ -297,6 +299,9 @@ color: white;
 #title-area{
     margin-top: 30px !important;
 }
+     .vertical img{
+    margin-top: -130px;
+  }
 }
 
 `}</style>

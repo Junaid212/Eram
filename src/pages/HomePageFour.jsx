@@ -13,6 +13,14 @@ import BlogAreaTwo from "../components/BlogAreaTwo";
 import SubscribeOne from "../components/SubscribeOne";
 import FooterAreaOne from "../components/FooterAreaOne";
 import Preloader from "../helper/Preloader";
+import HeroScaffold from "../components/HeroScaffold";
+import ScaffService from "../components/ScaffService";
+import FooterTwo from "../components/FooterTwo";
+import CTAAreaOne from "../components/CTAAreaOne";
+import Vision2030 from "../components/Vision2030";
+import Purpose from "../components/Purpose";
+import PortfolioFour from "../components/PortfolioFour";
+import FooterThree from "../components/FooterThree";
 
 const HomePageFour = () => {
   let [active, setActive] = useState(true);
@@ -28,42 +36,47 @@ const HomePageFour = () => {
 
       {/* Header Three */}
       <HeaderThree />
+      {/* <HeroScaffold /> */}
 
       {/* Hero Four */}
       <HeroFour />
-
+      <ScaffService />
       {/* Service Area Two */}
-      <ServiceAreaTwo />
+      {/* <ServiceAreaTwo /> */}
 
       {/* About Four */}
-      <AboutFour />
+      {/* <AboutFour /> */}
 
       {/* Portfolio Two */}
-      <PortfolioTwo />
-
+      <PortfolioFour />
+<ProcessAreaTwo />
       {/* Process Area Two */}
-      <ProcessAreaTwo />
+      {/* <ProcessAreaTwo /> */}
 
       {/* CTA Area Two */}
-      <CTAAreaTwo />
+      {/* <CTAAreaTwo /> */}
 
       {/* Pricing Plan Two */}
-      <PricingPlanTwo />
+      {/* <PricingPlanTwo /> */}
 
       {/* Client Area three */}
-      <ClientAreaThree />
+      {/* <ClientAreaThree /> */}
 
       {/* Faq Area Two */}
-      <FaqAreaTwo />
+      {/* <FaqAreaTwo /> */}
 
       {/* Blog Area Two */}
-      <BlogAreaTwo />
+      {/* <BlogAreaTwo /> */}
 
       {/* Subscribe One */}
-      <SubscribeOne />
+      {/* <SubscribeOne /> */}
 
       {/* Footer Area One */}
-      <FooterAreaOne />
+      {/* <FooterAreaOne /> */}
+      <Purpose/>
+      <Vision2030/>
+      <CTAAreaOne />
+      <FooterThree />
     </>
   );
 };

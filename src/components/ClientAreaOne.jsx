@@ -6,10 +6,12 @@ const ClientAreaOne = () => {
   return (
     <div
       className="client-bg-area"
-      style={{ backgroundImage: "url(assets/img/bg/client-bg1-1.png)" }}
+      // style={{ backgroundImage: "url(assets/img/bg/client-bg1-1.png)" }}
     >
+      
       <div className="client-area-1 text-center">
         <div className="container">
+          <h2 >Our Brands</h2>
           <div className="row global-carousel">
             <Swiper
               spaceBetween={20}
@@ -42,7 +44,7 @@ const ClientAreaOne = () => {
                 <div className="col-lg-auto">
                   <div className="client-logo">
                     <Link to="/">
-                      <img src="assets/img/client/1-1.png" alt="Eram" />
+                      <img src="assets/img/elect/77.webp" alt="Eram" />
                     </Link>
                   </div>
                 </div>
@@ -51,7 +53,7 @@ const ClientAreaOne = () => {
                 <div className="col-lg-auto">
                   <div className="client-logo">
                     <Link to="/">
-                      <img src="assets/img/client/1-2.png" alt="Eram" />
+                      <img src="assets/img/elect/78.webp" alt="Eram" />
                     </Link>
                   </div>
                 </div>
@@ -60,7 +62,7 @@ const ClientAreaOne = () => {
                 <div className="col-lg-auto">
                   <div className="client-logo">
                     <Link to="/">
-                      <img src="assets/img/client/1-3.png" alt="Eram" />
+                      <img src="assets/img/elect/79.webp" alt="Eram" />
                     </Link>
                   </div>
                 </div>
@@ -69,7 +71,7 @@ const ClientAreaOne = () => {
                 <div className="col-lg-auto">
                   <div className="client-logo">
                     <Link to="/">
-                      <img src="assets/img/client/1-4.png" alt="Eram" />
+                      <img src="assets/img/elect/80.webp" alt="Eram" />
                     </Link>
                   </div>
                 </div>
@@ -78,7 +80,7 @@ const ClientAreaOne = () => {
                 <div className="col-lg-auto">
                   <div className="client-logo">
                     <Link to="/">
-                      <img src="assets/img/client/1-5.png" alt="Eram" />
+                      <img src="assets/img/elect/81.webp" alt="Eram" />
                     </Link>
                   </div>
                 </div>
@@ -87,7 +89,7 @@ const ClientAreaOne = () => {
                 <div className="col-lg-auto">
                   <div className="client-logo">
                     <Link to="/">
-                      <img src="assets/img/client/1-1.png" alt="Eram" />
+                      <img src="assets/img/elect/82.webp" alt="Eram" />
                     </Link>
                   </div>
                 </div>
@@ -96,7 +98,7 @@ const ClientAreaOne = () => {
                 <div className="col-lg-auto">
                   <div className="client-logo">
                     <Link to="/">
-                      <img src="assets/img/client/1-2.png" alt="Eram" />
+                      <img src="assets/img/elect/83.webp" alt="Eram" />
                     </Link>
                   </div>
                 </div>
@@ -105,7 +107,7 @@ const ClientAreaOne = () => {
                 <div className="col-lg-auto">
                   <div className="client-logo">
                     <Link to="/">
-                      <img src="assets/img/client/1-3.png" alt="Eram" />
+                      <img src="assets/img/elect/84.webp" alt="Eram" />
                     </Link>
                   </div>
                 </div>
@@ -114,7 +116,7 @@ const ClientAreaOne = () => {
                 <div className="col-lg-auto">
                   <div className="client-logo">
                     <Link to="/">
-                      <img src="assets/img/client/1-4.png" alt="Eram" />
+                      <img src="assets/img/elect/85.webp" alt="Eram" />
                     </Link>
                   </div>
                 </div>
@@ -123,7 +125,7 @@ const ClientAreaOne = () => {
                 <div className="col-lg-auto">
                   <div className="client-logo">
                     <Link to="/">
-                      <img src="assets/img/client/1-5.png" alt="Eram" />
+                      <img src="assets/img/elect/86.webp" alt="Eram" />
                     </Link>
                   </div>
                 </div>
@@ -135,7 +137,7 @@ const ClientAreaOne = () => {
       {/*==============================
     Appointment Area  
     ==============================*/}
-      <div className="appointment-area-1 overflow-hidden">
+      {/* <div className="appointment-area-1 overflow-hidden">
         <div className="container">
           <div className="row">
             <div className="col-lg-7">
@@ -226,7 +228,7 @@ const ClientAreaOne = () => {
             alt="Eram"
           />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

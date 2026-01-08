@@ -9,10 +9,21 @@ const AboutTwo = () => {
           <div className="col-xxl-7 col-xl-6">
             <div className="about-thumb2 mb-40 mb-xl-0">
               <div className="about-img-1">
-                <img src="assets/img/normal/about_2-1.png" alt="Eram" />
+                <img src="assets/img/normal/47.webp" alt="Eram" />
               </div>
               <div className="about-img-2">
-                <img src="assets/img/normal/about_2-2.png" alt="Eram" />
+                <img src="assets/img/normal/48.webp" alt="Eram" />
+                <style>{`
+                  .about-img-2 {
+                    height: 407px !important;
+                    padding: 0 250px 0 20px;
+                  }
+                    @media (max-width: 768px) {
+                      .about-img-2 {
+                        padding: 0 0px 0 20px;
+                      }
+                    }
+                `}</style>
               </div>
               <div className="about-counter-wrap jump-reverse">
                 <img src="assets/img/icon/about_icon2-1.svg" alt="Eram" />

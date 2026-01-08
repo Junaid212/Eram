@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import HeaderOne from "./../components/HeaderOne";
+import HeaderTwo from "./../components/HeaderTwo";
 import HeroThree from "../components/HeroThree";
 import FeatureAreaOne from "../components/FeatureAreaOne";
 import AboutThree from "../components/AboutThree";
@@ -15,6 +15,13 @@ import BlogAreaThree from "../components/BlogAreaThree";
 import FooterAreaOne from "../components/FooterAreaOne";
 import SubscribeOne from "../components/SubscribeOne";
 import Preloader from "../helper/Preloader";
+import HeaderSix from "../components/HeaderSix";
+import AboutFive from "../components/AboutFive";
+import IntroAreaTwo from "../components/IntroAreaTwo";
+import ServiceAreaThree from "../components/ServiceAreaThree";
+import ClientAreaOne from "../components/ClientAreaOne";
+import CTAAreaTwo from "../components/CTAAreaTwo";
+import FooterTwo from "../components/FooterTwo";
 
 const HomePageThree = () => {
   let [active, setActive] = useState(true);
@@ -28,51 +35,54 @@ const HomePageThree = () => {
       {/* Preloader */}
       {active === true && <Preloader />}
 
-      {/* Header Two */}
-      <HeaderOne />
+      {/* Header Six */}
+      <HeaderSix />
 
       {/* Hero Three */}
       <HeroThree />
 
       {/* Feature Area One */}
-      <FeatureAreaOne />
+      {/* <FeatureAreaOne /> */}
 
       {/* About Three */}
-      <AboutThree />
+      <AboutFive />
 
       {/* Intro Area One */}
       <IntroAreaOne />
+      <MarqueeOne />
+      <IntroAreaTwo />
 
       {/* Service Area One */}
-      <ServiceAreaOne />
+      {/* <ServiceAreaOne /> */}
 
       {/* Portfolio Two */}
-      <PortfolioTwo />
+      {/* <PortfolioTwo /> */}
 
       {/* Faq Area Two */}
-      <FaqAreaTwo />
+      {/* <FaqAreaTwo /> */}
 
       {/* Marquee One */}
 
-      <MarqueeOne />
+      <CTAAreaTwo />
 
       {/* TeamAreaThree */}
-      <TeamAreaThree />
+      {/* <TeamAreaThree /> */}
 
       {/* CTA Area One */}
-      <CTAAreaOne />
+      {/* <CTAAreaOne /> */}
 
       {/* Testimonial One */}
-      <TestimonialOne />
+      {/* <TestimonialOne /> */}
 
       {/* Blog Area Three */}
-      <BlogAreaThree />
-
+      {/* <BlogAreaThree /> */}
+      <ClientAreaOne />
       {/* Subscribe One */}
-      <SubscribeOne />
+      {/* <SubscribeOne /> */}
 
+      {/* <ServiceAreaThree /> */}
       {/* Footer Area One */}
-      <FooterAreaOne />
+      <FooterTwo />
     </>
   );
 };

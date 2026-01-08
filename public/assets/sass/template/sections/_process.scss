@@ -108,7 +108,7 @@
 /* Process Area 2 ---------------------------------- */
 .process-area-2 {
   background-size: cover;
-  padding-bottom: calc(120px + 175px);
+  padding-bottom: calc(120px + 0px);
   @include md {
     padding-bottom: calc(80px + 175px);
   }
@@ -147,9 +147,9 @@
   .process-card-number {
     background: $theme-color;
     display: inline-block;
-    border-radius: 5px;
+    border-radius: 999px;
     padding: 19px 20px;
-    min-width: 217px;
+    // min-width: 217px;
     font-size: 26px;
     font-weight: 900;
     font-family: $title-font;

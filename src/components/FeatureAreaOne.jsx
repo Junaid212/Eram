@@ -2,7 +2,7 @@ import React from "react";
 
 const FeatureAreaOne = () => {
   return (
-    <div className="feature-area-1">
+    <div className="feature-area-1" style={{marginBottom:'-80px'}}>
       <div className="container">
         <div className="row gy-4 justify-content-center">
           <div className="col-xl-3">

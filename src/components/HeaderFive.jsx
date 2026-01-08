@@ -154,7 +154,7 @@ const HeaderFive = () => {
             <div className="row align-items-center justify-content-between">
               <div className="col-auto  d-block">
                 <div className="header-logo">
-                  <Link to="/">
+                  <Link to="/mechanical">
                     <img src="assets/img/icon/14.png" alt="Eram" style={{height:'80px'}}/>
                   </Link>
                 </div>
@@ -186,7 +186,7 @@ const HeaderFive = () => {
                 <nav className="main-menu d-none d-lg-inline-block">
                   <ul>
                     <li className="">
-                      <Link to="/">Home</Link>
+                      <Link to="/mechanical">Home</Link>
                       {/* <ul className="sub-menu">
                         <li>
                           <NavLink
@@ -325,31 +325,150 @@ const HeaderFive = () => {
                     </li>
                   </ul>
                 </li>
-                    <li className="menu-item-has-children">
-                      <Link to="/products">Products</Link>
-                      {/* <ul className="sub-menu">
-                        <li>
-                          <NavLink
-                            to="/project"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            Projects
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to="/project-details"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            Projects Details
-                          </NavLink>
-                        </li>
-                      </ul> */}
-                    </li>
+                    <li className="menu-item-has-children products-menu">
+  <Link to="/products">Products</Link>
+
+   <ul className="sub-menu products-grid" id="product-grid">
+    {[
+      { name: "Flanges", link: "/flanges" },
+      { name: "Fasteners", link: "/fasteners" },
+      { name: "Stainless Steel Pipes", link: "/stainless-steel-pipes" },
+      { name: "PVDF Pipe Fittings & Valves", link: "/pvdf-pipe-fittings-valves" },
+
+      { name: "Carbon Steel Pipes", link: "/carbon-steel-pipes" },
+      { name: "UPVC & CPVC", link: "/upvc-cpvc" },
+      { name: "Butt-Weld Fittings", link: "/butt-weld-fittings" },
+      { name: "Mud Pump And Spare Parts Assembly", link: "/mud-pump-spares" },
+
+      { name: "Forged Fittings", link: "/forged-fittings" },
+      { name: "Crank Shaft Assembly For Mud Pump", link: "/mud-pump-crank-shaft" },
+      { name: "Valves", link: "/valves" },
+      { name: "Pinion Shaft Assembly For Mud Pump", link: "/mud-pump-pinion-shaft" },
+
+      { name: "Instrumentation Tube Fitting", link: "/instrumentation-tube-fitting" },
+      { name: "Cast Iron Dww Pipe Fittings System", link: "/cast-iron-dww" },
+      { name: "Transmission Spare Parts", link: "/transmission-spare-parts" },
+      { name: "Hydraulic Cylinder Assembly For Mud Pump", link: "/hydraulic-cylinder-mud-pump" },
+
+      { name: "Oil Field Clutch", link: "/oil-field-clutch" },
+      { name: "Mud Pump Fluid End Parts", link: "/mud-pump-fluid-end" },
+      { name: "PS Series Hydraulic Disc Brake", link: "/ps-hydraulic-disc-brake" },
+      { name: "Mud Pump Crosshead Assembly", link: "/mud-pump-crosshead" },
+
+      { name: "Drilling Rig And Spare Parts", link: "/drilling-rig-spares" },
+      { name: "Pulsation Dampener Assembly For Mud Pump", link: "/pulsation-dampener" },
+      { name: "BOP Hoisting Equipment", link: "/bop-hoisting-equipment" },
+      { name: "Downhole Tool", link: "/downhole-tools" },
+
+      { name: "Relief Valve For Mud Pump", link: "/mud-pump-relief-valve" },
+      { name: "Oil Tube And Casing Pipe", link: "/oil-tube-casing-pipe" },
+      { name: "Spray Lubrication System For Mud Pump", link: "/spray-lubrication-system" },
+      { name: "Pressure Transmitters & Transducers Portfolio", link: "/pressure-transmitters" },
+
+      { name: "Discharge Strainer And Auxiliary Piping For Mud Pump", link: "/discharge-strainer-auxiliary-piping" }
+    ].map((item, index) => (
+      <li key={index}>
+        <NavLink
+          to={item.link}
+          className={(navData) => (navData.isActive ? "active" : "")}
+        >
+          {item.name}
+        </NavLink>
+      </li>
+    ))}
+  </ul>
+
+  {/* Inline CSS */}
+  <style>{`
+    /* Parent positioning */
+    .products-menu {
+      position: relative;
+    }
+
+    /* Center & adjust width for 4 columns */
+    #product-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0px 2px;
+      width: 1100px;              /* Increased width to accommodate 4 columns */
+      max-width: 90vw;           /* Don't exceed viewport width */
+      padding: 5px 5px;
+      position: absolute;
+      left: -370%;
+      transform: translateX(-50%);
+      background: white;
+      border: 1px solid #ddd;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      z-index: 1000;
+      margin-top: 0px;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s, visibility 0.3s;
+    }
+
+    /* Show the dropdown on hover */
+    .products-menu:hover #product-grid {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .products-grid li {
+      list-style: none;
+      padding: 1px 0;
+    }
+
+    .products-grid li a {
+      display: block;
+      font-size: 13.5px;
+      line-height: 0.7;
+      white-space: normal;
+      padding: 5px 8px;
+      color: #333;
+      text-decoration: none;
+      transition: background-color 0.2s;
+    }
+
+    .products-grid li a:hover {
+      background-color: #f5f5f5;
+    }
+
+    .products-grid li a.active {
+      font-weight: bold;
+      color: #007bff;
+    }
+
+    /* Tablet */
+    @media (max-width: 1024px) {
+      #product-grid {
+        width: 95%;
+        grid-template-columns: repeat(3, 1fr);
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+
+    /* Mobile */
+    @media (max-width: 768px) {
+      #product-grid {
+        position: static;
+        transform: none;
+        width: 100%;
+        grid-template-columns: 1fr;
+        margin-top: 0;
+        padding: 10px;
+        box-shadow: none;
+        border: none;
+        opacity: 1;
+        visibility: visible;
+      }
+      
+      .products-menu:hover #product-grid {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  `}</style>
+</li>
                     {/* <li className="menu-item-has-children">
                       <Link to="#">Blog</Link>
                       <ul className="sub-menu">
@@ -512,7 +631,7 @@ const HeaderFive = () => {
           <div className="mobile-menu-area">
             <div className="mobile-logo">
               <Link to="/">
-                <img src="assets/img/logo.svg" alt="Eram" />
+                <img src="assets/img/icon/14.png" alt="Eram" />
               </Link>
               <button className="menu-toggle" onClick={mobileMenu}>
                 <i className="fa fa-times" />
