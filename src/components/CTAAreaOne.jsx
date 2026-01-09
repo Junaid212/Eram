@@ -20,7 +20,7 @@ const CTAAreaOne = () => {
             </div>
             <div className="col-md-auto">
               <div className="title-area mb-0">
-                <Link className="btn" to="/contact">
+                <Link className="btn" to="/mechanical/contact">
                   View More <i className="fas fa-arrow-right ms-2" />
                 </Link>
               </div>

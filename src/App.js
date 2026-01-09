@@ -38,6 +38,7 @@ import InstrumentationTubeFittings from "./pages/InstrumentationTubeFittings";
 import CarIronDww from "./pages/CarIronDww";
 import PVDFPipeFittings from "./pages/PVDFPipeFittings";
 import UpvcandCpvc from "./pages/UpvcandCpvc";
+import AboutPage2 from "./pages/AboutPage2";
 
 function App() {
   return (
@@ -51,10 +52,10 @@ function App() {
         <Route exact path="/scaffolding" element={<HomePageFour />} />
         <Route exact path="/home-5" element={<HomePageFive />} />
         <Route exact path="/project-support-services/" element={<HomePageSix />} />
-        <Route exact path="/about" element={<AboutPage />} />
-        <Route exact path="/service" element={<ServicePage />} />
+        <Route exact path="/mechanical/about" element={<AboutPage />} />
+        <Route exact path="/mechanical/service" element={<ServicePage />} />
         <Route exact path="/service-details" element={<ServiceDetailsPage />} />
-        <Route exact path="/products" element={<ProjectPage />} />
+        <Route exact path="/mechanical/products" element={<ProjectPage />} />
         <Route exact path="/project-details" element={<ProjectDetailsPage />} />
         <Route exact path="/blog" element={<BlogPage />} />
         <Route exact path="/blog-details" element={<BlogDetailsPage />} />
@@ -65,27 +66,30 @@ function App() {
         <Route exact path="/cart" element={<CartPage />} />
         <Route exact path="/checkout" element={<CheckoutPage />} />
         <Route exact path="/wishlist" element={<WishlistPage />} />
-        <Route exact path="/contact" element={<ContactPage />} />
+        <Route exact path="/mechanical/contact" element={<ContactPage />} />
 
         {/* Service Details */}
-        <Route exact path="/fabrication" element={<FabricationPage />} />
-        <Route exact path="/civil-mechanical" element={<CivilandMechanicalPage />} />
-        <Route exact path="/material-supply" element={<MaterialSupply />} />
-        <Route exact path="/warehousing" element={<WarehousingPage />} />
-        <Route exact path="/maintenance" element={<MaintenancePage />} />
-        <Route exact path="/technical-support" element={<TechnicalPage />} />
+        <Route exact path="/mechanical/fabrication" element={<FabricationPage />} />
+        <Route exact path="/mechanical/civil-mechanical" element={<CivilandMechanicalPage />} />
+        <Route exact path="/mechanical/material-supply" element={<MaterialSupply />} />
+        <Route exact path="/mechanical/warehousing" element={<WarehousingPage />} />
+        <Route exact path="/mechanical/maintenance" element={<MaintenancePage />} />
+        <Route exact path="/mechanical/technical-support" element={<TechnicalPage />} />
 
         {/* Product Details */}
-        <Route exact path="/flanges" element={<Flanges />} />
-        <Route exact path="/stainless-steel-pipes" element={<StainlessSteel />} />
-        <Route exact path="/carbon-steel-pipes" element={<CarbonSteelPipe />} />
-        <Route exact path="/butt-weld-fittings" element={<ButtWeldFittings />} />
-        <Route exact path="/forged-fittings" element={<ForgedFittings />} />
-        <Route exact path="/valves" element={<Valves />} />
-        <Route exact path="/instrumentation-tube-fittings" element={<InstrumentationTubeFittings />} />
-        <Route exact path="/cast-iron-dww-pipe-fittings" element={<CarIronDww />} />
-        <Route exact path="/pvdf-pipe-fittings-and-valves" element={<PVDFPipeFittings />} />
-        <Route exact path="/upvc-and-cpvc" element={<UpvcandCpvc />} />
+        <Route exact path="/mechanical/flanges" element={<Flanges />} />
+        <Route exact path="/mechanical/stainless-steel-pipes" element={<StainlessSteel />} />
+        <Route exact path="/mechanical/carbon-steel-pipes" element={<CarbonSteelPipe />} />
+        <Route exact path="/mechanical/butt-weld-fittings" element={<ButtWeldFittings />} />
+        <Route exact path="/mechanical/forged-fittings" element={<ForgedFittings />} />
+        <Route exact path="/mechanical/valves" element={<Valves />} />
+        <Route exact path="/mechanical/instrumentation-tube-fittings" element={<InstrumentationTubeFittings />} />
+        <Route exact path="/mechanical/cast-iron-dww-pipe-fittings" element={<CarIronDww />} />
+        <Route exact path="/mechanical/pvdf-pipe-fittings-and-valves" element={<PVDFPipeFittings />} />
+        <Route exact path="/mechanical/upvc-and-cpvc" element={<UpvcandCpvc />} />
+
+        {/* About Pages */}
+        <Route exact path="/electrical/about" element={<AboutPage2 />} />
       </Routes>
     </BrowserRouter>
   );

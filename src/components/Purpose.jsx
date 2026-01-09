@@ -385,7 +385,20 @@ button.video-popup {
     .banner-two__img-list {
     flex-wrap: nowrap
     }
+    .banner-two__title {
+        font-size: 30px;
+    font-weight: 900;
+    line-height: 40px;
     }
+    .banner-two {
+    padding: 50px 0 50px;
+}
+      }
+ @media (min-width: 1024px) {
+    .banner-two__img-list {
+    flex-wrap: nowrap
+    }
+      }
       `}</style>
     </>
   );

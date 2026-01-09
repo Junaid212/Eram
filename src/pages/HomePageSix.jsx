@@ -12,6 +12,12 @@ import SubscribeTwo from "../components/SubscribeTwo";
 import FooterAreaFour from "../components/FooterAreaFour";
 import Preloader from "../helper/Preloader";
 import HeaderFour from "../components/HeaderFour";
+import ProjectSlider from "../components/ProjectSlider";
+import ProcessAreaTwo from "../components/ProcessAreaTwo";
+import Purpose from "../components/Purpose";
+import Vision2030 from "../components/Vision2030";
+import CTAAreaOne from "../components/CTAAreaOne";
+import FooterFour from "../components/FooterFour";
 
 const HomePageSix = () => {
   let [active, setActive] = useState(true);
@@ -30,36 +36,42 @@ const HomePageSix = () => {
       <HeaderFour />
 
       {/* Hero Six */}
-      <HeroSix />
+      {/* <HeroSix /> */}
+      <ProjectSlider/>
 
       {/* Category Area One */}
-      <CategoryAreaOne />
+      {/* <CategoryAreaOne /> */}
 
       {/* Product Area One */}
-      <ProductAreaOne />
+      {/* <ProductAreaOne /> */}
 
       {/* CTA Area Two */}
-      <CTAAreaTwo />
+      {/* <CTAAreaTwo /> */}
 
       {/* Product Area Two */}
-      <ProductAreaTwo />
+      {/* <ProductAreaTwo /> */}
 
       {/* Faq Area three */}
-      <FaqAreaThree />
+      {/* <FaqAreaThree /> */}
 
       {/* Client Area Four */}
-      <ClientAreaFour />
+      {/* <ClientAreaFour /> */}
 
       {/* Blog Area Two */}
-      <div className="space-top">
+      {/* <div className="space-top">
         <BlogAreaTwo />
-      </div>
+      </div> */}
 
       {/* Subscribe Two */}
-      <SubscribeTwo />
+      {/* <SubscribeTwo /> */}
 
       {/* Footer Area Four */}
-      <FooterAreaFour />
+      {/* <FooterAreaFour /> */}
+      <ProcessAreaTwo />
+      <Purpose />
+      <Vision2030 />
+      <CTAAreaOne />
+      <FooterFour />
     </>
   );
 };

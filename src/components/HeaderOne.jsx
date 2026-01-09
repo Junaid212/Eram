@@ -99,7 +99,7 @@ const HeaderOne = () => {
           {/* Main Menu Area */}
           <div className="menu-area">
             <div className="header-navbar-logo">
-              <Link to="/">
+              <Link to="/mechanical">
                 <img src="assets/img/icon/14.png" alt="Eram" style={{height:'70px'}}/>
               </Link>
             </div>
@@ -107,7 +107,7 @@ const HeaderOne = () => {
               <div className="row align-items-center justify-content-lg-start justify-content-between">
                 <div className="col-auto d-xl-none d-block">
                   <div className="header-logo">
-                    <Link to="/">
+                    <Link to="/mechanical">
                       <img src="assets/img/icon/14.png" alt="Eram" style={{height:'70px'}}/>
                     </Link>
                   </div>
@@ -116,7 +116,7 @@ const HeaderOne = () => {
                   <nav className="main-menu d-none d-lg-inline-block">
                     <ul>
                                         <li className="">
-                                          <Link to="/">Home</Link>
+                                          <Link to="/mechanical">Home</Link>
                                           {/* <ul className="sub-menu">
                                             <li>
                                               <NavLink
@@ -182,7 +182,7 @@ const HeaderOne = () => {
                                         </li>
                                         <li>
                                           <NavLink
-                                            to="/about"
+                                            to="/mechanical/about"
                                             className={(navData) =>
                                               navData.isActive ? "active" : ""
                                             }
@@ -191,11 +191,11 @@ const HeaderOne = () => {
                                           </NavLink>
                                         </li>
                                         <li className="menu-item-has-children submenu-item-has-children">
-                                      <Link to="/service">Services</Link>
+                                      <Link to="/mechanical/service">Services</Link>
                                       <ul className="sub-menu submenu-class">
                                         <li>
                                           <NavLink
-                                            to="/fabrication"
+                                            to="/mechanical/fabrication"
                                             className={(navData) =>
                                               navData.isActive ? "active" : ""
                                             }
@@ -205,7 +205,7 @@ const HeaderOne = () => {
                                         </li>
                                         <li>
                                           <NavLink
-                                            to="/civil-mechanical"
+                                            to="/mechanical/civil-mechanical"
                                             className={(navData) =>
                                               navData.isActive ? "active" : ""
                                             }
@@ -215,7 +215,7 @@ const HeaderOne = () => {
                                         </li>
                                         <li>
                                           <NavLink
-                                            to="/material-supply"
+                                            to="/mechanical/material-supply"
                                             className={(navData) =>
                                               navData.isActive ? "active" : ""
                                             }
@@ -225,7 +225,7 @@ const HeaderOne = () => {
                                         </li>
                                         <li>
                                           <NavLink
-                                            to="/warehousing"
+                                            to="/mechanical/warehousing"
                                             className={(navData) =>
                                               navData.isActive ? "active" : ""
                                             }
@@ -235,7 +235,7 @@ const HeaderOne = () => {
                                         </li>
                                         <li>
                                           <NavLink
-                                            to="/maintenance"
+                                            to="/mechanical/maintenance"
                                             className={(navData) =>
                                               navData.isActive ? "active" : ""
                                             }
@@ -245,7 +245,7 @@ const HeaderOne = () => {
                                         </li>
                                         <li>
                                           <NavLink
-                                            to="/technical-support"
+                                            to="/mechanical/technical-support"
                                             className={(navData) =>
                                               navData.isActive ? "active" : ""
                                             }
@@ -256,46 +256,46 @@ const HeaderOne = () => {
                                       </ul>
                                     </li>
                                         <li className="menu-item-has-children products-menu">
-  <Link to="/products">Products</Link>
+  <Link to="/mechanical/products">Products</Link>
 
    <ul className="sub-menu products-grid" id="product-grid">
     {[
-      { name: "Flanges", link: "/flanges" },
-      { name: "Fasteners", link: "/fasteners" },
-      { name: "Stainless Steel Pipes", link: "/stainless-steel-pipes" },
-      { name: "PVDF Pipe Fittings & Valves", link: "/pvdf-pipe-fittings-valves" },
+      { name: "Flanges", link: "/mechanical/flanges" },
+      { name: "Fasteners", link: "/mechanical/fasteners" },
+      { name: "Stainless Steel Pipes", link: "/mechanical/stainless-steel-pipes" },
+      { name: "PVDF Pipe Fittings & Valves", link: "/mechanical/pvdf-pipe-fittings-valves" },
 
-      { name: "Carbon Steel Pipes", link: "/carbon-steel-pipes" },
-      { name: "UPVC & CPVC", link: "/upvc-cpvc" },
-      { name: "Butt-Weld Fittings", link: "/butt-weld-fittings" },
-      { name: "Mud Pump And Spare Parts Assembly", link: "/mud-pump-spares" },
+      { name: "Carbon Steel Pipes", link: "/mechanical/carbon-steel-pipes" },
+      { name: "UPVC & CPVC", link: "/mechanical/upvc-cpvc" },
+      { name: "Butt-Weld Fittings", link: "/mechanical/butt-weld-fittings" },
+      { name: "Mud Pump And Spare Parts Assembly", link: "/mechanical/mud-pump-spares" },
 
-      { name: "Forged Fittings", link: "/forged-fittings" },
-      { name: "Crank Shaft Assembly For Mud Pump", link: "/mud-pump-crank-shaft" },
-      { name: "Valves", link: "/valves" },
-      { name: "Pinion Shaft Assembly For Mud Pump", link: "/mud-pump-pinion-shaft" },
+      { name: "Forged Fittings", link: "/mechanical/forged-fittings" },
+      { name: "Crank Shaft Assembly For Mud Pump", link: "/mechanical/mud-pump-crank-shaft" },
+      { name: "Valves", link: "/mechanical/valves" },
+      { name: "Pinion Shaft Assembly For Mud Pump", link: "/mechanical/mud-pump-pinion-shaft" },
 
-      { name: "Instrumentation Tube Fitting", link: "/instrumentation-tube-fitting" },
-      { name: "Cast Iron Dww Pipe Fittings System", link: "/cast-iron-dww" },
-      { name: "Transmission Spare Parts", link: "/transmission-spare-parts" },
-      { name: "Hydraulic Cylinder Assembly For Mud Pump", link: "/hydraulic-cylinder-mud-pump" },
+      { name: "Instrumentation Tube Fitting", link: "/mechanical/instrumentation-tube-fitting" },
+      { name: "Cast Iron Dww Pipe Fittings System", link: "/mechanical/cast-iron-dww" },
+      { name: "Transmission Spare Parts", link: "/mechanical/transmission-spare-parts" },
+      { name: "Hydraulic Cylinder Assembly For Mud Pump", link: "/mechanical/hydraulic-cylinder-mud-pump" },
 
-      { name: "Oil Field Clutch", link: "/oil-field-clutch" },
-      { name: "Mud Pump Fluid End Parts", link: "/mud-pump-fluid-end" },
-      { name: "PS Series Hydraulic Disc Brake", link: "/ps-hydraulic-disc-brake" },
-      { name: "Mud Pump Crosshead Assembly", link: "/mud-pump-crosshead" },
+      { name: "Oil Field Clutch", link: "/mechanical/oil-field-clutch" },
+      { name: "Mud Pump Fluid End Parts", link: "/mechanical/mud-pump-fluid-end" },
+      { name: "PS Series Hydraulic Disc Brake", link: "/mechanical/ps-hydraulic-disc-brake" },
+      { name: "Mud Pump Crosshead Assembly", link: "/mechanical/mud-pump-crosshead" },
 
-      { name: "Drilling Rig And Spare Parts", link: "/drilling-rig-spares" },
-      { name: "Pulsation Dampener Assembly For Mud Pump", link: "/pulsation-dampener" },
-      { name: "BOP Hoisting Equipment", link: "/bop-hoisting-equipment" },
-      { name: "Downhole Tool", link: "/downhole-tools" },
+      { name: "Drilling Rig And Spare Parts", link: "/mechanical/drilling-rig-spares" },
+      { name: "Pulsation Dampener Assembly For Mud Pump", link: "/mechanical/pulsation-dampener" },
+      { name: "BOP Hoisting Equipment", link: "/mechanical/bop-hoisting-equipment" },
+      { name: "Downhole Tool", link: "/mechanical/downhole-tools" },
 
-      { name: "Relief Valve For Mud Pump", link: "/mud-pump-relief-valve" },
-      { name: "Oil Tube And Casing Pipe", link: "/oil-tube-casing-pipe" },
-      { name: "Spray Lubrication System For Mud Pump", link: "/spray-lubrication-system" },
-      { name: "Pressure Transmitters & Transducers Portfolio", link: "/pressure-transmitters" },
+      { name: "Relief Valve For Mud Pump", link: "/mechanical/mud-pump-relief-valve" },
+      { name: "Oil Tube And Casing Pipe", link: "/mechanical/oil-tube-casing-pipe" },
+      { name: "Spray Lubrication System For Mud Pump", link: "/mechanical/spray-lubrication-system" },
+      { name: "Pressure Transmitters & Transducers Portfolio", link: "/mechanical/pressure-transmitters" },
 
-      { name: "Discharge Strainer And Auxiliary Piping For Mud Pump", link: "/discharge-strainer-auxiliary-piping" }
+      { name: "Discharge Strainer And Auxiliary Piping For Mud Pump", link: "/mechanical/discharge-strainer-auxiliary-piping" }
     ].map((item, index) => (
       <li key={index}>
         <NavLink
@@ -501,7 +501,7 @@ const HeaderOne = () => {
                                         </li> */}
                                         <li>
                                           <NavLink
-                                            to="/contact"
+                                            to="/mechanical/contact"
                                             className={(navData) =>
                                               navData.isActive ? "active" : ""
                                             }
@@ -542,8 +542,8 @@ const HeaderOne = () => {
         <div className={`mobile-menu-wrapper  ${active && "body-visible"}`}>
           <div className="mobile-menu-area">
             <div className="mobile-logo">
-              <Link to="/">
-                <img src="assets/img/ICON/14.PNG" alt="Eram" style={{height:'70px'}}/>
+              <Link to="/mechanical">
+                <img src="assets/img/icon/14.png" alt="Eram" style={{height:'70px'}}/>
               </Link>
               <button className="menu-toggle" onClick={mobileMenu}>
                 <i className="fa fa-times" />
@@ -551,9 +551,9 @@ const HeaderOne = () => {
             </div>
             <div className="mobile-menu">
               <ul id="offcanvas-navigation">
-                <li className="menu-item-has-children submenu-item-has-children">
-                  <Link to="#">Home</Link>
-                  <ul className="sub-menu submenu-class">
+                <li className=" submenu-item-has-children">
+                  <Link to="/mechanical">Home</Link>
+                  {/* <ul className="sub-menu submenu-class">
                     <li>
                       <NavLink
                         to="/"
@@ -614,17 +614,82 @@ const HeaderOne = () => {
                         Home 06
                       </NavLink>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
                 <li>
                   <NavLink
-                    to="/about"
+                    to="/mechanical/about"
                     className={(navData) => (navData.isActive ? "active" : "")}
                   >
                     About
                   </NavLink>
                 </li>
                 <li className="menu-item-has-children submenu-item-has-children">
+                                      <Link to="/mechanical/service">Services</Link>
+                                      <ul className="sub-menu submenu-class">
+                                        <li>
+                                          <NavLink
+                                            to="/mechanical/fabrication"
+                                            className={(navData) =>
+                                              navData.isActive ? "active" : ""
+                                            }
+                                          >
+                                            Fabrication
+                                          </NavLink>
+                                        </li>
+                                        <li>
+                                          <NavLink
+                                            to="/mechanical/civil-mechanical"
+                                            className={(navData) =>
+                                              navData.isActive ? "active" : ""
+                                            }
+                                          >
+                                            Civil & Mechanical Contracts
+                                          </NavLink>
+                                        </li>
+                                        <li>
+                                          <NavLink
+                                            to="/mechanical/material-supply"
+                                            className={(navData) =>
+                                              navData.isActive ? "active" : ""
+                                            }
+                                          >
+                                            Project Material Supply Management
+                                          </NavLink>
+                                        </li>
+                                        <li>
+                                          <NavLink
+                                            to="/mechanical/warehousing"
+                                            className={(navData) =>
+                                              navData.isActive ? "active" : ""
+                                            }
+                                          >
+                                            Warehousing, Marshalling, & Logistics
+                                          </NavLink>
+                                        </li>
+                                        <li>
+                                          <NavLink
+                                            to="/mechanical/maintenance"
+                                            className={(navData) =>
+                                              navData.isActive ? "active" : ""
+                                            }
+                                          >
+                                            Maintenance, Repair, & Overhaul
+                                          </NavLink>
+                                        </li>
+                                        <li>
+                                          <NavLink
+                                            to="/mechanical/technical-support"
+                                            className={(navData) =>
+                                              navData.isActive ? "active" : ""
+                                            }
+                                          >
+                                            Technical Spport and Value Added Services
+                                          </NavLink>
+                                        </li>
+                                      </ul>
+                                    </li>
+                {/* <li className="menu-item-has-children submenu-item-has-children">
                   <Link to="#">Pages</Link>
                   <ul className="sub-menu submenu-class">
                     <li>
@@ -698,48 +763,48 @@ const HeaderOne = () => {
                       </NavLink>
                     </li>
                   </ul>
-                </li>
+                </li> */}
                 <li className="menu-item-has-children products-menu">
-  <Link to="/products">Products</Link>
+  <Link to="/mechanical/products">Products</Link>
 
    <ul className="sub-menu products-grid" id="product-grid">
     {[
-      { name: "Flanges", link: "/flanges" },
-      { name: "Fasteners", link: "/fasteners" },
-      { name: "Stainless Steel Pipes", link: "/stainless-steel-pipes" },
-      { name: "PVDF Pipe Fittings & Valves", link: "/pvdf-pipe-fittings-valves" },
+      { name: "Flanges", link: "/mechanical/flanges" },
+      { name: "Fasteners", link: "/mechanical/fasteners" },
+      { name: "Stainless Steel Pipes", link: "/mechanical/stainless-steel-pipes" },
+      { name: "PVDF Pipe Fittings & Valves", link: "/mechanical/pvdf-pipe-fittings-valves" },
 
-      { name: "Carbon Steel Pipes", link: "/carbon-steel-pipes" },
-      { name: "UPVC & CPVC", link: "/upvc-cpvc" },
-      { name: "Butt-Weld Fittings", link: "/butt-weld-fittings" },
-      { name: "Mud Pump And Spare Parts Assembly", link: "/mud-pump-spares" },
+      { name: "Carbon Steel Pipes", link: "/mechanical/carbon-steel-pipes" },
+      { name: "UPVC & CPVC", link: "/mechanical/upvc-cpvc" },
+      { name: "Butt-Weld Fittings", link: "/mechanical/butt-weld-fittings" },
+      { name: "Mud Pump And Spare Parts Assembly", link: "/mechanical/mud-pump-spares" },
 
-      { name: "Forged Fittings", link: "/forged-fittings" },
-      { name: "Crank Shaft Assembly For Mud Pump", link: "/mud-pump-crank-shaft" },
-      { name: "Valves", link: "/valves" },
-      { name: "Pinion Shaft Assembly For Mud Pump", link: "/mud-pump-pinion-shaft" },
+      { name: "Forged Fittings", link: "/mechanical/forged-fittings" },
+      { name: "Crank Shaft Assembly For Mud Pump", link: "/mechanical/mud-pump-crank-shaft" },
+      { name: "Valves", link: "/mechanical/valves" },
+      { name: "Pinion Shaft Assembly For Mud Pump", link: "/mechanical/mud-pump-pinion-shaft" },
 
-      { name: "Instrumentation Tube Fitting", link: "/instrumentation-tube-fitting" },
-      { name: "Cast Iron Dww Pipe Fittings System", link: "/cast-iron-dww" },
-      { name: "Transmission Spare Parts", link: "/transmission-spare-parts" },
-      { name: "Hydraulic Cylinder Assembly For Mud Pump", link: "/hydraulic-cylinder-mud-pump" },
+      { name: "Instrumentation Tube Fitting", link: "/mechanical/instrumentation-tube-fitting" },
+      { name: "Cast Iron Dww Pipe Fittings System", link: "/mechanical/cast-iron-dww" },
+      { name: "Transmission Spare Parts", link: "/mechanical/transmission-spare-parts" },
+      { name: "Hydraulic Cylinder Assembly For Mud Pump", link: "/mechanical/hydraulic-cylinder-mud-pump" },
 
-      { name: "Oil Field Clutch", link: "/oil-field-clutch" },
-      { name: "Mud Pump Fluid End Parts", link: "/mud-pump-fluid-end" },
-      { name: "PS Series Hydraulic Disc Brake", link: "/ps-hydraulic-disc-brake" },
-      { name: "Mud Pump Crosshead Assembly", link: "/mud-pump-crosshead" },
+      { name: "Oil Field Clutch", link: "/mechanical/oil-field-clutch" },
+      { name: "Mud Pump Fluid End Parts", link: "/mechanical/mud-pump-fluid-end" },
+      { name: "PS Series Hydraulic Disc Brake", link: "/mechanical/ps-hydraulic-disc-brake" },
+      { name: "Mud Pump Crosshead Assembly", link: "/mechanical/mud-pump-crosshead" },
 
-      { name: "Drilling Rig And Spare Parts", link: "/drilling-rig-spares" },
-      { name: "Pulsation Dampener Assembly For Mud Pump", link: "/pulsation-dampener" },
-      { name: "BOP Hoisting Equipment", link: "/bop-hoisting-equipment" },
-      { name: "Downhole Tool", link: "/downhole-tools" },
+      { name: "Drilling Rig And Spare Parts", link: "/mechanical/drilling-rig-spares" },
+      { name: "Pulsation Dampener Assembly For Mud Pump", link: "/mechanical/pulsation-dampener" },
+      { name: "BOP Hoisting Equipment", link: "/mechanical/bop-hoisting-equipment" },
+      { name: "Downhole Tool", link: "/mechanical/downhole-tools" },
 
-      { name: "Relief Valve For Mud Pump", link: "/mud-pump-relief-valve" },
-      { name: "Oil Tube And Casing Pipe", link: "/oil-tube-casing-pipe" },
-      { name: "Spray Lubrication System For Mud Pump", link: "/spray-lubrication-system" },
-      { name: "Pressure Transmitters & Transducers Portfolio", link: "/pressure-transmitters" },
+      { name: "Relief Valve For Mud Pump", link: "/mechanical/mud-pump-relief-valve" },
+      { name: "Oil Tube And Casing Pipe", link: "/mechanical/oil-tube-casing-pipe" },
+      { name: "Spray Lubrication System For Mud Pump", link: "/mechanical/spray-lubrication-system" },
+      { name: "Pressure Transmitters & Transducers Portfolio", link: "/mechanical/pressure-transmitters" },
 
-      { name: "Discharge Strainer And Auxiliary Piping For Mud Pump", link: "/discharge-strainer-auxiliary-piping" }
+      { name: "Discharge Strainer And Auxiliary Piping For Mud Pump", link: "/mechanical/discharge-strainer-auxiliary-piping" }
     ].map((item, index) => (
       <li key={index}>
         <NavLink
@@ -753,7 +818,7 @@ const HeaderOne = () => {
   </ul>
 </li>
                 <li className=" submenu-item-has-children">
-                  <Link to="/service">Service</Link>
+                  <Link to="/mechanical/service">Service</Link>
                   {/* <ul className="sub-menu submenu-class">
                     <li>
                       <NavLink
@@ -859,7 +924,7 @@ const HeaderOne = () => {
                 </li> */}
                 <li>
                   <NavLink
-                    to="/contact"
+                    to="/mechanical/contact"
                     className={(navData) => (navData.isActive ? "active" : "")}
                   >
                     Contact

@@ -1,5 +1,6 @@
 import React from "react";
 import { Waves, Dumbbell, Users, Car, Shield, Zap, Phone, Tv, Baby, Flame, Building } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const amenities = [
   { icon: Waves, title: "Flanges" },
@@ -50,6 +51,15 @@ const Products=()=> {
             </div>
           ))}
         </div>
+      <div
+                              className="btn-group"
+                              data-ani="slideinup"
+                              data-ani-delay="0.3s"
+                            >
+                              <Link to="/about" className="btn">
+                                More Products
+                              </Link>
+                            </div>
       </div>
       
       <style jsx>{`

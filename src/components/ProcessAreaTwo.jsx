@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const ProcessAreaTwo = () => {
   return (
     <div
-      className="process-area-2 space-top" id="process-area-2 "
+      className="process-area-2 " id="process-area-2 "
       style={{ backgroundImage: "url(assets/img/scaff/110.webp)" }}
     >
       <div className="container">
@@ -82,6 +82,8 @@ const ProcessAreaTwo = () => {
       .process-card-number img{
         height:56px;
       }
+        .process-area-2 {
+          padding: 100px 0 70px;
       `}</style>
     </div>
   );

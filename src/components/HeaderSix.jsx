@@ -100,7 +100,7 @@ const [active, setActive] = useState(false);
           <div className="menu-area">
             <div className="header-navbar-logo">
               <Link to="/electrical">
-                <img src="assets/img/icon/14.png" alt="Eram" style={{height:'70px'}}/>
+                <img src="/assets/img/icon/14.png" alt="Eram" style={{height:'70px'}}/>
               </Link>
             </div>
             <div className="container">
@@ -108,7 +108,7 @@ const [active, setActive] = useState(false);
                 <div className="col-auto d-xl-none d-block">
                   <div className="header-logo">
                     <Link to="/electrical">
-                      <img src="assets/img/icon/14.png" alt="Eram" style={{height:'70px'}}/>
+                      <img src="/assets/img/icon/14.png" alt="Eram" style={{height:'70px'}}/>
                     </Link>
                   </div>
                 </div>

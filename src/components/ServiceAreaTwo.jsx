@@ -38,7 +38,7 @@ One Project at a Time{" "}
                     <img src="assets/img/icon/service-icon_1-1.svg" alt="Eram" />
                   </div>
                   <h4 className="service-card_title h5">
-                    <Link to="/service-details">Fabrication</Link>
+                    <Link to="/mechanical/fabrication">Fabrication</Link>
                   </h4>
                   {/* <p className="service-card_text">
                     Customer satisfaction is crucial for amohlo di business as
@@ -46,7 +46,7 @@ One Project at a Time{" "}
                   </p> */}
                 </div>
               </div>
-              <Link to="/fabrication" className="btn style4">
+              <Link to="/mechanical/fabrication" className="btn style4">
                 Read More <i className="fas fa-arrow-right" />
               </Link>
             </div>
@@ -64,7 +64,7 @@ One Project at a Time{" "}
                     <img src="assets/img/icon/service-icon_1-2.svg" alt="Eram" />
                   </div>
                   <h4 className="service-card_title h5">
-                    <Link to="/civil-mechanical">Civil & Mechanical Contracts</Link>
+                    <Link to="/mechanical/civil-mechanical">Civil & Mechanical Contracts</Link>
                   </h4>
                   {/* <p className="service-card_text">
                     Customer satisfaction is crucial for amohlo di business as
@@ -72,7 +72,7 @@ One Project at a Time{" "}
                   </p> */}
                 </div>
               </div>
-              <Link to="/civil-mechanical" className="btn style4">
+              <Link to="/mechanical/civil-mechanical" className="btn style4">
                 Read More <i className="fas fa-arrow-right" />
               </Link>
             </div>
@@ -90,7 +90,7 @@ One Project at a Time{" "}
                     <img src="assets/img/icon/service-icon_1-3.svg" alt="Eram" />
                   </div>
                   <h4 className="service-card_title h5">
-                    <Link to="/material-supply">Project Material Supply Management</Link>
+                    <Link to="/mechanical/material-supply">Project Material Supply Management</Link>
                   </h4>
                   {/* <p className="service-card_text">
                     Customer satisfaction is crucial for amohlo di business as
@@ -98,7 +98,7 @@ One Project at a Time{" "}
                   </p> */}
                 </div>
               </div>
-              <Link to="/material-supply" className="btn style4">
+              <Link to="/mechanical/material-supply" className="btn style4">
                 Read More <i className="fas fa-arrow-right" />
               </Link>
             </div>
@@ -116,7 +116,7 @@ One Project at a Time{" "}
                     <img src="assets/img/icon/service-icon_1-3.svg" alt="Eram" />
                   </div>
                   <h4 className="service-card_title h5">
-                    <Link to="/warehousing">Warehousing, Marshalling, & Logistics</Link>
+                    <Link to="/mechanical/warehousing">Warehousing, Marshalling, & Logistics</Link>
                   </h4>
                   {/* <p className="service-card_text">
                     Customer satisfaction is crucial for amohlo di business as
@@ -124,7 +124,7 @@ One Project at a Time{" "}
                   </p> */}
                 </div>
               </div>
-              <Link to="/warehousing" className="btn style4">
+              <Link to="/mechanical/warehousing" className="btn style4">
                 Read More <i className="fas fa-arrow-right" />
               </Link>
             </div>
@@ -142,7 +142,7 @@ One Project at a Time{" "}
                     <img src="assets/img/icon/service-icon_1-3.svg" alt="Eram" />
                   </div>
                   <h4 className="service-card_title h5">
-                    <Link to="/maintenance">Maintenance, Repair, & Overhaul</Link>
+                    <Link to="/mechanical/maintenance">Maintenance, Repair, & Overhaul</Link>
                   </h4>
                   {/* <p className="service-card_text">
                     Customer satisfaction is crucial for amohlo di business as
@@ -150,7 +150,7 @@ One Project at a Time{" "}
                   </p> */}
                 </div>
               </div>
-              <Link to="/maintenance" className="btn style4">
+              <Link to="/mechanical/maintenance" className="btn style4">
                 Read More <i className="fas fa-arrow-right" />
               </Link>
             </div>
@@ -168,7 +168,7 @@ One Project at a Time{" "}
                     <img src="assets/img/icon/service-icon_1-3.svg" alt="Eram" />
                   </div>
                   <h4 className="service-card_title h5">
-                    <Link to="/technical-support">Technical Support & Value Added Services</Link>
+                    <Link to="/mechanical/technical-support">Technical Support & Value Added Services</Link>
                   </h4>
                   {/* <p className="service-card_text">
                     Customer satisfaction is crucial for amohlo di business as
@@ -176,7 +176,7 @@ One Project at a Time{" "}
                   </p> */}
                 </div>
               </div>
-              <Link to="/technical-support" className="btn style4">
+              <Link to="/mechanical/technical-support" className="btn style4">
                 Read More <i className="fas fa-arrow-right" />
               </Link>
             </div>

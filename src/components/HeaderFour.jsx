@@ -48,7 +48,7 @@ const HeaderFour = () => {
   };
   return (
     <header className="nav-header header-layout3">
-      <div className="header-top">
+      {/* <div className="header-top">
         <div className="container">
           <div className="row justify-content-center justify-content-lg-between align-items-center gy-2">
             <div className="col-auto d-none d-lg-block">
@@ -89,7 +89,7 @@ const HeaderFour = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className={`sticky-wrapper ${scroll && "sticky"}`}>
         {/* Main Menu Area */}
         <div className="menu-area">
@@ -97,17 +97,17 @@ const HeaderFour = () => {
             <div className="row align-items-center justify-content-between">
               <div className="col-auto">
                 <div className="header-logo">
-                  <Link to="/">
-                    <img src="assets/img/logo.svg" alt="Eram" />
+                  <Link to="/project-support-services">
+                    <img src="assets/img/icon/14.png" alt="Eram" style={{height:'70px'}}/>
                   </Link>
                 </div>
               </div>
               <div className="col-auto">
                 <nav className="main-menu d-none d-lg-inline-block">
                   <ul>
-                    <li className="menu-item-has-children">
-                      <Link to="#">Home</Link>
-                      <ul className="sub-menu">
+                    <li className="">
+                      <Link to="/project-support-services">Home</Link>
+                      {/* <ul className="sub-menu">
                         <li>
                           <NavLink
                             to="/"
@@ -168,11 +168,11 @@ const HeaderFour = () => {
                             Home 06
                           </NavLink>
                         </li>
-                      </ul>
+                      </ul> */}
                     </li>
                     <li>
                       <NavLink
-                        to="/about"
+                        to="/project-support-services/about"
                         className={(navData) =>
                           navData.isActive ? "active" : ""
                         }
@@ -181,32 +181,43 @@ const HeaderFour = () => {
                       </NavLink>
                     </li>
                     <li className="menu-item-has-children">
-                      <Link to="#">Services</Link>
+                      <Link to="/project-support-services/services">Services</Link>
                       <ul className="sub-menu">
                         <li>
                           <NavLink
-                            to="/service"
+                            to="/project-support-services/project-support-services"
                             className={(navData) =>
                               navData.isActive ? "active" : ""
                             }
                           >
-                            Service
+                            Project Support Services
                           </NavLink>
                         </li>
                         <li>
                           <NavLink
-                            to="/service-details"
+                            to="/project-support-services/engineering-consultancy-inspection"
                             className={(navData) =>
                               navData.isActive ? "active" : ""
                             }
                           >
-                            Service Details
+                            Engineering Consultancy & Inspection Services
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink
+                            to="/project-support-services/operation-maintenance"
+                            className={(navData) =>
+                              navData.isActive ? "active" : ""
+                            }
+                          >
+                            Operation & Maintenance (O&M) Services
+
                           </NavLink>
                         </li>
                       </ul>
                     </li>
                     <li className="menu-item-has-children">
-                      <Link to="#">Projects</Link>
+                      <Link to="/project-support-services/resources/resources">Resources</Link>
                       <ul className="sub-menu">
                         <li>
                           <NavLink
@@ -230,7 +241,7 @@ const HeaderFour = () => {
                         </li>
                       </ul>
                     </li>
-                    <li className="menu-item-has-children">
+                    {/* <li className="menu-item-has-children">
                       <Link to="#">Blog</Link>
                       <ul className="sub-menu">
                         <li>
@@ -254,8 +265,8 @@ const HeaderFour = () => {
                           </NavLink>
                         </li>
                       </ul>
-                    </li>
-                    <li className="menu-item-has-children">
+                    </li> */}
+                    {/* <li className="menu-item-has-children">
                       <Link to="#">Pages</Link>
                       <ul className="sub-menu">
                         <li>
@@ -329,10 +340,10 @@ const HeaderFour = () => {
                           </NavLink>
                         </li>
                       </ul>
-                    </li>
+                    </li> */}
                     <li>
                       <NavLink
-                        to="/contact"
+                        to="/project-support-services/contact"
                         className={(navData) =>
                           navData.isActive ? "active" : ""
                         }
@@ -354,7 +365,7 @@ const HeaderFour = () => {
               </div>
               <div className="col-auto d-xl-block d-none">
                 <div className="header-button">
-                  <Link to="/about" className="btn style2">
+                  <Link to="/project-support-services/contact" className="btn style2">
                     Get A Quote <i className="fas fa-arrow-right ms-2" />
                   </Link>
                 </div>
@@ -367,8 +378,8 @@ const HeaderFour = () => {
         <div className={`mobile-menu-wrapper  ${active && "body-visible"}`}>
           <div className="mobile-menu-area">
             <div className="mobile-logo">
-              <Link to="/">
-                <img src="assets/img/logo.svg" alt="Eram" />
+              <Link to="/project-support-services">
+                <img src="assets/img/icon/14.png" alt="Eram" style={{height:"60px"}}/>
               </Link>
               <button className="menu-toggle" onClick={mobileMenu}>
                 <i className="fa fa-times" />
@@ -376,9 +387,9 @@ const HeaderFour = () => {
             </div>
             <div className="mobile-menu">
               <ul id="offcanvas-navigation">
-                <li className="menu-item-has-children submenu-item-has-children">
-                  <Link to="#">Home</Link>
-                  <ul className="sub-menu submenu-class">
+                <li className=" submenu-item-has-children">
+                  <Link to="/project-support-services">Home</Link>
+                  {/* <ul className="sub-menu submenu-class">
                     <li>
                       <NavLink
                         to="/"
@@ -439,17 +450,17 @@ const HeaderFour = () => {
                         Home 06
                       </NavLink>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
                 <li>
                   <NavLink
-                    to="/about"
+                    to="/project-support-services/about"
                     className={(navData) => (navData.isActive ? "active" : "")}
                   >
                     About
                   </NavLink>
                 </li>
-                <li className="menu-item-has-children submenu-item-has-children">
+                {/* <li className="menu-item-has-children submenu-item-has-children">
                   <Link to="#">Pages</Link>
                   <ul className="sub-menu submenu-class">
                     <li>
@@ -523,9 +534,9 @@ const HeaderFour = () => {
                       </NavLink>
                     </li>
                   </ul>
-                </li>
+                </li> */}
                 <li className="menu-item-has-children submenu-item-has-children">
-                  <Link to="#">Project</Link>
+                  <Link to="/project-support-services/services">Services</Link>
                   <ul className="sub-menu submenu-class">
                     <li>
                       <NavLink
@@ -550,7 +561,7 @@ const HeaderFour = () => {
                   </ul>
                 </li>
                 <li className="menu-item-has-children submenu-item-has-children">
-                  <Link to="#">Service</Link>
+                  <Link to="/project-support-services/resources">Resorces</Link>
                   <ul className="sub-menu submenu-class">
                     <li>
                       <NavLink
@@ -574,7 +585,7 @@ const HeaderFour = () => {
                     </li>
                   </ul>
                 </li>
-                <li className="menu-item-has-children submenu-item-has-children">
+                {/* <li className="menu-item-has-children submenu-item-has-children">
                   <Link to="#">Shop</Link>
                   <ul className="sub-menu submenu-class">
                     <li>
@@ -628,8 +639,8 @@ const HeaderFour = () => {
                       </NavLink>
                     </li>
                   </ul>
-                </li>
-                <li className="menu-item-has-children submenu-item-has-children">
+                </li> */}
+                {/* <li className="menu-item-has-children submenu-item-has-children">
                   <Link to="#">Blog</Link>
                   <ul className="sub-menu submenu-class">
                     <li>
@@ -653,7 +664,7 @@ const HeaderFour = () => {
                       </NavLink>
                     </li>
                   </ul>
-                </li>
+                </li> */}
                 <li>
                   <NavLink
                     to="/contact"
