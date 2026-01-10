@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const ProductAreaTwo = () => {
   return (
-    <div className="product-area-2 space-top overflow-hidden">
+    <div className="product-area-2 space overflow-hidden">
       <div className="container">
         <div className="mb-50">
           <div className="row gy-4 justify-content-lg-between justify-content-center align-items-center text-lg-start text-center">

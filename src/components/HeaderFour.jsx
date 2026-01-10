@@ -98,7 +98,7 @@ const HeaderFour = () => {
               <div className="col-auto">
                 <div className="header-logo">
                   <Link to="/project-support-services">
-                    <img src="assets/img/icon/14.png" alt="Eram" style={{height:'70px'}}/>
+                    <img src="/assets/img/icon/14.png" alt="Eram" style={{height:'70px'}}/>
                   </Link>
                 </div>
               </div>
@@ -379,7 +379,7 @@ const HeaderFour = () => {
           <div className="mobile-menu-area">
             <div className="mobile-logo">
               <Link to="/project-support-services">
-                <img src="assets/img/icon/14.png" alt="Eram" style={{height:"60px"}}/>
+                <img src="/assets/img/icon/14.png" alt="Eram" style={{height:"60px"}}/>
               </Link>
               <button className="menu-toggle" onClick={mobileMenu}>
                 <i className="fa fa-times" />

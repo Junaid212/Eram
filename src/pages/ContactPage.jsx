@@ -6,6 +6,7 @@ import Breadcrumb from "../components/Breadcrumb";
 import SubscribeOne from "../components/SubscribeOne";
 import ContactArea from "../components/ContactArea";
 import Preloader from "../helper/Preloader";
+import FooterAreaTwo from "../components/FooterAreaTwo";
 
 const ContactPage = () => {
   let [active, setActive] = useState(true);
@@ -29,10 +30,10 @@ const ContactPage = () => {
       <ContactArea />
 
       {/* Subscribe One */}
-      <SubscribeOne />
+      {/* <SubscribeOne /> */}
 
       {/* Footer Area One */}
-      <FooterAreaOne />
+      <FooterAreaTwo />
     </>
   );
 };

@@ -80,7 +80,7 @@ const ContactArea = () => {
               <div className="faq-thumb2 mb-xl-0 mb-50">
                 <div className="about-counter-grid jump">
                   <img
-                    src="assets/img/icon/faq2-counter-icon-1.svg"
+                    src="/assets/img/icon/faq2-counter-icon-1.svg"
                     alt="Eram"
                   />
                   <div className="media-right">
@@ -90,7 +90,7 @@ const ContactArea = () => {
                     <h4 className="about-counter-text">Services we provide</h4>
                   </div>
                 </div>
-                <img src="assets/img/normal/faq-thumb-2-1.png" alt="Eram" />
+                <img src="/assets/img/normal/faq-thumb-2-1.png" alt="Eram" />
               </div>
             </div>
             <div className="col-lg-6">

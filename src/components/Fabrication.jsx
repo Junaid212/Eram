@@ -10,7 +10,7 @@ const Fabrication = () => {
             <div className="project-details-single-page">
               <div className="page-img">
                 <img
-                  src="assets/img/portfolio/portfolio_details.png"
+                  src="/assets/img/portfolio/portfolio_details.png"
                   alt="portfolio"
                 />
               </div>
@@ -60,7 +60,7 @@ const Fabrication = () => {
                     <div className="col-md-6">
                       <div className="page-img">
                         <img
-                          src="assets/img/portfolio/portfolio_details1-2.png"
+                          src="/assets/img/portfolio/portfolio_details1-2.png"
                           alt="Eram"
                         />
                       </div>
@@ -68,7 +68,7 @@ const Fabrication = () => {
                     <div className="col-md-6">
                       <div className="page-img">
                         <img
-                          src="assets/img/portfolio/portfolio_details1-3.png"
+                          src="/assets/img/portfolio/portfolio_details1-3.png"
                           alt="Eram"
                         />
                       </div>

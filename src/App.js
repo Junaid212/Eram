@@ -39,6 +39,24 @@ import CarIronDww from "./pages/CarIronDww";
 import PVDFPipeFittings from "./pages/PVDFPipeFittings";
 import UpvcandCpvc from "./pages/UpvcandCpvc";
 import AboutPage2 from "./pages/AboutPage2";
+import AboutPage3 from "./pages/AboutPage3";
+import AboutPage4 from "./pages/AboutPage4";
+import ProductPage2 from "./pages/ProductPage2";
+import ScaffoldingSystems from "./pages/ScaffoldingSystems";
+import CuplockSystem from "./pages/CuplockSystem";
+import KwikstageRinglockSystem from "./pages/KwikstageRinglockSystem";
+import ScaffoldingTubesCouplers from "./pages/ScaffoldingTubesCouplers";
+import WalkingBoardPlanks from "./pages/WalkingBoardPlanks";
+import TableFormworkSystem from "./pages/TableFormworkSystem";
+import AluminiumSystem from "./pages/AluminiumSystem";
+import PanelSysytem from "./pages/PanelSystem";
+import PanelSystem from "./pages/PanelSystem";
+import TowerScaffolds from "./pages/TowerScaffolds";
+import CantileverFrame from "./pages/CantileverFrame";
+import ProjectSupportServices from "./pages/ProjectSupportServices";
+import EngineeringConsultancy from "./pages/EngineeringConsulatancy";
+import OperationMaintenance from "./pages/OperationMaintenance";
+import Brands from "./pages/Brands";
 
 function App() {
   return (
@@ -86,10 +104,37 @@ function App() {
         <Route exact path="/mechanical/instrumentation-tube-fittings" element={<InstrumentationTubeFittings />} />
         <Route exact path="/mechanical/cast-iron-dww-pipe-fittings" element={<CarIronDww />} />
         <Route exact path="/mechanical/pvdf-pipe-fittings-and-valves" element={<PVDFPipeFittings />} />
-        <Route exact path="/mechanical/upvc-and-cpvc" element={<UpvcandCpvc />} />
+        <Route exact path="/mechanical/upvc-cpvc" element={<UpvcandCpvc />} />
 
         {/* About Pages */}
         <Route exact path="/electrical/about" element={<AboutPage2 />} />
+        <Route exact path="/scaffolding/about" element={<AboutPage3 />} />
+        <Route exact path="/project-support-services/about" element={<AboutPage4 />} />
+
+
+        <Route exact path="/electrical/products" element={<ProductPage2 />} />
+        <Route exact path="/electrical/brands" element={<Brands />} />
+
+
+        {/* Scaffolding Systems */}
+        <Route exact path="/scaffolding/scaffolding-systems" element={<ScaffoldingSystems />} />
+        <Route exact path="/scaffolding/cuplock-system" element={<CuplockSystem />} />
+        <Route exact path="/scaffolding/kwikstage-ringlock-systems" element={<KwikstageRinglockSystem />} />
+        <Route exact path="/scaffolding/scaffolding-tubes-couplers" element={<ScaffoldingTubesCouplers />} />
+        <Route exact path="/scaffolding/walking-boards-planks" element={<WalkingBoardPlanks />} />
+        <Route exact path="/scaffolding/table-formwork-systems" element={<TableFormworkSystem />} />
+        <Route exact path="/scaffolding/aluminium-system-scaffolds-ladders" element={<AluminiumSystem />} />
+        <Route exact path="/scaffolding/panel-systems-wall-column-formwork" element={<PanelSystem />} />
+        <Route exact path="/scaffolding/tower-scaffolds-fixed-mobile" element={<TowerScaffolds />} />
+        <Route exact path="/scaffolding/cantilever-frame-korean-frame-systems" element={<CantileverFrame />} />
+
+
+        {/* Project Support Services */}
+        <Route exact path="/project-support-services/project-support-services" element={<ProjectSupportServices />} />
+        <Route exact path="/project-support-services/engineering-consultancy-inspection" element={<EngineeringConsultancy />} />
+        <Route exact path="/project-support-services/operation-maintenance" element={<OperationMaintenance />} />
+        
+
       </Routes>
     </BrowserRouter>
   );

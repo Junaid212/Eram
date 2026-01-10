@@ -13,7 +13,7 @@ const CarbonSpec = () => {
                 Carbon Steel Pipes{" "}
                 <img
                   className="title-bg-shape shape-center"
-                  src="assets/img/bg/title-bg-shape.png"
+                  src="/assets/img/bg/title-bg-shape.png"
                   alt="Eram"
                 />
               </h2>
@@ -25,7 +25,7 @@ const CarbonSpec = () => {
             <div className="pricing-card style2">
               <div className="pricing-card-icon-wrap">
                 <div className="pricing-card_icon">
-                  <img src="assets/img/icon/picing-icon_2-1.svg" alt="Eram" />
+                  <img src="/assets/img/icon/picing-icon_2-1.svg" alt="Eram" />
                 </div>
                 <h4 className="pricing-card_title">Product</h4>
               </div>
@@ -63,7 +63,7 @@ const CarbonSpec = () => {
             <div className="pricing-card style2 pricing-card-active">
               <div className="pricing-card-icon-wrap">
                 <div className="pricing-card_icon">
-                  <img src="assets/img/icon/picing-icon_2-2.svg" alt="Eram" />
+                  <img src="/assets/img/icon/picing-icon_2-2.svg" alt="Eram" />
                 </div>
                 <h4 className="pricing-card_title">Product</h4>
               </div>
@@ -100,7 +100,7 @@ const CarbonSpec = () => {
             <div className="pricing-card style2">
               <div className="pricing-card-icon-wrap">
                 <div className="pricing-card_icon">
-                  <img src="assets/img/icon/picing-icon_2-3.svg" alt="Eram" />
+                  <img src="/assets/img/icon/picing-icon_2-3.svg" alt="Eram" />
                 </div>
                 <h4 className="pricing-card_title">Product</h4>
               </div>

@@ -5,7 +5,7 @@ const ProcessAreaTwo = () => {
   return (
     <div
       className="process-area-2 " id="process-area-2 "
-      style={{ backgroundImage: "url(assets/img/scaff/110.webp)" }}
+      style={{ backgroundImage: "url(/assets/img/scaff/110.webp)" }}
     >
       <div className="container">
         {/* <div className="row justify-content-center">
@@ -16,7 +16,7 @@ const ProcessAreaTwo = () => {
                 Miles Of Smiles, One Repair A Time{" "}
                 <img
                   className="title-bg-shape shape-center"
-                  src="assets/img/bg/title-bg-shape2.png"
+                  src="/assets/img/bg/title-bg-shape2.png"
                   alt="Eram"
                 />
               </h2>
@@ -26,7 +26,7 @@ const ProcessAreaTwo = () => {
         <div className="row gy-4 gx-90 justify-content-center">
           <div className="col-lg-3 col-md-6 process-card-wrap2" >
             <div className="process-card style2">
-              <div className="process-card-number"><img src="assets/img/scaff/111.webp" alt="Step 1" /></div>
+              <div className="process-card-number"><img src="/assets/img/scaff/111.webp" alt="Step 1" /></div>
               <h4 className="process-card-title">Wide Range Of Experience</h4>
               {/* <p className="process-card-text">
                 Ut elementum et mollis eu sapien neque tempus. Tristique nisl
@@ -39,7 +39,7 @@ const ProcessAreaTwo = () => {
           </div>
           <div className="col-lg-3 col-md-6 process-card-wrap2">
             <div className="process-card style2">
-              <div className="process-card-number"><img src="assets/img/scaff/112.webp" alt="Step 1" /></div>
+              <div className="process-card-number"><img src="/assets/img/scaff/112.webp" alt="Step 1" /></div>
               <h4 className="process-card-title">Experts Across All Sectors</h4>
               {/* <p className="process-card-text">
                 Ut elementum et mollis eu sapien neque tempus. Tristique nisl
@@ -52,7 +52,7 @@ const ProcessAreaTwo = () => {
           </div>
           <div className="col-lg-3 col-md-6 process-card-wrap2">
             <div className="process-card style2">
-              <div className="process-card-number"><img src="assets/img/scaff/113.webp" alt="Step 3" /></div>
+              <div className="process-card-number"><img src="/assets/img/scaff/113.webp" alt="Step 3" /></div>
               <h4 className="process-card-title">Committed to our Values</h4>
               {/* <p className="process-card-text">
                 Ut elementum et mollis eu sapien neque tempus. Tristique nisl
@@ -65,7 +65,7 @@ const ProcessAreaTwo = () => {
           </div>
           <div className="col-lg-3 col-md-6 process-card-wrap2">
             <div className="process-card style2">
-              <div className="process-card-number"><img src="assets/img/scaff/114.webp" alt="Step 4" /></div>
+              <div className="process-card-number"><img src="/assets/img/scaff/114.webp" alt="Step 4" /></div>
               <h4 className="process-card-title">Experienced Professionals</h4>
               {/* <p className="process-card-text">
                 Ut elementum et mollis eu sapien neque tempus. Tristique nisl

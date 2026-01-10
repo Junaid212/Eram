@@ -15,7 +15,7 @@ Your Success,
 One Project at a Time{" "}
                 <img
                   className="title-bg-shape shape-center"
-                  src="assets/img/bg/title-bg-shape.png"
+                  src="/assets/img/bg/title-bg-shape.png"
                   alt="Eram"
                 />
               </h2>
@@ -30,12 +30,12 @@ One Project at a Time{" "}
               <div
                 className="service-card_content"
                 style={{
-                  backgroundImage: "url(assets/img/service/27.webp)",
+                  backgroundImage: "url(/assets/img/service/27.webp)",
                 }}
               >
                 <div>
                   <div className="service-card_icon">
-                    <img src="assets/img/icon/service-icon_1-1.svg" alt="Eram" />
+                    <img src="/assets/img/icon/service-icon_1-1.svg" alt="Eram" />
                   </div>
                   <h4 className="service-card_title h5">
                     <Link to="/mechanical/fabrication">Fabrication</Link>
@@ -56,12 +56,12 @@ One Project at a Time{" "}
               <div
                 className="service-card_content"
                 style={{
-                  backgroundImage: "url(assets/img/service/28.webp)",
+                  backgroundImage: "url(/assets/img/service/28.webp)",
                 }}
               >
                 <div>
                   <div className="service-card_icon">
-                    <img src="assets/img/icon/service-icon_1-2.svg" alt="Eram" />
+                    <img src="/assets/img/icon/service-icon_1-2.svg" alt="Eram" />
                   </div>
                   <h4 className="service-card_title h5">
                     <Link to="/mechanical/civil-mechanical">Civil & Mechanical Contracts</Link>
@@ -82,12 +82,12 @@ One Project at a Time{" "}
               <div
                 className="service-card_content"
                 style={{
-                  backgroundImage: "url(assets/img/service/29.webp)",
+                  backgroundImage: "url(/assets/img/service/29.webp)",
                 }}
               >
                 <div>
                   <div className="service-card_icon">
-                    <img src="assets/img/icon/service-icon_1-3.svg" alt="Eram" />
+                    <img src="/assets/img/icon/service-icon_1-3.svg" alt="Eram" />
                   </div>
                   <h4 className="service-card_title h5">
                     <Link to="/mechanical/material-supply">Project Material Supply Management</Link>
@@ -108,12 +108,12 @@ One Project at a Time{" "}
               <div
                 className="service-card_content"
                 style={{
-                  backgroundImage: "url(assets/img/service/30.webp)",
+                  backgroundImage: "url(/assets/img/service/30.webp)",
                 }}
               >
                 <div>
                   <div className="service-card_icon">
-                    <img src="assets/img/icon/service-icon_1-3.svg" alt="Eram" />
+                    <img src="/assets/img/icon/service-icon_1-3.svg" alt="Eram" />
                   </div>
                   <h4 className="service-card_title h5">
                     <Link to="/mechanical/warehousing">Warehousing, Marshalling, & Logistics</Link>
@@ -134,12 +134,12 @@ One Project at a Time{" "}
               <div
                 className="service-card_content"
                 style={{
-                  backgroundImage: "url(assets/img/service/31.webp)",
+                  backgroundImage: "url(/assets/img/service/31.webp)",
                 }}
               >
                 <div>
                   <div className="service-card_icon">
-                    <img src="assets/img/icon/service-icon_1-3.svg" alt="Eram" />
+                    <img src="/assets/img/icon/service-icon_1-3.svg" alt="Eram" />
                   </div>
                   <h4 className="service-card_title h5">
                     <Link to="/mechanical/maintenance">Maintenance, Repair, & Overhaul</Link>
@@ -160,12 +160,12 @@ One Project at a Time{" "}
               <div
                 className="service-card_content"
                 style={{
-                  backgroundImage: "url(assets/img/service/32.webp)",
+                  backgroundImage: "url(/assets/img/service/32.webp)",
                 }}
               >
                 <div>
                   <div className="service-card_icon">
-                    <img src="assets/img/icon/service-icon_1-3.svg" alt="Eram" />
+                    <img src="/assets/img/icon/service-icon_1-3.svg" alt="Eram" />
                   </div>
                   <h4 className="service-card_title h5">
                     <Link to="/mechanical/technical-support">Technical Support & Value Added Services</Link>

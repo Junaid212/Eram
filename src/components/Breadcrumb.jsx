@@ -19,7 +19,7 @@ const Breadcrumb = ({ title }) => {
           </div>
           <div className="col-lg-6 d-lg-block d-none">
             <div className="breadcumb-thumb">
-              <img src="/assets/img/normal/45.webp" alt="Eram" />
+              <img src="/assets/img/normal/44.webp" alt="Eram" />
             </div>
           </div>
         </div>

@@ -7,12 +7,12 @@ const AboutThree = () => {
       <div className="about1-shape-img shape-mockup">
         <img
           className="about1-shape-img-1 spin"
-          src="assets/img/normal/about_shape1-2.svg"
+          src="/assets/img/normal/about_shape1-2.svg"
           alt="Eram"
         />
         <img
           className="about1-shape-img-2 spin2"
-          src="assets/img/normal/about_shape1-1.svg"
+          src="/assets/img/normal/about_shape1-1.svg"
           alt="Eram"
         />
       </div>
@@ -21,7 +21,7 @@ const AboutThree = () => {
           <div className="col-xl-7 text-xl-center">
             <div className="about-thumb3 mb-40 mb-xl-0">
               <div className="about-img-1">
-                <img src="assets/img/normal/wcu-3.png" alt="Eram" />
+                <img src="/assets/img/normal/wcu-3.png" alt="Eram" />
               </div>
             </div>
           </div>

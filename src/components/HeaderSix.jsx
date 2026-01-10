@@ -414,7 +414,7 @@ const [active, setActive] = useState(false);
           <div className="mobile-menu-area">
             <div className="mobile-logo">
               <Link to="/electrical">
-                <img src="assets/img/icon/14.png" alt="Eram" style={{height:'70px'}}/>
+                <img src="/assets/img/icon/14.png" alt="Eram" style={{height:'70px'}}/>
               </Link>
               <button className="menu-toggle" onClick={mobileMenu}>
                 <i className="fa fa-times" />
@@ -423,7 +423,7 @@ const [active, setActive] = useState(false);
             <div className="mobile-menu">
               <ul id="offcanvas-navigation">
                 <li className="menu-item-has-children submenu-item-has-children">
-                  <Link to="electrical">Home</Link>
+                  <Link to="/electrical">Home</Link>
                   {/* <ul className="sub-menu submenu-class">
                     <li>
                       <NavLink
@@ -489,7 +489,7 @@ const [active, setActive] = useState(false);
                 </li>
                 <li>
                   <NavLink
-                    to="/about"
+                    to="/electrical/about"
                     className={(navData) => (navData.isActive ? "active" : "")}
                   >
                     About
@@ -578,7 +578,7 @@ const [active, setActive] = useState(false);
       { name: "Flanges", link: "/flanges" },
       { name: "Fasteners", link: "/fasteners" },
       { name: "Stainless Steel Pipes", link: "/stainless-steel-pipes" },
-      { name: "PVDF Pipe Fittings & Valves", link: "/pvdf-pipe-fittings-valves" },
+      { name: "PVDF Pipe Fittings & Valves", link: "/pvdf-pipe-fittings-and-valves" },
 
       { name: "Carbon Steel Pipes", link: "/carbon-steel-pipes" },
       { name: "UPVC & CPVC", link: "/upvc-cpvc" },

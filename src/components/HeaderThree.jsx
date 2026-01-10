@@ -99,7 +99,7 @@ const HeaderThree = () => {
         <div className="menu-area">
           <div className="header-navbar-logo">
             <Link to="/scaffolding">
-              <img src="assets/img/icon/14.png" alt="Eram" style={{  height: "70px" }} />
+              <img src="/assets/img/icon/14.png" alt="Eram" style={{  height: "70px" }} />
             </Link>
           </div>
           <div className="container">
@@ -107,7 +107,7 @@ const HeaderThree = () => {
               <div className="col-auto d-xl-none d-block">
                 <div className="header-logo">
                   <Link to="/">
-                    <img src="assets/img/logo-white.svg" alt="Eram" />
+                    <img src="/assets/img/logo-white.svg" alt="Eram" />
                   </Link>
                 </div>
               </div>
@@ -181,7 +181,7 @@ const HeaderThree = () => {
                     </li>
                     <li>
                       <NavLink
-                        to="/about"
+                        to="/scaffolding/about"
                         className={(navData) =>
                           navData.isActive ? "active" : ""
                         }
@@ -190,26 +190,96 @@ const HeaderThree = () => {
                       </NavLink>
                     </li>
                     <li className="menu-item-has-children">
-                      <Link to="#">Systems</Link>
+                      <Link to="/scaffolding/scaffolding-systems">Systems</Link>
                       <ul className="sub-menu">
                         <li>
                           <NavLink
-                            to="/service"
+                            to="/scaffolding/cuplock-system"
                             className={(navData) =>
                               navData.isActive ? "active" : ""
                             }
                           >
-                            Service
+                            Cuplock System
                           </NavLink>
                         </li>
                         <li>
                           <NavLink
-                            to="/service-details"
+                            to="/scaffolding/kwikstage-ringlock-systems"
                             className={(navData) =>
                               navData.isActive ? "active" : ""
                             }
                           >
-                            Service Details
+                            Kwikstage & Ringlock Systems
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink
+                            to="/scaffolding/scaffolding-tubes-couplers"
+                            className={(navData) =>
+                              navData.isActive ? "active" : ""
+                            }
+                          >
+                            Scaffolding Tubes, Couplers & Joint Access Systems
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink
+                            to="/scaffolding/walking-boards-planks"
+                            className={(navData) =>
+                              navData.isActive ? "active" : ""
+                            }
+                          >
+                            Walking Boards & Planks (Wooden & Steel)
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink
+                            to="/scaffolding/table-formwork-systems"
+                            className={(navData) =>
+                              navData.isActive ? "active" : ""
+                            }
+                          >
+                            Table Formwork Systems
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink
+                            to="/scaffolding/aluminium-system-scaffolds-ladders"
+                            className={(navData) =>
+                              navData.isActive ? "active" : ""
+                            }
+                          >
+                            Aluminium System Scaffolds & Ladders
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink
+                            to="/scaffolding/panel-systems-wall-column-formwork"
+                            className={(navData) =>
+                              navData.isActive ? "active" : ""
+                            }
+                          >
+                            Panel Systems for Wall & Column Formwork
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink
+                            to="/scaffolding/tower-scaffolds-fixed-mobile"
+                            className={(navData) =>
+                              navData.isActive ? "active" : ""
+                            }
+                          >
+                            Tower Scaffolds (Fixed & Mobile)
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink
+                            to="/scaffolding/cantilever-frame-korean-frame-systems"
+                            className={(navData) =>
+                              navData.isActive ? "active" : ""
+                            }
+                          >
+                            Cantilever Frame & Korean Frame Systems
                           </NavLink>
                         </li>
                       </ul>
@@ -363,15 +433,15 @@ const HeaderThree = () => {
               </div>
               <div className="col-auto ms-auto d-xl-block d-none">
                 <div className="header-button">
-                  <div className="navbar-right-desc d-xxl-flex d-none">
-                    <img src="assets/img/icon/chat.svg" alt="Eram" />
+                  {/* <div className="navbar-right-desc d-xxl-flex d-none">
+                    <img src="/assets/img/icon/chat.svg" alt="Eram" />
                     <div className="navbar-right-desc-details">
                       <h6 className="title">Need help?</h6>
                       <Link className="link" to="tel:+2590256215">
                         (307) 555-0133
                       </Link>
                     </div>
-                  </div>
+                  </div> */}
                   <Link to="/about" className="btn style-border3">
                     Get A Quote <i className="fas fa-arrow-right ms-2" />
                   </Link>
@@ -387,7 +457,7 @@ const HeaderThree = () => {
           <div className="mobile-menu-area">
             <div className="mobile-logo">
               <Link to="/">
-                <img src="assets/img/logo.svg" alt="Eram" />
+                <img src="/assets/img/logo.svg" alt="Eram" />
               </Link>
               <button className="menu-toggle" onClick={mobileMenu}>
                 <i className="fa fa-times" />

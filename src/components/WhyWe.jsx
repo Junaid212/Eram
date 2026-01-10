@@ -7,14 +7,14 @@ export default function WhyWe() {
         <div className="why-we-are__wrap">
           <div className="container">
             <div className="row">
-              <div className="col-xl-8">
+              <div className="col-xl-7">
                 <div className="why-we-are__left">
                   <div className="text-left">
-                    <div className="section-title__tagline-box">
+                    <div className="section-title">
                       {/* <span className="section-title__tagline">why we are the best</span> */}
                     </div>
-                    <h2 >
-                      Choose us for the Best Quality.
+                    <h2 style={{margin:'-50px 0 50px'}}>
+                      Choose us for the <span style={{color:'red'}}>Best Quality.</span>
                     </h2>
                   </div>
                   <ul className="why-we-are__list list-unstyled">
@@ -51,11 +51,11 @@ export default function WhyWe() {
                 <div className="why-we-are__right wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
                   <div className="why-we-are__img-box">
                     <div className="why-we-are__img">
-                      <img src="" alt="Why-We-Are-img-1" />
+                      <img src="/assets/img/elect/122.webp" alt="Why-We-Are-img-1" style={{borderRadius:'20px'}}/>
                     </div>
-                    <div className="why-we-are__img-2">
-                      <img src="" alt="Why-We-Are-img-1" />
-                    </div>
+                    {/* <div className="why-we-are__img-2">
+                      <img src="/assets/img/elect/59.webp" alt="Why-We-Are-img-1" />
+                    </div> */}
                   </div>
                 </div>
               </div>

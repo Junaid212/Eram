@@ -10,8 +10,8 @@ const FooterAreaTwo = () => {
       <div className="container">
         <div className="footer-top-2">
           <div className="footer-logo">
-            <Link to="/">
-              <img src="assets/img/icon/14.png" alt="Eram" style={{height:"80px"}}/>
+            <Link to="/electrical">
+              <img src="/assets/img/icon/14.png" alt="Eram" style={{height:"80px"}}/>
             </Link>
           </div>
           <h3 className="footer-top-title text-white">

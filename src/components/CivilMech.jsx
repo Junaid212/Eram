@@ -10,7 +10,7 @@ const CivilMech = () => {
             <div className="project-details-single-page">
               <div className="page-img">
                 <img
-                  src="assets/img/portfolio/portfolio_details.png"
+                  src="/assets/img/portfolio/portfolio_details.png"
                   alt="portfolio"
                 />
               </div>
@@ -62,7 +62,7 @@ const CivilMech = () => {
                     <div className="col-md-6">
                       <div className="page-img">
                         <img
-                          src="assets/img/portfolio/portfolio_details1-2.png"
+                          src="/assets/img/portfolio/portfolio_details1-2.png"
                           alt="Eram"
                         />
                       </div>
@@ -70,7 +70,7 @@ const CivilMech = () => {
                     <div className="col-md-6">
                       <div className="page-img">
                         <img
-                          src="assets/img/portfolio/portfolio_details1-3.png"
+                          src="/assets/img/portfolio/portfolio_details1-3.png"
                           alt="Eram"
                         />
                       </div>
@@ -78,7 +78,7 @@ const CivilMech = () => {
                   </div>
                   <p className="mb-20 mt-30">
                     Our in-house mechanical teams provide installation and maintenance 
-                    services across a wide range of assets covered under hard facilities 
+                    services across a wide range of /assets covered under hard facilities 
                     management. We are qualified to work in a confined space. Our offered 
                     services are highly acknowledged for their timely execution, reliability, 
                     and excellence.

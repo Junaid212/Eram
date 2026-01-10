@@ -16,26 +16,26 @@ const AboutSix = () => {
             >
               <div className="about-two__img-box">
                 <div className="about-two__img">
-                  <img src="/assets/img/blog/image.png" alt="About Us" />
+                  <img src="/assets/img/elect/121.webp" alt="About Us" />
                 </div>
                 <div className="about-two__shape-1">
-                  <img src="/assets/image.png" alt="Shape" />
+                  <img src="/assets/img/image.png" alt="Shape" />
                 </div>
-                <div className="about-two__count-box">
+                {/* <div className="about-two__count-box">
                   <div className="about-two__count-icon">
                     <span className="icon-wall"></span>
                   </div>
                   <div className="about-two__count-inner">
                     <div className="about-two__count count-box">
                       <h3 className="count-text">
-                        <CountUp start={0} end={20} duration={1.5} /> {/* Counter from 0 to 20 */}
+                        <CountUp start={0} end={20} duration={1.5} /> 
                       </h3>
                       <span className="about-two__count-plus">k</span>
                       <span className="about-two__count-plus">+</span>
                     </div>
                     <p className="about-two__count-text">Clients Reviews</p>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -70,7 +70,7 @@ const AboutSix = () => {
       .about-two {
     position: relative;
     display: block;
-    padding: 0 0 120px;
+    padding: 80px 0 120px;
     z-index: 1;
 }
 
@@ -98,7 +98,7 @@ const AboutSix = () => {
     top: 10px;
     right: 30px;
     bottom: -30px;
-    border: 5px solid var(--maroof-base);
+    border: 5px solid red;
     border-radius: 20px;
     animation: topBottom 3s ease-in-out infinite;
 }

@@ -5,13 +5,13 @@ const FooterFour = () => {
   return (
     <footer
       className="footer-wrapper footer-layout2"
-      style={{ backgroundImage: "url(assets/img/bg/footer-bg2-1.png)" }}
+      style={{ backgroundImage: "url(/assets/img/bg/footer-bg2-1.png)" }}
     >
       <div className="container">
         <div className="footer-top-2">
           <div className="footer-logo">
             <Link to="/">
-              <img src="assets/img/icon/14.png" alt="Eram" style={{height:"80px"}}/>
+              <img src="/assets/img/icon/14.png" alt="Eram" style={{height:"80px"}}/>
             </Link>
           </div>
           <h3 className="footer-top-title text-white">

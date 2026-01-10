@@ -5,7 +5,7 @@ const CTAAreaOne = () => {
   return (
     <div className="cta-area-1 " style={{ marginBottom: "0px" }}>
       <div className="cta1-bg-thumb">
-        <img src="assets/img/bg/37.webp" alt="Eram"/>
+        <img src="/assets/img/bg/37.webp" alt="Eram"/>
       </div>
       <div className="container">
         <div className="cta-wrap1">
