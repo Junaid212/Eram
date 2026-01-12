@@ -113,70 +113,34 @@ const KwikstageRinglockSystem = () => {
                 <div className="col-xxl-4 col-lg-5">
                   <aside className="sidebar-area">
                     <div className="widget widget_service-list">
-                      <h3 className="widget_title">Other Products</h3>
-                      <ul>
-                        <li>
-                          <Link to="/scaffolding/cuplock-system">
-                            <i className="fas fa-angle-double-right" />
-                            Cuplock System
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="/scaffolding/kwikstage-ringlock-systems">
-                            <i className="fas fa-angle-double-right" />
-                            Kwikstage & Ringlock Systems
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="/scaffolding/scaffolding-tubes-couplers">
-                            <i className="fas fa-angle-double-right" />
-                            Scaffolding Tubes, Couplers & Joint Access Systems
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="/scaffolding/walking-boards-planks">
-                            <i className="fas fa-angle-double-right" />
-                            Walking Boards & Planks (Wooden & Steel)
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="/scaffolding/table-formwork-systems">
-                            <i className="fas fa-angle-double-right" />
-                            Table Formwork Systems
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="/scaffolding/aluminium-system-scaffolds-ladders">
-                            <i className="fas fa-angle-double-right" />
-                            Aluminium System Scaffolds & Ladders
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="/scaffolding/panel-systems-wall-column-formwork">
-                            <i className="fas fa-angle-double-right" />
-                            Panel Systems for Wall & Column Formwork
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="/scaffolding/tower-scaffolds-fixed-mobile">
-                            <i className="fas fa-angle-double-right" />
-                            Tower Scaffolds (Fixed & Mobile)
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="/scaffolding/cantilever-frame-korean-frame-systems">
-                            <i className="fas fa-angle-double-right" />
-                            Cantilever Frame & Korean Frame Systems
-                          </Link>
-                        </li>
-                      </ul>
-                    </div>
-                    {/* <div className="widget widget_contact">
+                                          <h3 className="widget_title">Other Services</h3>
+                                          <ul>
+                                            <li>
+                                              <Link to="/scaffolding/cuplock-system">
+                                                <i className="fas fa-angle-double-right" />
+                                                Project Support Services
+                                              </Link>
+                                            </li>
+                                            <li>
+                                              <Link to="/scaffolding/kwikstage-ringlock-systems">
+                                                <i className="fas fa-angle-double-right" />
+                                                Engineering Consultancy & Inspection Services
+                                              </Link>
+                                            </li>
+                                            <li>
+                                              <Link to="/scaffolding/scaffolding-tubes-couplers">
+                                                <i className="fas fa-angle-double-right" />
+                                                Operation & Maintenance (O & M) Services
+                                              </Link>
+                                            </li>
+                                          </ul>
+                                        </div>
+                    <div className="widget widget_contact">
                       <div className="widget-contact-wrap text-center">
                         <h3 className="widget_title">Contact Us</h3>
                         <p className="widget-contact-text">
                           It is a long established fact that a reader will be
-                          distracted by the and readable content repair
+                          distracted by the and readable content 
                         </p>
                         <div className="icon">
                           <i className="fas fa-phone-alt" />
@@ -186,7 +150,7 @@ const KwikstageRinglockSystem = () => {
                           <Link to="tel:+966 557639443">+966 557639443</Link>
                         </h5>
                       </div>
-                    </div> */}
+                    </div>
                   </aside>
                 </div>
               </div>

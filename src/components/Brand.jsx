@@ -5,7 +5,7 @@ const Brand = () => {
   return (
     <div className="product-area-2 space overflow-hidden">
       <div className="container">
-        <div className="row gy-10 gx-0 justify-content-center">
+        <div className="row gy-10 gx-10 justify-content-center">
           <div className="col-xxl-2 col-lg-6 col-4">
             <div className="product-card ">
               <div className="product-img">
@@ -140,7 +140,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/91.webp"
+                  src="/assets/img/elect/77.webp"
                   alt="Eram"
                 />
               </div>
@@ -150,7 +150,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/update-img/product/1-3.png"
+                  src="/assets/img/elect/170.webp"
                   alt="Eram"
                 />
               </div>
@@ -160,7 +160,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/update-img/product/1-3.png"
+                  src="/assets/img/elect/171.webp"
                   alt="Eram"
                 />
               </div>
@@ -170,7 +170,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/update-img/product/1-3.png"
+                  src="/assets/img/elect/172.webp"
                   alt="Eram"
                 />
               </div>
@@ -180,7 +180,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/update-img/product/1-3.png"
+                  src="/assets/img/elect/173.webp"
                   alt="Eram"
                 />
               </div>
@@ -190,7 +190,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/update-img/product/1-3.png"
+                  src="/assets/img/elect/174.webp"
                   alt="Eram"
                 />
               </div>
@@ -200,7 +200,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/update-img/product/1-3.png"
+                  src="/assets/img/elect/175.webp"
                   alt="Eram"
                 />
               </div>
@@ -210,7 +210,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/update-img/product/1-3.png"
+                  src="/assets/img/elect/176.webp"
                   alt="Eram"
                 />
               </div>
@@ -220,7 +220,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/update-img/product/1-3.png"
+                  src="/assets/img/elect/177.webp"
                   alt="Eram"
                 />
               </div>
@@ -230,7 +230,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/update-img/product/1-3.png"
+                  src="/assets/img/elect/178.webp"
                   alt="Eram"
                 />
               </div>
@@ -240,7 +240,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/update-img/product/1-3.png"
+                  src="/assets/img/elect/179.webp"
                   alt="Eram"
                 />
               </div>
@@ -250,7 +250,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/update-img/product/1-3.png"
+                  src="/assets/img/elect/180.webp"
                   alt="Eram"
                 />
               </div>
@@ -260,7 +260,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/update-img/product/1-3.png"
+                  src="/assets/img/elect/181.webp"
                   alt="Eram"
                 />
               </div>
@@ -270,7 +270,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/update-img/product/1-3.png"
+                  src="/assets/img/elect/182.webp"
                   alt="Eram"
                 />
               </div>
@@ -280,7 +280,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/update-img/product/1-3.png"
+                  src="/assets/img/elect/183.webp"
                   alt="Eram"
                 />
               </div>
@@ -293,6 +293,8 @@ const Brand = () => {
       .product-card .product-img{
         padding:0px;
         margin-bottom: 10px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        border: 1px solid #E6E6E6;
       }
       `}</style>
     </div>

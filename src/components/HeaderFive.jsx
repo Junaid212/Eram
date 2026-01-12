@@ -54,7 +54,7 @@ const HeaderFive = () => {
             {/* <div className="col-auto d-none d-lg-block">
               <div className="header-logo">
                 <Link to="/">
-                  <img src="assets/img/logo.svg" alt="Eram" />
+                  <img src="/assets/img/logo.svg" alt="Eram" />
                 </Link>
               </div>
             </div> */}
@@ -155,7 +155,7 @@ const HeaderFive = () => {
               <div className="col-auto  d-block">
                 <div className="header-logo">
                   <Link to="/mechanical">
-                    <img src="assets/img/icon/14.png" alt="Eram" style={{height:'80px'}}/>
+                    <img src="/assets/img/icon/14.png" alt="Eram" style={{height:'80px'}}/>
                   </Link>
                 </div>
               </div>
@@ -178,7 +178,7 @@ const HeaderFive = () => {
               {/* <div className="col-auto header-sticky-logo">
                 <div className="header-logo">
                   <Link to="/">
-                    <img src="assets/img/logo.svg" alt="Eram" />
+                    <img src="/assets/img/logo.svg" alt="Eram" />
                   </Link>
                 </div>
               </div> */}
@@ -332,40 +332,42 @@ const HeaderFive = () => {
     {[
       { name: "Flanges", link: "/mechanical/flanges" },
       { name: "Fasteners", link: "/mechanical/fasteners" },
+      { name: "Oil Field Clutch", link: "/mechanical/oil-field-clutch" },
+      { name: "Scaffolding Materials", link: "/mechanical/scaffolding-materials" },
+
+
       { name: "Stainless Steel Pipes", link: "/mechanical/stainless-steel-pipes" },
       { name: "PVDF Pipe Fittings & Valves", link: "/mechanical/pvdf-pipe-fittings-and-valves" },
-
-      { name: "Carbon Steel Pipes", link: "/mechanical/carbon-steel-pipes" },
-      { name: "UPVC & CPVC", link: "/mechanical/upvc-and-cpvc" },
-      { name: "Butt-Weld Fittings", link: "/mechanical/butt-weld-fittings" },
-      { name: "Mud Pump And Spare Parts Assembly", link: "/mechanical/mud-pump-spares" },
-
-      { name: "Forged Fittings", link: "/mechanical/forged-fittings" },
-      { name: "Crank Shaft Assembly For Mud Pump", link: "/mechanical/mud-pump-crank-shaft" },
-      { name: "Valves", link: "/mechanical/valves" },
-      { name: "Pinion Shaft Assembly For Mud Pump", link: "/mechanical/mud-pump-pinion-shaft" },
-
-      { name: "Instrumentation Tube Fitting", link: "/mechanical/instrumentation-tube-fitting" },
-      { name: "Cast Iron Dww Pipe Fittings System", link: "/mechanical/cast-iron-dww" },
-      { name: "Transmission Spare Parts", link: "/mechanical/transmission-spare-parts" },
-      { name: "Hydraulic Cylinder Assembly For Mud Pump", link: "/mechanical/hydraulic-cylinder-mud-pump" },
-
-      { name: "Oil Field Clutch", link: "/mechanical/oil-field-clutch" },
-      { name: "Mud Pump Fluid End Parts", link: "/mechanical/mud-pump-fluid-end" },
       { name: "PS Series Hydraulic Disc Brake", link: "/mechanical/ps-hydraulic-disc-brake" },
       { name: "Mud Pump Crosshead Assembly", link: "/mechanical/mud-pump-crosshead" },
 
+      { name: "Carbon Steel Pipes", link: "/mechanical/carbon-steel-pipes" },
+      { name: "UPVC & CPVC", link: "/mechanical/upvc-and-cpvc" },
       { name: "Drilling Rig And Spare Parts", link: "/mechanical/drilling-rig-spares" },
       { name: "Pulsation Dampener Assembly For Mud Pump", link: "/mechanical/pulsation-dampener" },
+
+      { name: "Butt-Weld Fittings", link: "/mechanical/butt-weld-fittings" },
+      { name: "Mud Pump And Spare Parts Assembly", link: "/mechanical/mud-pump-spares" },
       { name: "BOP Hoisting Equipment", link: "/mechanical/bop-hoisting-equipment" },
-      { name: "Downhole Tool", link: "/mechanical/downhole-tools" },
-
       { name: "Relief Valve For Mud Pump", link: "/mechanical/mud-pump-relief-valve" },
-      { name: "Oil Tube And Casing Pipe", link: "/mechanical/oil-tube-casing-pipe" },
-      { name: "Spray Lubrication System For Mud Pump", link: "/mechanical/spray-lubrication-system" },
-      { name: "Pressure Transmitters & Transducers Portfolio", link: "/mechanical/pressure-transmitters" },
 
-      { name: "Discharge Strainer And Auxiliary Piping For Mud Pump", link: "/mechanical/discharge-strainer-auxiliary-piping" }
+      { name: "Forged Fittings", link: "/mechanical/forged-fittings" },
+      { name: "Crank Shaft Assembly For Mud Pump", link: "/mechanical/mud-pump-crank-shaft" },
+      { name: "Downhole Tool", link: "/mechanical/downhole-tools" },
+      { name: "Spray Lubrication System For Mud Pump", link: "/mechanical/spray-lubrication-system" },
+
+      { name: "Valves", link: "/mechanical/valves" },
+      { name: "Pinion Shaft Assembly For Mud Pump", link: "/mechanical/mud-pump-pinion-shaft" },
+      { name: "Pressure Transmitters & Transducers Portfolio", link: "/mechanical/pressure-transmitters" },
+      { name: "Discharge Strainer And Auxiliary Piping For Mud Pump", link: "/mechanical/discharge-strainer-auxiliary-piping" },
+
+      { name: "Instrumentation Tube Fitting", link: "/mechanical/instrumentation-tube-fitting" },
+      { name: "Transmission Spare Parts", link: "/mechanical/transmission-spare-parts" }, 
+      { name: "Mud Pump Fluid End Parts", link: "/mechanical/mud-pump-fluid-end" },
+      { name: "Cast Iron Dww Pipe Fittings System", link: "/mechanical/cast-iron-dww" },
+
+      { name: "Hydraulic Cylinder Assembly For Mud Pump", link: "/mechanical/hydraulic-cylinder-mud-pump" },
+      { name: "Oil Tube And Casing Pipe", link: "/mechanical/oil-tube-casing-pipe" },
     ].map((item, index) => (
       <li key={index}>
         <NavLink
@@ -631,7 +633,7 @@ const HeaderFive = () => {
           <div className="mobile-menu-area">
             <div className="mobile-logo">
               <Link to="/mechanical">
-                <img src="assets/img/icon/14.png" alt="Eram" />
+                <img src="/assets/img/icon/14.png" alt="Eram" />
               </Link>
               <button className="menu-toggle" onClick={mobileMenu}>
                 <i className="fa fa-times" />

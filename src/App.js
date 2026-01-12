@@ -57,6 +57,11 @@ import ProjectSupportServices from "./pages/ProjectSupportServices";
 import EngineeringConsultancy from "./pages/EngineeringConsulatancy";
 import OperationMaintenance from "./pages/OperationMaintenance";
 import Brands from "./pages/Brands";
+import ScaffoldingMaterial from "./pages/ScaffoldingMaterial";
+import ScaffoldingTools from "./pages/ScaffoldingTools";
+import ConsultingDesign from "./pages/ConsultingDesign";
+import Fastner from "./pages/Fastner";
+import MudPumpSpare from "./pages/MudPumpSpare";
 
 function App() {
   return (
@@ -94,7 +99,7 @@ function App() {
         <Route exact path="/mechanical/maintenance" element={<MaintenancePage />} />
         <Route exact path="/mechanical/technical-support" element={<TechnicalPage />} />
 
-        {/* Product Details */}
+        {/* Mechanical Product Details */}
         <Route exact path="/mechanical/flanges" element={<Flanges />} />
         <Route exact path="/mechanical/stainless-steel-pipes" element={<StainlessSteel />} />
         <Route exact path="/mechanical/carbon-steel-pipes" element={<CarbonSteelPipe />} />
@@ -105,6 +110,8 @@ function App() {
         <Route exact path="/mechanical/cast-iron-dww-pipe-fittings" element={<CarIronDww />} />
         <Route exact path="/mechanical/pvdf-pipe-fittings-and-valves" element={<PVDFPipeFittings />} />
         <Route exact path="/mechanical/upvc-cpvc" element={<UpvcandCpvc />} />
+        <Route exact path="/mechanical/fasteners" element={<Fastner />} />
+        <Route exact path="/mechanical/mud-pump-spares" element={<MudPumpSpare />} />
 
         {/* About Pages */}
         <Route exact path="/electrical/about" element={<AboutPage2 />} />
@@ -133,6 +140,12 @@ function App() {
         <Route exact path="/project-support-services/project-support-services" element={<ProjectSupportServices />} />
         <Route exact path="/project-support-services/engineering-consultancy-inspection" element={<EngineeringConsultancy />} />
         <Route exact path="/project-support-services/operation-maintenance" element={<OperationMaintenance />} />
+
+
+        {/* Scaffolding Services */}
+        <Route exact path="/scaffolding/sacffolding-material-sales-rental" element={<ScaffoldingMaterial />} />
+        <Route exact path="/scaffolding/scaffolding-tools-accessories-supply" element={<ScaffoldingTools />} />
+        <Route exact path="/scaffolding/consulting-design-inspection-services" element={<ConsultingDesign />} />
         
 
       </Routes>

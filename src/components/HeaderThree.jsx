@@ -289,22 +289,32 @@ const HeaderThree = () => {
                       <ul className="sub-menu">
                         <li>
                           <NavLink
-                            to="/project"
+                            to="/scaffolding/sacffolding-material-sales-rental"
                             className={(navData) =>
                               navData.isActive ? "active" : ""
                             }
                           >
-                            Projects
+                            Scaffolding Material Sales & Rental
                           </NavLink>
                         </li>
                         <li>
                           <NavLink
-                            to="/project-details"
+                            to="/scaffolding/scaffolding-tools-accessories-supply"
                             className={(navData) =>
                               navData.isActive ? "active" : ""
                             }
                           >
-                            Projects Details
+                            Scaffolding Tools & Accessories Supply
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink
+                            to="/scaffolding/consulting-design-inspection-services"
+                            className={(navData) =>
+                              navData.isActive ? "active" : ""
+                            }
+                          >
+                            Consulting, Design & Inspection Services
                           </NavLink>
                         </li>
                       </ul>
