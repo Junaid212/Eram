@@ -265,7 +265,7 @@ const HeaderFive = () => {
                   <ul className="sub-menu submenu-class">
                     <li>
                       <NavLink
-                        to="/fabrication"
+                        to="/mechanical/fabrication"
                         className={(navData) =>
                           navData.isActive ? "active" : ""
                         }

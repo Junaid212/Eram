@@ -62,6 +62,7 @@ import ScaffoldingTools from "./pages/ScaffoldingTools";
 import ConsultingDesign from "./pages/ConsultingDesign";
 import Fastner from "./pages/Fastner";
 import MudPumpSpare from "./pages/MudPumpSpare";
+import CrankShaft from "./pages/CrankShaft";
 
 function App() {
   return (
@@ -112,6 +113,7 @@ function App() {
         <Route exact path="/mechanical/upvc-cpvc" element={<UpvcandCpvc />} />
         <Route exact path="/mechanical/fasteners" element={<Fastner />} />
         <Route exact path="/mechanical/mud-pump-spares" element={<MudPumpSpare />} />
+        <Route exact path="/mechanical/mud-pump-crank-shaft" element={<CrankShaft/>} />
 
         {/* About Pages */}
         <Route exact path="/electrical/about" element={<AboutPage2 />} />
