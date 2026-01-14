@@ -9,8 +9,10 @@ import Preloader from "../helper/Preloader";
 import FooterAreaTwo from "../components/FooterAreaTwo";
 import PortfolioTwo from "../components/PortfolioTwo";
 import MaterialsGrid from "../components/MaterialGrid";
+import PinionShaftPage from "../components/PinionShaftPage";
+import TransmissionSpareParts from "../components/TransmissionSpareParts";
 
-const CrankShaft = () => {
+const TransmissionPage = () => {
   let [active, setActive] = useState(true);
   useEffect(() => {
     setTimeout(function () {
@@ -26,10 +28,10 @@ const CrankShaft = () => {
       <HeaderOne />
 
       {/* Breadcrumb */}
-      <Breadcrumb title={"Crank Shaft Assembly for Mud Pump"} />
+      <Breadcrumb title={"Transmission Spare Parts"} />
 
       {/* Blog Area List */}
-      <BlogAreaList />
+      <TransmissionSpareParts />
 
       {/* Subscribe One */}
       {/* <SubscribeOne /> */}
@@ -41,4 +43,4 @@ const CrankShaft = () => {
   );
 };
 
-export default CrankShaft;
+export default TransmissionPage;

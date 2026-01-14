@@ -9,8 +9,9 @@ import Preloader from "../helper/Preloader";
 import FooterAreaTwo from "../components/FooterAreaTwo";
 import PortfolioTwo from "../components/PortfolioTwo";
 import MaterialsGrid from "../components/MaterialGrid";
+import PinionShaftPage from "../components/PinionShaftPage";
 
-const CrankShaft = () => {
+const PinionShaft = () => {
   let [active, setActive] = useState(true);
   useEffect(() => {
     setTimeout(function () {
@@ -26,10 +27,10 @@ const CrankShaft = () => {
       <HeaderOne />
 
       {/* Breadcrumb */}
-      <Breadcrumb title={"Crank Shaft Assembly for Mud Pump"} />
+      <Breadcrumb title={"Pinion Shaft Assembly for Mud Pump"} />
 
       {/* Blog Area List */}
-      <BlogAreaList />
+      <PinionShaftPage />
 
       {/* Subscribe One */}
       {/* <SubscribeOne /> */}
@@ -41,4 +42,4 @@ const CrankShaft = () => {
   );
 };
 
-export default CrankShaft;
+export default PinionShaft;

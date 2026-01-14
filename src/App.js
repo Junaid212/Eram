@@ -63,6 +63,9 @@ import ConsultingDesign from "./pages/ConsultingDesign";
 import Fastner from "./pages/Fastner";
 import MudPumpSpare from "./pages/MudPumpSpare";
 import CrankShaft from "./pages/CrankShaft";
+import PinionShaft from "./pages/PinionShaft";
+import TransmissionPage from "./pages/TransmissionPage";
+import HydraulicPage from "./pages/HydraulicPage";
 
 function App() {
   return (
@@ -114,6 +117,9 @@ function App() {
         <Route exact path="/mechanical/fasteners" element={<Fastner />} />
         <Route exact path="/mechanical/mud-pump-spares" element={<MudPumpSpare />} />
         <Route exact path="/mechanical/mud-pump-crank-shaft" element={<CrankShaft/>} />
+        <Route exact path="/mechanical/mud-pump-pinion-shaft" element={<PinionShaft/>} />
+        <Route exact path="/mechanical/transmission-spare-parts" element={<TransmissionPage/>} />
+        <Route exact path="/mechanical/hydraulic-cylinder-mud-pump" element={<HydraulicPage/>} />
 
         {/* About Pages */}
         <Route exact path="/electrical/about" element={<AboutPage2 />} />
