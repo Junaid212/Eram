@@ -368,6 +368,7 @@ const HeaderFive = () => {
 
       { name: "Hydraulic Cylinder Assembly For Mud Pump", link: "/mechanical/hydraulic-cylinder-mud-pump" },
       { name: "Oil Tube And Casing Pipe", link: "/mechanical/oil-tube-casing-pipe" },
+      { name: "Scaffolding Materials", link: "/mechanical/scaffolding-materials" },
     ].map((item, index) => (
       <li key={index}>
         <NavLink
@@ -797,6 +798,7 @@ const HeaderFive = () => {
       { name: "Fasteners", link: "/mechanical/fasteners" },
       { name: "Stainless Steel Pipes", link: "/mechanical/stainless-steel-pipes" },
       { name: "PVDF Pipe Fittings & Valves", link: "/mechanical/pvdf-pipe-fittings-and-valves" },
+      { name: "Scaffolding Materials", link: "/mechanical/scaffolding-materials" },
 
       { name: "Carbon Steel Pipes", link: "/mechanical/carbon-steel-pipes" },
       { name: "UPVC & CPVC", link: "/mechanical/upvc-and-cpvc" },

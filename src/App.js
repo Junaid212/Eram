@@ -66,6 +66,16 @@ import CrankShaft from "./pages/CrankShaft";
 import PinionShaft from "./pages/PinionShaft";
 import TransmissionPage from "./pages/TransmissionPage";
 import HydraulicPage from "./pages/HydraulicPage";
+import OilFieldPage from "./pages/OilFieldPage";
+import PSPage from "./pages/PSPage";
+import DrillingPage from "./pages/DrillingPage";
+import BOPPage from "./pages/BOPPage";
+import DownholePage from "./pages/DownholePage";
+import OilTubePage from "./pages/OilTubePage";
+import PressureTransmitter from "./pages/PressureTransmitter";
+import Scaffolding from "./pages/Scaffolding";
+import MudFluid from "./pages/MudFluid";
+import MudPumpCrosshead from "./pages/MudPumpCrosshead";
 
 function App() {
   return (
@@ -120,6 +130,16 @@ function App() {
         <Route exact path="/mechanical/mud-pump-pinion-shaft" element={<PinionShaft/>} />
         <Route exact path="/mechanical/transmission-spare-parts" element={<TransmissionPage/>} />
         <Route exact path="/mechanical/hydraulic-cylinder-mud-pump" element={<HydraulicPage/>} />
+        <Route exact path="/mechanical/oil-field-clutch" element={<OilFieldPage/>} />
+        <Route exact path="/mechanical/ps-hydraulic-disc-brake" element={<PSPage/>} />
+        <Route exact path="/mechanical/drilling-rig-spares" element={<DrillingPage/>} />
+        <Route exact path="/mechanical/bop-hoisting-equipment" element={<BOPPage/>} />
+        <Route exact path="/mechanical/downhole-tools" element={<DownholePage/>} />
+        <Route exact path="/mechanical/oil-tube-casing-pipe" element={<OilTubePage/>} />
+        <Route exact path="/mechanical/pressure-transmitters" element={<PressureTransmitter/>} />
+        <Route exact path="/mechanical/scaffolding-materials" element={<Scaffolding/>} />
+        <Route exact path="/mechanical/mud-pump-fluid-end" element={<MudFluid/>} />
+        <Route exact path="/mechanical/mud-pump-crosshead" element={<MudPumpCrosshead/>} />
 
         {/* About Pages */}
         <Route exact path="/electrical/about" element={<AboutPage2 />} />
