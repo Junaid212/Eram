@@ -76,6 +76,10 @@ import PressureTransmitter from "./pages/PressureTransmitter";
 import Scaffolding from "./pages/Scaffolding";
 import MudFluid from "./pages/MudFluid";
 import MudPumpCrosshead from "./pages/MudPumpCrosshead";
+import PulsationDampener from "./pages/PulsationDampener";
+import ReliefPage from "./pages/ReliefPage";
+import SprayPage from "./pages/SprayPage";
+import DischargePage from "./pages/DischargePage";
 
 function App() {
   return (
@@ -140,6 +144,10 @@ function App() {
         <Route exact path="/mechanical/scaffolding-materials" element={<Scaffolding/>} />
         <Route exact path="/mechanical/mud-pump-fluid-end" element={<MudFluid/>} />
         <Route exact path="/mechanical/mud-pump-crosshead" element={<MudPumpCrosshead/>} />
+        <Route exact path="/mechanical/pulsation-dampener" element={<PulsationDampener/>} />
+        <Route exact path="/mechanical/mud-pump-relief-valve" element={<ReliefPage/>} />
+        <Route exact path="/mechanical/spray-lubrication-system" element={<SprayPage/>} />
+        <Route exact path="/mechanical/discharge-strainer-auxiliary-piping" element={<DischargePage/>} />
 
         {/* About Pages */}
         <Route exact path="/electrical/about" element={<AboutPage2 />} />
