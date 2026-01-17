@@ -78,7 +78,7 @@ const ContactArea = () => {
           <div className="row flex-row-reverse">
             <div className="col-lg-6 text-lg-end">
               <div className="faq-thumb2 mb-xl-0 mb-50">
-                <div className="about-counter-grid jump">
+                {/* <div className="about-counter-grid jump">
                   <img
                     src="/assets/img/icon/faq2-counter-icon-1.svg"
                     alt="Eram"
@@ -89,7 +89,7 @@ const ContactArea = () => {
                     </h3>
                     <h4 className="about-counter-text">Services we provide</h4>
                   </div>
-                </div>
+                </div> */}
                 <img src="/assets/img/normal/faq-thumb-2-1.png" alt="Eram" />
               </div>
             </div>
@@ -161,7 +161,7 @@ Call Away, Let's Connect!</h2>
                   </div>
                   <div className="form-btn col-12">
                     <button className="btn style2">
-                      Appointment Now <i className="fas fa-arrow-right ms-2" />
+                      Submit Now <i className="fas fa-arrow-right ms-2" />
                     </button>
                   </div>
                 </form>

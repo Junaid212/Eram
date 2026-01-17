@@ -22,6 +22,9 @@ const AboutTwo = () => {
                       .about-img-2 {
                         padding: 0 0px 0 20px;
                       }
+                        .about-content-wrap{
+                         margin-top:-200px;
+                        }
                     }
                 `}</style>
               </div>
@@ -41,7 +44,7 @@ const AboutTwo = () => {
                 </h3>
                 <h4 className="about-counter-text">Trusted Customer</h4>
               </div>
-              <div className="about-year-wrap2 movingX">
+              {/* <div className="about-year-wrap2 movingX">
                 <div className="about-year-grid-wrap">
                   <div className="icon">
                     <img src="/assets/img/icon/about_icon2-2.png" alt="Eram" />
@@ -51,7 +54,7 @@ const AboutTwo = () => {
                   </h3>
                 </div>
                 <h4 className="about-year-text">Years Of Experiences</h4>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-xxl-5 col-xl-6">

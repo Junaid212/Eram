@@ -501,6 +501,16 @@ const HeaderOne = () => {
                                           </ul>
                                         </li> */}
                                         <li>
+                                      <a
+                                        href="/brochure/mechanical-brochure.pdf"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="nav-link"
+                                      >
+                                        E-Brochure
+                                      </a>
+                                    </li>
+                                        <li>
                                           <NavLink
                                             to="/mechanical/contact"
                                             className={(navData) =>
@@ -844,6 +854,16 @@ const HeaderOne = () => {
                     </li>
                   </ul> */}
                 </li>
+                <li>
+  <a
+    href="/brochure/mechanical-brochure.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="nav-link"
+  >
+    E-Brochure
+  </a>
+</li>
                 {/* <li className="menu-item-has-children submenu-item-has-children">
                   <Link to="#">Shop</Link>
                   <ul className="sub-menu submenu-class">

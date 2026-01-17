@@ -44,7 +44,7 @@ let [active, setActive] = useState(true);
           {/* Header one */}
           <HeaderOne/>
           <Breadcrumb title={"UPVC & CPVC"} />
-          <SpecCard/>
+          {/* <SpecCard/> */}
           <StandardSection/>
           <PortfolioTwo />
           <FooterAreaTwo />

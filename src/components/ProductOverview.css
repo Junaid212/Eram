@@ -315,6 +315,17 @@
   overflow: hidden;
 }
 
+@media(max-width:764px){
+  .specifications-section {
+  padding: 4rem 2rem 4rem 2rem;
+}
+}
+@media(min-width:1024px){
+  .specifications-section {
+  padding: 5rem 4rem 5rem 4rem;
+}
+}
+
 /* Gradient orbs */
 .specifications-orb-1 {
   position: absolute;

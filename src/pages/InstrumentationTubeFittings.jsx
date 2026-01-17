@@ -22,7 +22,7 @@ const InstrumentationTubeFittings = () => {
     
           {/* Header one */}
           <HeaderOne/>
-          <Breadcrumb title={"Valves"} />
+          <Breadcrumb title={"Instrumentation Tube Fitting"} />
           <AboutThree />
     <div className="space-top">
       <div className="container">

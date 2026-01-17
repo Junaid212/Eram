@@ -258,8 +258,15 @@ const [active, setActive] = useState(false);
                                         <li className=" products-menu">
   <Link to="/electrical/brands">Brands</Link>
 </li>
-                                        <li className=" products-menu">
-  <Link to="/electrical/profile">Profile</Link>
+<li>
+  <a
+    href="/brochure/electrical-brochure.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="nav-link"
+  >
+    Profile
+  </a>
 </li>
                                         <li className=" products-menu">
   <Link to="/electrical/clients">Clients</Link>
@@ -372,7 +379,7 @@ const [active, setActive] = useState(false);
                                         </li> */}
                                         <li>
                                           <NavLink
-                                            to="/contact"
+                                            to="/electrical/contact"
                                             className={(navData) =>
                                               navData.isActive ? "active" : ""
                                             }
@@ -519,15 +526,15 @@ const [active, setActive] = useState(false);
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink
-                        to="/shop"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
-                      >
-                        Shop Page
-                      </NavLink>
-                    </li>
+  <a
+    href="/brochure/electrical-brochure.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="nav-link"
+  >
+    Profile
+  </a>
+</li>
                     <li>
                       <NavLink
                         to="/shop-details"
@@ -730,7 +737,7 @@ const [active, setActive] = useState(false);
                 </li> */}
                 <li>
                   <NavLink
-                    to="/contact"
+                    to="/electrical/contact"
                     className={(navData) => (navData.isActive ? "active" : "")}
                   >
                     Contact

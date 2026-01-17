@@ -80,6 +80,11 @@ import PulsationDampener from "./pages/PulsationDampener";
 import ReliefPage from "./pages/ReliefPage";
 import SprayPage from "./pages/SprayPage";
 import DischargePage from "./pages/DischargePage";
+import ClientPage from "./pages/ClientPage";
+import VendorPage from "./pages/VendorPage";
+import ContactPageTwo from "./pages/ContactPageTwo";
+import ContactPageThree from "./pages/ContactPageThree";
+import ContactPageFour from "./pages/ContactPageFour";
 
 function App() {
   return (
@@ -157,6 +162,8 @@ function App() {
 
         <Route exact path="/electrical/products" element={<ProductPage2 />} />
         <Route exact path="/electrical/brands" element={<Brands />} />
+        <Route exact path="/electrical/clients" element={<ClientPage />} />
+        <Route exact path="/electrical/vendor-code" element={<VendorPage />} />
 
 
         {/* Scaffolding Systems */}
@@ -182,6 +189,11 @@ function App() {
         <Route exact path="/scaffolding/sacffolding-material-sales-rental" element={<ScaffoldingMaterial />} />
         <Route exact path="/scaffolding/scaffolding-tools-accessories-supply" element={<ScaffoldingTools />} />
         <Route exact path="/scaffolding/consulting-design-inspection-services" element={<ConsultingDesign />} />
+
+        {/* Contact Pages */}
+        <Route exact path="/electrical/contact" element={<ContactPageTwo />} />
+        <Route exact path="/scaffolding/contact" element={<ContactPageThree />} />
+        <Route exact path="/project-support-services/contact" element={<ContactPageFour />} />
         
 
       </Routes>

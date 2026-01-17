@@ -14,9 +14,9 @@ const PortfolioTwo = () => {
   { id: 8, image: "/assets/img/portfolio/2-2.png", title: "Cast Iron Dww Pipe Fittings System", link: "/mechanical/cast-iron-dww-pipe-fittings" },
   { id: 9, image: "/assets/img/portfolio/2-2.png", title: "Fasteners", link: "/mechanical/fasteners" },
   { id: 10, image: "/assets/img/portfolio/2-2.png", title: "PVDF Pipe Fittings & Valves", link: "/mechanical/pvdf-pipe-fittings-and-valves" },
-  { id: 11, image: "/assets/img/portfolio/2-2.png", title: "UPVC & CPVC", link: "/mechanical/upvc-andcpvc" },
+  { id: 11, image: "/assets/img/portfolio/2-2.png", title: "UPVC & CPVC", link: "/mechanical/upvc-cpvc" },
   { id: 12, image: "/assets/img/portfolio/2-2.png", title: "Scaffolding materials", link: "/mechanical/scaffolding-materials" },
-  { id: 13, image: "/assets/img/portfolio/2-2.png", title: "Mud Pump and Spare Parts Assembly", link: "/mechanical/mud-pump-and-spare-parts-assembly" },
+  { id: 13, image: "/assets/img/portfolio/2-2.png", title: "Mud Pump and Spare Parts Assembly", link: "/mechanical/mud-pump-spares" },
   { id: 14, image: "/assets/img/portfolio/2-2.png", title: "Crank Shaft Assembly for Mud Pump", link: "/mechanical/crank-shaft-assembly-for-mud-pump" },
   { id: 15, image: "/assets/img/portfolio/2-2.png", title: "Pinion Shaft Assembly for Mud Pump", link: "/mechanical/pinion-shaft-assembly-for-mud-pump" },
   { id: 16, image: "/assets/img/portfolio/2-2.png", title: "Hydraulic Cylinder Assembly for Mud Pump", link: "//mechanicalhydraulic-cylinder-assembly-for-mud-pump" },
@@ -220,6 +220,13 @@ const PortfolioTwo = () => {
           </Swiper>
         </div>
       </div>
+      <style>{`
+        @media (min-width: 1024px) {
+    .col-xxl-10 {
+        width: 85%;
+    }
+}
+      `}</style>
     </div>
   );
 };

@@ -216,7 +216,7 @@ const HeaderFour = () => {
                         </li>
                       </ul>
                     </li>
-                    <li className="menu-item-has-children">
+                    {/* <li className="menu-item-has-children">
                       <Link to="/project-support-services/resources/resources">Resources</Link>
                       <ul className="sub-menu">
                         <li>
@@ -240,7 +240,7 @@ const HeaderFour = () => {
                           </NavLink>
                         </li>
                       </ul>
-                    </li>
+                    </li> */}
                     {/* <li className="menu-item-has-children">
                       <Link to="#">Blog</Link>
                       <ul className="sub-menu">
@@ -341,6 +341,16 @@ const HeaderFour = () => {
                         </li>
                       </ul>
                     </li> */}
+                    <li>
+                      <a
+                        href="/brochure/Project-profile.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="nav-link"
+                      >
+                        Resource
+                      </a>
+                    </li>
                     <li>
                       <NavLink
                         to="/project-support-services/contact"
@@ -666,8 +676,18 @@ const HeaderFour = () => {
                   </ul>
                 </li> */}
                 <li>
+  <a
+    href="/brochure/Project-profile.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="nav-link"
+  >
+    Resource
+  </a>
+</li>
+                <li>
                   <NavLink
-                    to="/contact"
+                    to="/project-support-services/contact"
                     className={(navData) => (navData.isActive ? "active" : "")}
                   >
                     Contact

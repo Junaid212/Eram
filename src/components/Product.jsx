@@ -147,6 +147,12 @@ const styles = `
       grid-template-columns: repeat(4, 1fr);
     }
   }
+  @media (max-width: 678px) {
+    .products-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+  }
   
   .cta-section {
     margin-top: 5rem;

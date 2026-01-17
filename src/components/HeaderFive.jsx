@@ -472,6 +472,17 @@ const HeaderFive = () => {
     }
   `}</style>
 </li>
+<li>
+  <a
+    href="/brochure/mechanical-brochure.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="nav-link"
+  >
+    E-Brochure
+  </a>
+</li>
+
                     {/* <li className="menu-item-has-children">
                       <Link to="#">Blog</Link>
                       <ul className="sub-menu">
@@ -988,6 +999,17 @@ const HeaderFive = () => {
                     </li>
                   </ul>
                 </li> */}
+             <li>
+  <a
+    href="/brochure/mechanical-brochure.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="nav-link"
+  >
+    E-Brochure
+  </a>
+</li>
+
                 <li>
                   <NavLink
                     to="/mechanical/contact"

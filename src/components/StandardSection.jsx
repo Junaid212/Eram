@@ -55,7 +55,7 @@ export default function StandardsSection() {
   ];
 
   return (
-    <section className="standards-section relative">
+    <section className="standards-section relative bg-smoke">
       {/* Background Effects */}
       <div className="standards-background-effect standards-bg-1" />
       <div className="standards-background-effect standards-bg-2" />
@@ -138,22 +138,6 @@ export default function StandardsSection() {
             ))}
           </div>
         </div>
-
-        {/* Feature Highlight */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.3 }}
-          className="standards-highlight"
-        >
-          <Zap className="standards-highlight-icon" />
-          <p className="standards-highlight-text">
-            <strong>Note:</strong> All products are manufactured in compliance with international 
-            standards and undergo rigorous quality control testing. Custom specifications and 
-            lengths are available upon request for bulk orders.
-          </p>
-        </motion.div>
       </div>
     </section>
   );

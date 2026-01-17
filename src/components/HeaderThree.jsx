@@ -319,31 +319,16 @@ const HeaderThree = () => {
                         </li>
                       </ul>
                     </li>
-                    <li className="menu-item-has-children">
-                      <Link to="#">Resources</Link>
-                      <ul className="sub-menu">
-                        <li>
-                          <NavLink
-                            to="/blog"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            Blog
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to="/blog-details"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            Blog Details
-                          </NavLink>
-                        </li>
-                      </ul>
-                    </li>
+                    <li>
+  <a
+    href="/brochure/scaffolding-profile.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="nav-link"
+  >
+    Resource
+  </a>
+</li>
                     {/* <li className="menu-item-has-children">
                       <Link to="#">Pages</Link>
                       <ul className="sub-menu">
@@ -421,7 +406,7 @@ const HeaderThree = () => {
                     </li> */}
                     <li>
                       <NavLink
-                        to="/contact"
+                        to="/scaffolding/contact"
                         className={(navData) =>
                           navData.isActive ? "active" : ""
                         }
@@ -754,8 +739,18 @@ const HeaderThree = () => {
                   </ul>
                 </li>
                 <li>
+  <a
+    href="/brochure/scaffolding-profile.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="nav-link"
+  >
+    Resource
+  </a>
+</li>
+                <li>
                   <NavLink
-                    to="/contact"
+                    to="/scaffolding/contact"
                     className={(navData) => (navData.isActive ? "active" : "")}
                   >
                     Contact

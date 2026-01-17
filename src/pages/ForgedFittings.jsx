@@ -304,11 +304,17 @@ export default function ForgedFittings() {
     grid-template-columns: 1fr;
   }
 }
+@media (max-width: 768px) {
+  .grid-4-col {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 
 .grid-4-col {
   display: grid;
   gap: 1rem;
 }
+  
 
 @media (min-width: 640px) {
   .grid-4-col {

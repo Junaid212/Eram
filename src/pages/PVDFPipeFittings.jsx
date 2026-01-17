@@ -149,7 +149,7 @@ let [active, setActive] = useState(true);
     
           {/* Header one */}
           <HeaderOne/>
-          <Breadcrumb title={"Cast Iron Dww Pipe Fittings System"} />
+          <Breadcrumb title={"PVDF Pipe Fittings & Valves"} />
     <div className="pvdf-container">
       {/* Hero Section */}
       {/* <section className="pvdf-hero-section">
@@ -246,7 +246,7 @@ let [active, setActive] = useState(true);
                     viewport={{ once: true }}
                     transition={{ delay: 0.2 }}
                   >
-                    <div className="pvdf-card-title font-semibold">
+                    <div className="pvdf-card-title font-semibold" style={{marginTop:'30px'}}>
                       <motion.div
                         className="pvdf-title-accent"
                         initial={{ height: 0 }}

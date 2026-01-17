@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const PricingPlanTwo = () => {
   return (
-    <div className="pricing-area-2 space-top">   
+    <div className="pricing-area-2 ">   
       <div className="container">
         {/* <div className="row justify-content-center">
           <div className="col-xl-5 col-lg-7">
@@ -32,13 +32,13 @@ const PricingPlanTwo = () => {
               <div className="pricing-card-details">
                 {/* <h3 className="pricing-card_price">MIN 500/USD</h3> */}
                 <h6 className="pricing-card_currency">Eram is perceiving customer satisfaction at the utmost level by our competitive prices and our on-time deliveries.</h6>
-                <div className="checklist style2">
+                {/* <div className="checklist style2">
                   <ul>
-                    {/* <li>
+                    <li>
                       <i className="fas fa-angle-double-right" />
                       Stoke Market
-                    </li> */}
-                    {/* <li>
+                    </li>
+                    <li>
                       <i className="fas fa-angle-double-right" />
                       Every Day
                     </li>
@@ -49,9 +49,9 @@ const PricingPlanTwo = () => {
                     <li>
                       <i className="fas fa-angle-double-right" />
                       For 15 days
-                    </li> */}
+                    </li>
                   </ul>
-                </div>
+                </div> */}
                 {/* <Link className="btn" to="/about">
                   Get This Plan
                 </Link> */}
@@ -134,6 +134,23 @@ const PricingPlanTwo = () => {
           </div> */}
         </div>
       </div>
+      <style>{`
+        @media(min-width:1024px){
+          .pricing-area-2{
+            margin-top:-100px;
+          }
+        }
+        @media(max-width:1440px){
+          .pricing-area-2{
+            margin-top:-150px;
+          }
+        }
+        @media(max-width:768px){
+          .pricing-area-2{
+            margin-top:50px;
+          }
+        }
+      `}</style>
     </div>
   );
 };

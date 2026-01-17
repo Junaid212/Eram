@@ -68,7 +68,7 @@ export default function ButtWeldFittings() {
       {/* Header one */}
       <HeaderOne />
       <Breadcrumb title={"Butt-Weld Fittings"} />
-    <div className="butt-weld-fittings-container">
+    <div className="butt-weld-fittings-container bg-smoke">
 
       {/* Specifications Section */}
       <section className="section-padding">
@@ -84,9 +84,6 @@ export default function ButtWeldFittings() {
             <h2 className="section-title-large">
               Product Range
             </h2>
-            <p className="section-description">
-              Industry-standard fittings manufactured to precise specifications
-            </p>
           </motion.div>
 
           <div className="grid-2-col mb-8">
@@ -117,7 +114,7 @@ export default function ButtWeldFittings() {
       </section>
 
       {/* Image Section */}
-      <section className="image-section">
+      <section className="image-section bg-smoke">
         <div className="section-container">
           <div className="grid-2-col gap-6">
             <motion.div
@@ -255,9 +252,10 @@ export default function ButtWeldFittings() {
 
 @media (min-width: 1024px) {
   .grid-1-col {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
+
 
 .grid-4-col {
   display: grid;

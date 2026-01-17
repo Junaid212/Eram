@@ -7,12 +7,12 @@ const AboutOne = () => {
       <div className="about1-shape-img shape-mockup">
         <img
           className="about1-shape-img-1 spin"
-          src="assets/img/normal/about_shape1-2.svg"
+          src="/assets/img/normal/about_shape1-2.svg"
           alt="Eram"
         />
         <img
           className="about1-shape-img-2 spin2"
-          src="assets/img/normal/about_shape1-1.svg"
+          src="/assets/img/normal/about_shape1-1.svg"
           alt="Eram"
         />
       </div>
@@ -80,11 +80,13 @@ const AboutOne = () => {
                   </div>
                 </div>
               </div>
-              {/* <div className="btn-wrap mt-20">
-                <Link to="/about" className="btn style2 mt-xl-0 mt-20">
-                  Read More <i className="fas fa-arrow-right ms-2" />
-                </Link>
-              </div> */}
+             <style>{`
+                @media(max-width:768px){
+                  .justify-content-xl-between{
+                    margin-top:-230px;
+                  }
+                }
+             `}</style>
             </div>
           </div>
         </div>
