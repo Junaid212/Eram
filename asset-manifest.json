@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Eram/static/css/main.164c70f7.css",
+    "main.css": "/Eram/static/css/main.64eece52.css",
     "main.js": "/Eram/static/js/main.64fd7901.js",
     "static/js/453.fd2f0c4a.chunk.js": "/Eram/static/js/453.fd2f0c4a.chunk.js",
     "static/media/process-arrow-1-1.svg": "/Eram/static/media/process-arrow-1-1.a5e3e0d4d4853b56a320.svg",
     "static/media/process-arrow-1-2.svg": "/Eram/static/media/process-arrow-1-2.7ef5b5f1793618a3374d.svg",
     "index.html": "/Eram/index.html",
-    "main.164c70f7.css.map": "/Eram/static/css/main.164c70f7.css.map",
+    "main.64eece52.css.map": "/Eram/static/css/main.64eece52.css.map",
     "main.64fd7901.js.map": "/Eram/static/js/main.64fd7901.js.map",
     "453.fd2f0c4a.chunk.js.map": "/Eram/static/js/453.fd2f0c4a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.164c70f7.css",
+    "static/css/main.64eece52.css",
     "static/js/main.64fd7901.js"
   ]
 }
